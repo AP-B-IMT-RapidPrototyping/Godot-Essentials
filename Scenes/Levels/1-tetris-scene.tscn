@@ -1,3 +1,62 @@
-[gd_scene format=3 uid="uid://bqy0ggiqig06g"]
+[gd_scene load_steps=14 format=3 uid="uid://bqy0ggiqig06g"]
+
+[ext_resource type="PackedScene" uid="uid://dq41idlfbxwed" path="res://Scenes/Objects/tetris-puzzle/L-large.tscn" id="1_cwb14"]
+[ext_resource type="Texture2D" uid="uid://1gywnod00w2b" path="res://Images/Tetris/flower-puzzle.png" id="1_mvhc7"]
+[ext_resource type="Texture2D" uid="uid://bp20nwe2pafoc" path="res://Images/Tetris/house-puzzle.png" id="2_awb1n"]
+[ext_resource type="PackedScene" uid="uid://blabykxtghwa1" path="res://Scenes/Objects/tetris-puzzle/L-small.tscn" id="2_nm25j"]
+[ext_resource type="PackedScene" uid="uid://cv745ta5ngfpf" path="res://Scenes/Objects/tetris-puzzle/O.tscn" id="3_5mfgh"]
+[ext_resource type="PackedScene" uid="uid://1ee4vickgrus" path="res://Scenes/Objects/tetris-puzzle/T.tscn" id="4_mvhc7"]
+[ext_resource type="PackedScene" uid="uid://d0rt24gjd0nm1" path="res://Scenes/Objects/tetris-puzzle/U.tscn" id="5_awb1n"]
+[ext_resource type="PackedScene" uid="uid://bhlc4mtw571ad" path="res://Scenes/Objects/tetris-puzzle/I.tscn" id="6_nm25j"]
+[ext_resource type="PackedScene" uid="uid://bmiywkpip4m2a" path="res://Scenes/Objects/tetris-puzzle/Z.tscn" id="7_5mfgh"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_awb1n"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8dvsm"]
+albedo_texture = ExtResource("1_mvhc7")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_8dvsm"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_upsym"]
+albedo_texture = ExtResource("2_awb1n")
 
 [node name="Node3D" type="Node3D"]
+
+[node name="Examples" type="Node3D" parent="."]
+
+[node name="Example-Flower" type="MeshInstance3D" parent="Examples"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1.8, -10.617171, 0, -2.80147)
+mesh = SubResource("PlaneMesh_awb1n")
+surface_material_override/0 = SubResource("StandardMaterial3D_8dvsm")
+
+[node name="Example-House" type="MeshInstance3D" parent="Examples"]
+transform = Transform3D(1.7009602, 0, 0, 0, 1, 0, 0, 0, 1.9894271, 9.07514, 0, -2.4944277)
+mesh = SubResource("PlaneMesh_8dvsm")
+surface_material_override/0 = SubResource("StandardMaterial3D_upsym")
+
+[node name="baseblocks" type="Node3D" parent="."]
+
+[node name="L" parent="baseblocks" instance=ExtResource("1_cwb14")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -3, 0, 0)
+
+[node name="L-small" parent="baseblocks" instance=ExtResource("2_nm25j")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 3, 0, 1.5)
+
+[node name="O" parent="baseblocks" instance=ExtResource("3_5mfgh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -3)
+
+[node name="T" parent="baseblocks" instance=ExtResource("4_mvhc7")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.5, 0, -2.25)
+
+[node name="U" parent="baseblocks" instance=ExtResource("5_awb1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -2.25)
+
+[node name="I" parent="baseblocks" instance=ExtResource("6_nm25j")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -0.75, 0, -1.5)
+
+[node name="Z" parent="baseblocks" instance=ExtResource("7_5mfgh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.75, 0, 1.5)
+
+[node name="House" type="Node3D" parent="."]
+
+[node name="Flower" type="Node3D" parent="."]
