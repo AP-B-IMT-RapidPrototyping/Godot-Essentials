@@ -1,0 +1,59 @@
+[gd_scene load_steps=15 format=3 uid="uid://p5k5mfxitu8l"]
+
+[ext_resource type="PackedScene" uid="uid://c3tnhy4wr2s0w" path="res://Assets/kenney_space-kit/terrain.glb" id="1_arf2t"]
+[ext_resource type="PackedScene" uid="uid://8d24053tvqew" path="res://Assets/kenney_space-kit/terrain_ramp.glb" id="2_660wm"]
+[ext_resource type="PackedScene" uid="uid://cyavbhyayfwg8" path="res://Assets/kenney_space-kit/terrain_rampLarge.glb" id="3_mqjkm"]
+[ext_resource type="PackedScene" uid="uid://c4pbvruawhbx" path="res://Assets/kenney_space-kit/terrain_rampLarge_detailed.glb" id="4_x53b2"]
+[ext_resource type="PackedScene" uid="uid://d33v60ersl6v5" path="res://Assets/kenney_space-kit/terrain_roadCorner.glb" id="5_bfep3"]
+[ext_resource type="PackedScene" uid="uid://bdr48xqx2ol67" path="res://Assets/kenney_space-kit/terrain_roadCross.glb" id="6_4v4pl"]
+[ext_resource type="PackedScene" uid="uid://bpkcagxmrq3y" path="res://Assets/kenney_space-kit/terrain_roadEnd.glb" id="7_fh4qv"]
+[ext_resource type="PackedScene" uid="uid://dv1qr6idrgopm" path="res://Assets/kenney_space-kit/terrain_roadSplit.glb" id="8_6uap2"]
+[ext_resource type="PackedScene" uid="uid://d18msd80m3a5t" path="res://Assets/kenney_space-kit/terrain_roadStraight.glb" id="9_sk18g"]
+[ext_resource type="PackedScene" uid="uid://cplr23pljy5ot" path="res://Assets/kenney_space-kit/terrain_side.glb" id="10_aese1"]
+[ext_resource type="PackedScene" uid="uid://efbwmwiyq18o" path="res://Assets/kenney_space-kit/terrain_sideCliff.glb" id="11_5pf3b"]
+[ext_resource type="PackedScene" uid="uid://mnq4itkc2uq4" path="res://Assets/kenney_space-kit/terrain_sideCorner.glb" id="12_6mkuo"]
+[ext_resource type="PackedScene" uid="uid://bsyv5n206nna3" path="res://Assets/kenney_space-kit/terrain_sideCornerInner.glb" id="13_pui16"]
+[ext_resource type="PackedScene" uid="uid://dqdbe7hc0pgtm" path="res://Assets/kenney_space-kit/terrain_sideEnd.glb" id="14_astt4"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="terrain2" parent="." instance=ExtResource("1_arf2t")]
+
+[node name="terrain_ramp2" parent="." instance=ExtResource("2_660wm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0)
+
+[node name="terrain_rampLarge2" parent="." instance=ExtResource("3_mqjkm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 0)
+
+[node name="terrain_rampLarge_detailed2" parent="." instance=ExtResource("4_x53b2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 0)
+
+[node name="terrain_roadCorner2" parent="." instance=ExtResource("5_bfep3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, 0, 1.5)
+
+[node name="terrain_roadCross2" parent="." instance=ExtResource("6_4v4pl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 0)
+
+[node name="terrain_roadEnd2" parent="." instance=ExtResource("7_fh4qv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 0)
+
+[node name="terrain_roadSplit2" parent="." instance=ExtResource("8_6uap2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 0)
+
+[node name="terrain_roadStraight2" parent="." instance=ExtResource("9_sk18g")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 0)
+
+[node name="terrain_side2" parent="." instance=ExtResource("10_aese1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 0)
+
+[node name="terrain_sideCliff2" parent="." instance=ExtResource("11_5pf3b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 0)
+
+[node name="terrain_sideCorner2" parent="." instance=ExtResource("12_6mkuo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 0)
+
+[node name="terrain_sideCornerInner2" parent="." instance=ExtResource("13_pui16")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 0)
+
+[node name="terrain_sideEnd2" parent="." instance=ExtResource("14_astt4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 0)

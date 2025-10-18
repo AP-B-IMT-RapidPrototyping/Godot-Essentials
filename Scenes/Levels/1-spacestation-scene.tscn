@@ -384,43 +384,127 @@ mesh = SubResource("PlaneMesh_gc171")
 surface_material_override/0 = SubResource("StandardMaterial3D_pri78")
 
 [node name="terrain2" parent="." instance=ExtResource("38_jqkpq")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 31, 0, 1)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32, 0, 4)
+
+[node name="terrain9" parent="." instance=ExtResource("38_jqkpq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32, 0, 3)
+
+[node name="terrain10" parent="." instance=ExtResource("38_jqkpq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32, 0, 2)
+
+[node name="terrain11" parent="." instance=ExtResource("38_jqkpq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32, 0, 1)
+
+[node name="terrain12" parent="." instance=ExtResource("38_jqkpq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27, 0, 1)
+
+[node name="terrain3" parent="." instance=ExtResource("38_jqkpq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0.5, 4)
+
+[node name="terrain4" parent="." instance=ExtResource("38_jqkpq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29, 0.5, 4)
+
+[node name="terrain5" parent="." instance=ExtResource("38_jqkpq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0.5, 3)
+
+[node name="terrain6" parent="." instance=ExtResource("38_jqkpq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29, 0.5, 3)
+
+[node name="terrain7" parent="." instance=ExtResource("38_jqkpq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0.5, 2)
+
+[node name="terrain8" parent="." instance=ExtResource("38_jqkpq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29, 0.5, 2)
 
 [node name="terrain_ramp2" parent="." instance=ExtResource("39_soyqi")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, -2)
 
 [node name="terrain_rampLarge2" parent="." instance=ExtResource("40_r81ev")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32, 0, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -9)
 
 [node name="terrain_rampLarge_detailed2" parent="." instance=ExtResource("41_or2sf")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 0, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -1)
 
 [node name="terrain_roadCorner2" parent="." instance=ExtResource("42_nfgvt")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 31, 0, -2)
 
 [node name="terrain_roadCross2" parent="." instance=ExtResource("43_8fabj")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32, 0, -2)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27, 0, -9)
 
 [node name="terrain_roadEnd2" parent="." instance=ExtResource("44_ydkdy")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 31, 0, -3)
 
 [node name="terrain_roadSplit2" parent="." instance=ExtResource("45_gl0cl")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, 1)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -3)
 
 [node name="terrain_roadStraight2" parent="." instance=ExtResource("46_x3epa")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, 0)
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 28, 0, 0)
+
+[node name="terrain_roadStraight3" parent="." instance=ExtResource("46_x3epa")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 29, 0, 0)
+
+[node name="terrain_roadStraight4" parent="." instance=ExtResource("46_x3epa")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 30, 0, 0)
+
+[node name="terrain_roadStraight5" parent="." instance=ExtResource("46_x3epa")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 31, 0, 0)
+
+[node name="terrain_roadStraight6" parent="." instance=ExtResource("46_x3epa")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 32, 0, 0)
+
+[node name="terrain_roadStraight7" parent="." instance=ExtResource("46_x3epa")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 33, 0, 0)
 
 [node name="terrain_side2" parent="." instance=ExtResource("47_1pkbh")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29, 0, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 0, -2)
 
 [node name="terrain_sideCliff2" parent="." instance=ExtResource("48_t8dgk")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 31, 0, 0)
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 31, 0, 4)
+
+[node name="terrain_sideCliff5" parent="." instance=ExtResource("48_t8dgk")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 30, 0, 5)
+
+[node name="terrain_sideCliff6" parent="." instance=ExtResource("48_t8dgk")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 29, 0, 5)
+
+[node name="terrain_sideCliff7" parent="." instance=ExtResource("48_t8dgk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29, 0, 1)
+
+[node name="terrain_sideCliff8" parent="." instance=ExtResource("48_t8dgk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, 0.99999994)
+
+[node name="terrain_sideCliff3" parent="." instance=ExtResource("48_t8dgk")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 31, 0, 3)
+
+[node name="terrain_sideCliff9" parent="." instance=ExtResource("48_t8dgk")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 28, 0, 4)
+
+[node name="terrain_sideCliff4" parent="." instance=ExtResource("48_t8dgk")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 31, 0, 2)
 
 [node name="terrain_sideCorner2" parent="." instance=ExtResource("49_uwjqd")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, -3)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 31, 0, 1)
+
+[node name="terrain_sideCorner3" parent="." instance=ExtResource("49_uwjqd")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 31, 0, 5)
+
+[node name="terrain_sideCorner4" parent="." instance=ExtResource("49_uwjqd")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 28, 0, 5)
+
+[node name="terrain_sideCorner7" parent="." instance=ExtResource("49_uwjqd")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 27, 0, 3)
+
+[node name="terrain_sideCorner5" parent="." instance=ExtResource("49_uwjqd")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, 28, 0, 1)
+
+[node name="terrain_sideCorner6" parent="." instance=ExtResource("49_uwjqd")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, 27, 0, 2)
 
 [node name="terrain_sideCornerInner2" parent="." instance=ExtResource("50_tm4oc")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29, 0, -1)
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 28, 0, 3)
+
+[node name="terrain_sideCornerInner3" parent="." instance=ExtResource("50_tm4oc")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 28, 0, 2)
 
 [node name="terrain_sideEnd2" parent="." instance=ExtResource("51_g8e8m")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, 2)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, -5)
