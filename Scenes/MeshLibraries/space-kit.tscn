@@ -1,0 +1,49 @@
+[gd_scene load_steps=16 format=3 uid="uid://celaxfw75nhwl"]
+
+[ext_resource type="PackedScene" uid="uid://n4gfj4jabhfo" path="res://Assets/kenney_space-kit-2/terrain.glb" id="1_4y0kf"]
+[ext_resource type="PackedScene" uid="uid://dmurktgphpip0" path="res://Assets/kenney_space-kit-2/terrain_ramp.glb" id="2_xlkyp"]
+[ext_resource type="PackedScene" uid="uid://5px1n2685jsm" path="res://Assets/kenney_space-kit-2/terrain_rampLarge.glb" id="3_sckvr"]
+[ext_resource type="PackedScene" uid="uid://c2d6d1cibkv03" path="res://Assets/kenney_space-kit-2/terrain_rampLarge_detailed.glb" id="4_8v3t4"]
+[ext_resource type="PackedScene" uid="uid://t43h88suiyb3" path="res://Assets/kenney_space-kit-2/terrain_roadCorner.glb" id="5_bbo66"]
+[ext_resource type="PackedScene" uid="uid://b8hn5dr50mc2p" path="res://Assets/kenney_space-kit-2/terrain_roadCross.glb" id="6_5w2qs"]
+[ext_resource type="PackedScene" uid="uid://jjf1gbkpf161" path="res://Assets/kenney_space-kit-2/terrain_roadEnd.glb" id="7_0yj2k"]
+[ext_resource type="PackedScene" uid="uid://2p10cbavtpy0" path="res://Assets/kenney_space-kit-2/terrain_roadSplit.glb" id="8_f4hua"]
+[ext_resource type="PackedScene" uid="uid://cjiq7gmfhaddp" path="res://Assets/kenney_space-kit-2/terrain_roadStraight.glb" id="9_mghnp"]
+[ext_resource type="PackedScene" uid="uid://c0p8g11b1m3w1" path="res://Assets/kenney_space-kit-2/terrain_side.glb" id="10_sffu4"]
+[ext_resource type="PackedScene" uid="uid://br5bienusnv6p" path="res://Assets/kenney_space-kit-2/terrain_sideCliff.glb" id="11_uau1q"]
+[ext_resource type="PackedScene" uid="uid://1fmsopfyohfg" path="res://Assets/kenney_space-kit-2/terrain_sideCorner.glb" id="12_y48sj"]
+[ext_resource type="PackedScene" uid="uid://lk5rkiibqd1n" path="res://Assets/kenney_space-kit-2/terrain_sideCornerInner.glb" id="13_2c70v"]
+[ext_resource type="PackedScene" uid="uid://cjasc53s11wc6" path="res://Assets/kenney_space-kit-2/terrain_sideEnd.glb" id="14_ttkrq"]
+[ext_resource type="PackedScene" uid="uid://blbiwgo5eid2l" path="res://Assets/kenney_space-kit-2/terrain_sideEnd_mirrored.glb" id="15_xlkyp"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="terrain2" parent="." instance=ExtResource("1_4y0kf")]
+
+[node name="terrain_ramp2" parent="." instance=ExtResource("2_xlkyp")]
+
+[node name="terrain_rampLarge2" parent="." instance=ExtResource("3_sckvr")]
+
+[node name="terrain_rampLarge_detailed2" parent="." instance=ExtResource("4_8v3t4")]
+
+[node name="terrain_roadCorner2" parent="." instance=ExtResource("5_bbo66")]
+
+[node name="terrain_roadCross2" parent="." instance=ExtResource("6_5w2qs")]
+
+[node name="terrain_roadEnd2" parent="." instance=ExtResource("7_0yj2k")]
+
+[node name="terrain_roadSplit2" parent="." instance=ExtResource("8_f4hua")]
+
+[node name="terrain_roadStraight2" parent="." instance=ExtResource("9_mghnp")]
+
+[node name="terrain_side2" parent="." instance=ExtResource("10_sffu4")]
+
+[node name="terrain_sideCliff2" parent="." instance=ExtResource("11_uau1q")]
+
+[node name="terrain_sideCorner2" parent="." instance=ExtResource("12_y48sj")]
+
+[node name="terrain_sideCornerInner2" parent="." instance=ExtResource("13_2c70v")]
+
+[node name="terrain_sideEnd2" parent="." instance=ExtResource("14_ttkrq")]
+
+[node name="terrain_sideEnd_mirrored" parent="." instance=ExtResource("15_xlkyp")]

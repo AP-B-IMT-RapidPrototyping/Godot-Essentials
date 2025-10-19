@@ -1,4 +1,4 @@
-[gd_scene load_steps=59 format=4 uid="uid://ck11l8mqkd0tj"]
+[gd_scene load_steps=48 format=4 uid="uid://ck11l8mqkd0tj"]
 
 [ext_resource type="PackedScene" uid="uid://djnc1wyj8ykmf" path="res://Assets/kenney_space-station-kit/floor.fbx" id="1_bjvia"]
 [ext_resource type="PackedScene" uid="uid://h6mg6f087xae" path="res://Assets/kenney_space-station-kit/stairs-small-edges-handrail.fbx" id="2_jpemf"]
@@ -37,20 +37,9 @@
 [ext_resource type="PackedScene" uid="uid://cnssae2ir5ly7" path="res://Assets/kenney_space-station-kit/bed-single.fbx" id="35_gkk4m"]
 [ext_resource type="PackedScene" uid="uid://cbgu2ifwsesi7" path="res://Assets/kenney_space-station-kit/rocks.fbx" id="36_2x1le"]
 [ext_resource type="Texture2D" uid="uid://hc0esvyaa2os" path="res://Assets/kenney_space-station-kit/Textures/colormap.png" id="37_nt5nx"]
-[ext_resource type="PackedScene" uid="uid://c3tnhy4wr2s0w" path="res://Assets/kenney_space-kit/terrain.glb" id="38_jqkpq"]
-[ext_resource type="PackedScene" uid="uid://8d24053tvqew" path="res://Assets/kenney_space-kit/terrain_ramp.glb" id="39_soyqi"]
-[ext_resource type="PackedScene" uid="uid://cyavbhyayfwg8" path="res://Assets/kenney_space-kit/terrain_rampLarge.glb" id="40_r81ev"]
-[ext_resource type="PackedScene" uid="uid://c4pbvruawhbx" path="res://Assets/kenney_space-kit/terrain_rampLarge_detailed.glb" id="41_or2sf"]
-[ext_resource type="PackedScene" uid="uid://d33v60ersl6v5" path="res://Assets/kenney_space-kit/terrain_roadCorner.glb" id="42_nfgvt"]
-[ext_resource type="PackedScene" uid="uid://bdr48xqx2ol67" path="res://Assets/kenney_space-kit/terrain_roadCross.glb" id="43_8fabj"]
-[ext_resource type="PackedScene" uid="uid://bpkcagxmrq3y" path="res://Assets/kenney_space-kit/terrain_roadEnd.glb" id="44_ydkdy"]
-[ext_resource type="PackedScene" uid="uid://dv1qr6idrgopm" path="res://Assets/kenney_space-kit/terrain_roadSplit.glb" id="45_gl0cl"]
-[ext_resource type="PackedScene" uid="uid://d18msd80m3a5t" path="res://Assets/kenney_space-kit/terrain_roadStraight.glb" id="46_x3epa"]
-[ext_resource type="PackedScene" uid="uid://cplr23pljy5ot" path="res://Assets/kenney_space-kit/terrain_side.glb" id="47_1pkbh"]
-[ext_resource type="PackedScene" uid="uid://efbwmwiyq18o" path="res://Assets/kenney_space-kit/terrain_sideCliff.glb" id="48_t8dgk"]
-[ext_resource type="PackedScene" uid="uid://mnq4itkc2uq4" path="res://Assets/kenney_space-kit/terrain_sideCorner.glb" id="49_uwjqd"]
-[ext_resource type="PackedScene" uid="uid://bsyv5n206nna3" path="res://Assets/kenney_space-kit/terrain_sideCornerInner.glb" id="50_tm4oc"]
-[ext_resource type="PackedScene" uid="uid://dqdbe7hc0pgtm" path="res://Assets/kenney_space-kit/terrain_sideEnd.glb" id="51_g8e8m"]
+[ext_resource type="MeshLibrary" uid="uid://cpgf63qbsv4w5" path="res://MeshLibraries/space-kit_terrain.tres" id="38_mdpnd"]
+[ext_resource type="MeshLibrary" uid="uid://27nc2k4grcac" path="res://MeshLibraries/space-kit_pipes.tres" id="39_mdpnd"]
+[ext_resource type="MeshLibrary" uid="uid://b7ag0jnnn2qrn" path="res://MeshLibraries/test.tres" id="40_esi3s"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qoy1f"]
 resource_name = "colormap"
@@ -109,7 +98,8 @@ albedo_color = Color(0.15, 0.15, 0.15, 1)
 
 [node name="Node3D" type="Node3D"]
 
-[node name="Research-station" type="Node" parent="."]
+[node name="Research-station" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 13)
 
 [node name="floor" parent="Research-station" instance=ExtResource("1_bjvia")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 0)
@@ -383,128 +373,24 @@ transform = Transform3D(7.65, 0, 0, 0, 1, 0, 0, 0, 7.65, -2, 0, 0)
 mesh = SubResource("PlaneMesh_gc171")
 surface_material_override/0 = SubResource("StandardMaterial3D_pri78")
 
-[node name="terrain2" parent="." instance=ExtResource("38_jqkpq")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32, 0, 4)
+[node name="GridMap" type="GridMap" parent="."]
+mesh_library = ExtResource("38_mdpnd")
+cell_size = Vector3(1, 0.5, 1)
+data = {
+"cells": PackedInt32Array(1, 1, 0, 1, 0, 0, 1, 65535, 0, 1, 65534, 0, 1, 65533, 0, 1, 65532, 1048584, 1, 65531, 0, 0, 0, 1441802, 0, 65535, 1441802, 0, 65534, 1441802, 0, 1, 1441803, 65535, 1, 655370, 65534, 1, 655370, 65533, 1, 655371, 65533, 0, 1048586, 65532, 65535, 655371, 65532, 65534, 1048587, 65533, 65533, 1048587, 0, 65533, 11, 65535, 65533, 10, 65534, 65533, 10, 65533, 65534, 1048588, 65533, 65535, 655372, 0, 65532, 1048584, 65535, 65532, 1048584, 65534, 65532, 1048584, 65533, 65532, 1048584, 65532, 65532, 1048584, 65531, 65532, 1048583, 65531, 65533, 8, 65531, 65534, 4, 65530, 65534, 655364, 65530, 65535, 655368, 65530, 0, 655368, 65530, 1, 655368, 65530, 2, 655368, 1, 2, 655360, 0, 2, 655360, 65535, 2, 655360, 65534, 2, 655360, 65533, 2, 655360, 65532, 2, 655360, 65531, 2, 655360, 65532, 1, 655360, 65532, 0, 655360, 65531, 1, 655360, 65531, 65535, 655360, 65531, 0, 655360, 65532, 65533, 655360, 131071, 65534, 655360, 131070, 65534, 655360, 131070, 65535, 655360, 131070, 0, 655360, 131071, 0, 655360, 131071, 65535, 655360, 65530, 65533, 655360, 65530, 65532, 655360, 65531, 65531, 1441799, 65530, 65531, 1441798, 65529, 65533, 655360, 65528, 65533, 1441792, 65527, 65533, 1441802, 65527, 65532, 1441804, 65527, 65534, 1441802, 65527, 65535, 1441802, 65527, 0, 1441802, 65527, 1, 1441803, 65526, 1, 655370, 65525, 1, 655370, 131062, 0, 655360, 131061, 0, 655360, 65524, 1, 655371, 65528, 65534, 655360, 65528, 65535, 655360, 65528, 0, 655360, 65528, 1, 655360, 65529, 1, 655360, 65529, 0, 655360, 65529, 65535, 655360, 65529, 65534, 655360, 65529, 2, 655360, 65528, 2, 655360, 65527, 2, 655360, 65526, 2, 655360, 65525, 2, 655360, 65524, 2, 655360, 65529, 65532, 1441805, 65528, 65532, 655370, 65529, 65530, 1441806, 65529, 65531, 1441801, 65528, 65530, 10, 65527, 65530, 12, 65527, 65529, 1441802, 65527, 65528, 1441802, 65527, 65527, 1441802, 65531, 65530, 655368, 65531, 65529, 655368, 65531, 65528, 655366, 65530, 65530, 655360, 65530, 65529, 655360, 65530, 65528, 655360, 65530, 65527, 655360, 65529, 65527, 655360, 65528, 65527, 655360, 65528, 65528, 655360, 65528, 65529, 655360, 65529, 65529, 655360, 65529, 65528, 655360, 65531, 65527, 655360, 65532, 65527, 655360, 65533, 65527, 655368, 65533, 65528, 6, 65532, 65528, 0, 65532, 65529, 0, 65532, 65530, 0, 65532, 65531, 0, 65533, 65531, 0, 65534, 65531, 0, 65535, 65531, 0, 0, 65531, 0, 0, 65530, 0, 65535, 65530, 0, 65534, 65530, 0, 65533, 65530, 0, 65533, 65529, 0, 65534, 65529, 0, 65535, 65529, 0, 0, 65529, 0, 1, 65529, 0, 1, 65530, 0, 1, 65528, 0, 1, 65527, 0, 0, 65527, 0, 65535, 65527, 0, 65534, 65527, 0, 65534, 65528, 0, 65535, 65528, 0, 0, 65528, 0, 65523, 2, 0, 65522, 2, 0, 65521, 2, 0, 65520, 2, 0, 65520, 1, 0, 65521, 1, 0, 65522, 1, 0, 65523, 1, 0, 65523, 0, 0, 65522, 0, 0, 65521, 0, 0, 65520, 0, 0, 65524, 0, 1048586, 65524, 65535, 655372, 65523, 65535, 655370, 65522, 65535, 655370, 65521, 65535, 655370, 65520, 65535, 655370, 131056, 65534, 655360, 131057, 65534, 655360, 131058, 65534, 655360, 131059, 65534, 655360, 131060, 65534, 655360, 131061, 65534, 655360, 131062, 65534, 655360, 131062, 65535, 655360, 131061, 65535, 655360, 131062, 65533, 655360, 131062, 65532, 655360, 131062, 65531, 655360, 131062, 65530, 655360, 131062, 65529, 655360, 131062, 65528, 655360, 131062, 65527, 655360, 131064, 65531, 655360, 131063, 65531, 655360, 131061, 65533, 655360, 131061, 65532, 655360, 131061, 65531, 655360, 131061, 65530, 655360, 131061, 65529, 655360, 131061, 65528, 655360, 131058, 65533, 655370, 131060, 65533, 1441803, 131057, 65533, 655371, 131059, 65533, 655370, 131060, 65532, 1441802, 131060, 65531, 1441802, 131060, 65530, 1441802, 131060, 65529, 11, 131057, 65529, 1048587, 131057, 65530, 1048586, 131057, 65531, 1048586, 131057, 65532, 1048586, 131058, 65529, 10, 131059, 65529, 10, 196594, 65532, 0, 196594, 65531, 0, 196594, 65530, 0, 196595, 65530, 0, 196595, 65531, 0, 196595, 65532, 0, 65531, 65526, 0, 65532, 65526, 0, 65533, 65526, 0, 65534, 65526, 0, 65535, 65526, 0, 0, 65526, 0, 1, 65526, 0, 131061, 65527, 0, 131060, 65528, 0, 131059, 65528, 0, 131058, 65528, 0, 131057, 65528, 0, 131057, 65527, 0, 131058, 65527, 0, 131059, 65527, 0, 131060, 65527, 0, 131056, 65527, 0, 131056, 65528, 0, 131056, 65529, 0, 131056, 65530, 0, 131056, 65531, 0, 131056, 65532, 0, 131056, 65533, 0, 131056, 65526, 0, 131057, 65526, 0, 131058, 65526, 0, 131059, 65526, 0, 131060, 65526, 0, 131061, 65526, 0, 131062, 65526, 0)
+}
+metadata/_editor_floor_ = Vector3(0, 1, 0)
 
-[node name="terrain9" parent="." instance=ExtResource("38_jqkpq")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32, 0, 3)
+[node name="GridMap2" type="GridMap" parent="."]
+mesh_library = ExtResource("39_mdpnd")
+cell_size = Vector3(1, 0.25, 1)
+cell_center_y = false
+data = {
+"cells": PackedInt32Array(262134, 65531, 655373, 262134, 65528, 655373, 393206, 65527, 655362, 393207, 65527, 1048586, 131063, 65527, 1048592, 393206, 65528, 15, 393206, 65529, 15, 393206, 65530, 15, 393206, 65531, 15, 327670, 65533, 655369, 327670, 65534, 655365, 262137, 65527, 1441800, 131066, 65527, 1441804, 262135, 65531, 1441814, 393207, 65531, 1441814, 524279, 65531, 1441814, 655351, 65531, 1441813, 655350, 65531, 1441813, 655349, 65531, 1441813, 655347, 65532, 655378, 655347, 65533, 655381, 655347, 65534, 19, 655346, 65534, 1441813, 655345, 65534, 1441813, 655355, 65528, 21, 655355, 65529, 21, 655355, 65530, 18, 655353, 65531, 1441813, 655352, 65531, 1441813, 655355, 65527, 655381, 131067, 65526, 655382, 262139, 65526, 655382, 393211, 65526, 655382, 524283, 65526, 655382, 655355, 65526, 655381, 262128, 65534, 655382, 393200, 65534, 655382, 524272, 65534, 655382, 655344, 65534, 1048597, 393203, 65532, 23, 524275, 65532, 23)
+}
+metadata/_editor_floor_ = Vector3(0, 5, 0)
 
-[node name="terrain10" parent="." instance=ExtResource("38_jqkpq")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32, 0, 2)
-
-[node name="terrain11" parent="." instance=ExtResource("38_jqkpq")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32, 0, 1)
-
-[node name="terrain12" parent="." instance=ExtResource("38_jqkpq")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27, 0, 1)
-
-[node name="terrain3" parent="." instance=ExtResource("38_jqkpq")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0.5, 4)
-
-[node name="terrain4" parent="." instance=ExtResource("38_jqkpq")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29, 0.5, 4)
-
-[node name="terrain5" parent="." instance=ExtResource("38_jqkpq")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0.5, 3)
-
-[node name="terrain6" parent="." instance=ExtResource("38_jqkpq")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29, 0.5, 3)
-
-[node name="terrain7" parent="." instance=ExtResource("38_jqkpq")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0.5, 2)
-
-[node name="terrain8" parent="." instance=ExtResource("38_jqkpq")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29, 0.5, 2)
-
-[node name="terrain_ramp2" parent="." instance=ExtResource("39_soyqi")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, -2)
-
-[node name="terrain_rampLarge2" parent="." instance=ExtResource("40_r81ev")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -9)
-
-[node name="terrain_rampLarge_detailed2" parent="." instance=ExtResource("41_or2sf")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -1)
-
-[node name="terrain_roadCorner2" parent="." instance=ExtResource("42_nfgvt")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 31, 0, -2)
-
-[node name="terrain_roadCross2" parent="." instance=ExtResource("43_8fabj")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27, 0, -9)
-
-[node name="terrain_roadEnd2" parent="." instance=ExtResource("44_ydkdy")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 31, 0, -3)
-
-[node name="terrain_roadSplit2" parent="." instance=ExtResource("45_gl0cl")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -3)
-
-[node name="terrain_roadStraight2" parent="." instance=ExtResource("46_x3epa")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 28, 0, 0)
-
-[node name="terrain_roadStraight3" parent="." instance=ExtResource("46_x3epa")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 29, 0, 0)
-
-[node name="terrain_roadStraight4" parent="." instance=ExtResource("46_x3epa")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 30, 0, 0)
-
-[node name="terrain_roadStraight5" parent="." instance=ExtResource("46_x3epa")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 31, 0, 0)
-
-[node name="terrain_roadStraight6" parent="." instance=ExtResource("46_x3epa")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 32, 0, 0)
-
-[node name="terrain_roadStraight7" parent="." instance=ExtResource("46_x3epa")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 33, 0, 0)
-
-[node name="terrain_side2" parent="." instance=ExtResource("47_1pkbh")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 0, -2)
-
-[node name="terrain_sideCliff2" parent="." instance=ExtResource("48_t8dgk")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 31, 0, 4)
-
-[node name="terrain_sideCliff5" parent="." instance=ExtResource("48_t8dgk")]
-transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 30, 0, 5)
-
-[node name="terrain_sideCliff6" parent="." instance=ExtResource("48_t8dgk")]
-transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 29, 0, 5)
-
-[node name="terrain_sideCliff7" parent="." instance=ExtResource("48_t8dgk")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29, 0, 1)
-
-[node name="terrain_sideCliff8" parent="." instance=ExtResource("48_t8dgk")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, 0.99999994)
-
-[node name="terrain_sideCliff3" parent="." instance=ExtResource("48_t8dgk")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 31, 0, 3)
-
-[node name="terrain_sideCliff9" parent="." instance=ExtResource("48_t8dgk")]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 28, 0, 4)
-
-[node name="terrain_sideCliff4" parent="." instance=ExtResource("48_t8dgk")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 31, 0, 2)
-
-[node name="terrain_sideCorner2" parent="." instance=ExtResource("49_uwjqd")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 31, 0, 1)
-
-[node name="terrain_sideCorner3" parent="." instance=ExtResource("49_uwjqd")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 31, 0, 5)
-
-[node name="terrain_sideCorner4" parent="." instance=ExtResource("49_uwjqd")]
-transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 28, 0, 5)
-
-[node name="terrain_sideCorner7" parent="." instance=ExtResource("49_uwjqd")]
-transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 27, 0, 3)
-
-[node name="terrain_sideCorner5" parent="." instance=ExtResource("49_uwjqd")]
-transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, 28, 0, 1)
-
-[node name="terrain_sideCorner6" parent="." instance=ExtResource("49_uwjqd")]
-transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, 27, 0, 2)
-
-[node name="terrain_sideCornerInner2" parent="." instance=ExtResource("50_tm4oc")]
-transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 28, 0, 3)
-
-[node name="terrain_sideCornerInner3" parent="." instance=ExtResource("50_tm4oc")]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 28, 0, 2)
-
-[node name="terrain_sideEnd2" parent="." instance=ExtResource("51_g8e8m")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, -5)
+[node name="GridMap3" type="GridMap" parent="."]
+mesh_library = ExtResource("40_esi3s")
+cell_size = Vector3(1, 0.25, 1)
+cell_center_y = false
