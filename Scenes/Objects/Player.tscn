@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://osb4v1kw78tf"]
+
+[ext_resource type="PackedScene" uid="uid://bvi1oodpxkkxs" path="res://Assets/mixamo_base.glb" id="1_ajy74"]
+[ext_resource type="Script" uid="uid://b5bxohhqyffe2" path="res://Scripts/Player.cs" id="1_t86h6"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_t86h6"]
+height = 1.8000001
+
+[node name="Player" type="CharacterBody3D" node_paths=PackedStringArray("CameraMount")]
+script = ExtResource("1_t86h6")
+CameraMount = NodePath("CamRig")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.90000004, 0)
+shape = SubResource("CapsuleShape3D_t86h6")
+
+[node name="Visuals" type="Node3D" parent="."]
+
+[node name="mixamo_base" parent="Visuals" instance=ExtResource("1_ajy74")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+
+[node name="CamRig" type="Node3D" parent="."]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 1.4, 0)
+
+[node name="Camera3D" type="Camera3D" parent="CamRig"]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.46, 0.2900002, -1.3)

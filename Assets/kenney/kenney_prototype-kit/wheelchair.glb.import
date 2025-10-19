@@ -3,7 +3,7 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://nb17po5lgogl"
+uid="uid://bmc3xi2glps7b"
 path="res://.godot/imported/wheelchair.glb-95e3c83a1333fa7cc3256f3a8065d4d9.scn"
 
 [deps]
@@ -37,6 +37,12 @@ import_script/path=""
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
-_subresources={}
+_subresources={
+"nodes": {
+"PATH:wheelchair": {
+"generate/physics": true
+}
+}
+}
 gltf/naming_version=2
 gltf/embedded_image_handling=1
