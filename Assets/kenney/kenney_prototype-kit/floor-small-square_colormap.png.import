@@ -2,11 +2,14 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bpf5lah8us2qh"
+uid="uid://blantkhg0wye1"
 path.s3tc="res://.godot/imported/floor-small-square_colormap.png-009ee17e8b89a9f5e8ba54eacb623c9a.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
+}
+generator_parameters={
+"md5": "76084aa0c65dc2c593e6532f1f61f968"
 }
 
 [deps]

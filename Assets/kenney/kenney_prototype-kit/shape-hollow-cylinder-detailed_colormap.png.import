@@ -2,11 +2,14 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://jnosp1bd0idj"
+uid="uid://dn2qn3u4h54ob"
 path.s3tc="res://.godot/imported/shape-hollow-cylinder-detailed_colormap.png-6c72bfdec2511096cebc01c6736f4fcd.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
+}
+generator_parameters={
+"md5": "76084aa0c65dc2c593e6532f1f61f968"
 }
 
 [deps]

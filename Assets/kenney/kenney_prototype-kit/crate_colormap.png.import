@@ -2,11 +2,14 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cpqrc0pctj1w4"
+uid="uid://dogmcpl6psvlt"
 path.s3tc="res://.godot/imported/crate_colormap.png-e3d3bab6c45698d2ef6b112f545af949.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
+}
+generator_parameters={
+"md5": "76084aa0c65dc2c593e6532f1f61f968"
 }
 
 [deps]

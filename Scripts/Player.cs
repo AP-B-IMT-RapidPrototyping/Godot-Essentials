@@ -5,11 +5,15 @@ using System;
 public partial class Player : CharacterBody3D
 {
 	[Export]
-	public float Speed = 5.0f;
+	float _speed = 5.0f;
 	[Export]
-	public float JumpVelocity = 4.5f;
+	float _jumpVelocity = 4.5f;
 	[Export]
-	Node3D CameraMount = null;
+	Node3D _cameraMount = null;
+	[Export] 
+	AnimationPlayer _animationPlayer = null;
+	[Export]
+	Node3D _visuals = null;
 
 	public override void _Ready()
 	{
@@ -21,7 +25,8 @@ public partial class Player : CharacterBody3D
 		if (@event is InputEventMouseMotion)
 		{
 			RotateY(-Mathf.DegToRad((@event as InputEventMouseMotion).Relative.X));
-			CameraMount.RotateX(-Mathf.DegToRad((@event as InputEventMouseMotion).Relative.Y));
+			_visuals.RotateY(Mathf.DegToRad((@event as InputEventMouseMotion).Relative.X));
+			_cameraMount.RotateX(-Mathf.DegToRad((@event as InputEventMouseMotion).Relative.Y));
 		}
 	}
 
@@ -36,24 +41,35 @@ public partial class Player : CharacterBody3D
 		}
 
 		// Handle Jump.
-		if (Input.IsActionJustPressed("ui_accept") && IsOnFloor())
+		if (Input.IsActionJustPressed("jump") && IsOnFloor())
 		{
-			velocity.Y = JumpVelocity;
+			velocity.Y = _jumpVelocity;
 		}
 
 		// Get the input direction and handle the movement/deceleration.
 		// As good practice, you should replace UI actions with custom gameplay actions.
-		Vector2 inputDir = Input.GetVector("ui_left", "ui_right", "ui_up", "ui_down");
+		Vector2 inputDir = Input.GetVector("move_left", "move_right", "move_forward", "move_backwards");
 		Vector3 direction = (Transform.Basis * new Vector3(inputDir.X, 0, inputDir.Y)).Normalized();
 		if (direction != Vector3.Zero)
 		{
-			velocity.X = direction.X * Speed;
-			velocity.Z = direction.Z * Speed;
+			var speedMult = Input.IsActionPressed("run") ? 2 : 1;
+
+			if (_animationPlayer.CurrentAnimation != "walking" && Input.IsActionPressed("run") == false)
+				_animationPlayer.Play("walking");
+			if (_animationPlayer.CurrentAnimation != "running" && Input.IsActionPressed("run") == true)
+				_animationPlayer.Play("running");
+
+			velocity.X = direction.X * _speed * speedMult;
+			velocity.Z = direction.Z * _speed * speedMult;
+
+			_visuals.LookAt(Position + direction);
 		}
 		else
 		{
-			velocity.X = Mathf.MoveToward(Velocity.X, 0, Speed);
-			velocity.Z = Mathf.MoveToward(Velocity.Z, 0, Speed);
+			if (_animationPlayer.CurrentAnimation != "idle")
+				_animationPlayer.Play("idle");
+			velocity.X = Mathf.MoveToward(Velocity.X, 0, _speed);
+			velocity.Z = Mathf.MoveToward(Velocity.Z, 0, _speed);
 		}
 
 		Velocity = velocity;

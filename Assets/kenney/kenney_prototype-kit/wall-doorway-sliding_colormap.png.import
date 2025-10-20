@@ -2,11 +2,14 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dcwawvcshntje"
+uid="uid://dd5tvvt1qgkg3"
 path.s3tc="res://.godot/imported/wall-doorway-sliding_colormap.png-247142b4fb8175ccef6f31e98eb1e771.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
+}
+generator_parameters={
+"md5": "76084aa0c65dc2c593e6532f1f61f968"
 }
 
 [deps]

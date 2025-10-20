@@ -2,11 +2,14 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bb4krwvxjr5mf"
+uid="uid://djkp5blewsiii"
 path.s3tc="res://.godot/imported/indicator-special-lines_colormap.png-44ab600e84cf0aa78767091140d0e382.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
+}
+generator_parameters={
+"md5": "76084aa0c65dc2c593e6532f1f61f968"
 }
 
 [deps]

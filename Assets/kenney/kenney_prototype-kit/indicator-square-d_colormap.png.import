@@ -2,11 +2,14 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ce4hq75y8k40x"
+uid="uid://bqnqlf5ebgy6p"
 path.s3tc="res://.godot/imported/indicator-square-d_colormap.png-5546050950ef2c1bcb3a37eabe092733.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
+}
+generator_parameters={
+"md5": "76084aa0c65dc2c593e6532f1f61f968"
 }
 
 [deps]

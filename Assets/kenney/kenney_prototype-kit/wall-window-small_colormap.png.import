@@ -2,11 +2,14 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dlxvjy175rl4v"
+uid="uid://2cxnc5ladgkt"
 path.s3tc="res://.godot/imported/wall-window-small_colormap.png-6b2337fc13578350c15eae79b2a161b7.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
+}
+generator_parameters={
+"md5": "76084aa0c65dc2c593e6532f1f61f968"
 }
 
 [deps]

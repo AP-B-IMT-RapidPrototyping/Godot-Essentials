@@ -2,11 +2,14 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://og3tvm3pdi6a"
+uid="uid://cexxge5gryy56"
 path.s3tc="res://.godot/imported/shape-cube-rounded_colormap.png-56ee5f030a48dacc57e2b9c8353c8afc.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
+}
+generator_parameters={
+"md5": "76084aa0c65dc2c593e6532f1f61f968"
 }
 
 [deps]

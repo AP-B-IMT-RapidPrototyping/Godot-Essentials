@@ -2,11 +2,14 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dyfnrufbcndh0"
+uid="uid://c7er6q20kwydd"
 path.s3tc="res://.godot/imported/pipe-split_colormap.png-0f2a38a360d39bda8228389a0c0fe976.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
+}
+generator_parameters={
+"md5": "76084aa0c65dc2c593e6532f1f61f968"
 }
 
 [deps]

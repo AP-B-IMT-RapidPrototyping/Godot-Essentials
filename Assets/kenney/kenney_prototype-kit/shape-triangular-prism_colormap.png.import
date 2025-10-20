@@ -2,11 +2,14 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bnwjlg768o5uj"
+uid="uid://dfem8vpf8ehc2"
 path.s3tc="res://.godot/imported/shape-triangular-prism_colormap.png-66e044004b8139ffe96fda33a5f53050.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
+}
+generator_parameters={
+"md5": "76084aa0c65dc2c593e6532f1f61f968"
 }
 
 [deps]

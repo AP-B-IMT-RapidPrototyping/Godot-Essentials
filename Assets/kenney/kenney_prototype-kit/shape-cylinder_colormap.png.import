@@ -2,11 +2,14 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://brjjfblwa3hgc"
+uid="uid://dn0tbwtdxp4oy"
 path.s3tc="res://.godot/imported/shape-cylinder_colormap.png-31e3df4b9d9d074a9e79e2e683f2ecb5.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
+}
+generator_parameters={
+"md5": "76084aa0c65dc2c593e6532f1f61f968"
 }
 
 [deps]

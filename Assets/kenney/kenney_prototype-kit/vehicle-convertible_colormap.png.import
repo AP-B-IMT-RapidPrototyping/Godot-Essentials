@@ -2,11 +2,14 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dnfhk04qloruq"
+uid="uid://bg8n2e4gw1k5i"
 path.s3tc="res://.godot/imported/vehicle-convertible_colormap.png-a3993f253e22a1e39d257b05cc89b83c.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
+}
+generator_parameters={
+"md5": "76084aa0c65dc2c593e6532f1f61f968"
 }
 
 [deps]

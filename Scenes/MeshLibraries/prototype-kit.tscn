@@ -1,355 +1,331 @@
-[gd_scene load_steps=118 format=3 uid="uid://byidw7pnjwh77"]
+[gd_scene load_steps=110 format=3 uid="uid://byidw7pnjwh77"]
 
-[ext_resource type="PackedScene" uid="uid://bo6rswk2jcsd" path="res://Assets/kenney/kenney_prototype-kit/column.glb" id="6_ah2sy"]
-[ext_resource type="PackedScene" uid="uid://cuk8fy5rig4fi" path="res://Assets/kenney/kenney_prototype-kit/column-low.glb" id="7_u6wck"]
-[ext_resource type="PackedScene" uid="uid://dx7h04xnc1p1p" path="res://Assets/kenney/kenney_prototype-kit/column-rounded.glb" id="8_mv84j"]
-[ext_resource type="PackedScene" uid="uid://ctcpr2110lau8" path="res://Assets/kenney/kenney_prototype-kit/column-rounded-low.glb" id="9_1lvxc"]
-[ext_resource type="PackedScene" uid="uid://ccxp126jnhxpx" path="res://Assets/kenney/kenney_prototype-kit/column-triangle.glb" id="10_14qo1"]
-[ext_resource type="PackedScene" uid="uid://4wbqhr8c731e" path="res://Assets/kenney/kenney_prototype-kit/column-triangle-low.glb" id="11_chgwb"]
-[ext_resource type="PackedScene" uid="uid://df4lvsjw6sjxm" path="res://Assets/kenney/kenney_prototype-kit/crate.glb" id="12_gya5t"]
-[ext_resource type="PackedScene" uid="uid://b1yn77jyl67k2" path="res://Assets/kenney/kenney_prototype-kit/crate-color.glb" id="13_axpsg"]
-[ext_resource type="PackedScene" uid="uid://w5rtntrgrut8" path="res://Assets/kenney/kenney_prototype-kit/floor-diagonal.glb" id="25_i6rw4"]
-[ext_resource type="PackedScene" uid="uid://bbcb5012iopbk" path="res://Assets/kenney/kenney_prototype-kit/floor-small-diagonal.glb" id="26_0a0yu"]
-[ext_resource type="PackedScene" uid="uid://b4c75jb3htrsg" path="res://Assets/kenney/kenney_prototype-kit/floor-small-square.glb" id="27_8geb8"]
-[ext_resource type="PackedScene" uid="uid://dbf7tem7pdq4s" path="res://Assets/kenney/kenney_prototype-kit/floor-square.glb" id="28_6r1yq"]
-[ext_resource type="PackedScene" uid="uid://bogkt60omksvd" path="res://Assets/kenney/kenney_prototype-kit/floor-thick.glb" id="29_prkxd"]
-[ext_resource type="PackedScene" uid="uid://cxssdbihn0auh" path="res://Assets/kenney/kenney_prototype-kit/floor-thick-corner-diagonal.glb" id="30_ay8go"]
-[ext_resource type="PackedScene" uid="uid://cl24ov17xry1p" path="res://Assets/kenney/kenney_prototype-kit/floor-thick-corner-round.glb" id="31_rt28y"]
-[ext_resource type="PackedScene" uid="uid://bwkp3286p00om" path="res://Assets/kenney/kenney_prototype-kit/floor-thick-corner-rounded.glb" id="32_7meus"]
-[ext_resource type="PackedScene" uid="uid://cgqbilovd8mu0" path="res://Assets/kenney/kenney_prototype-kit/indicator-doorway.glb" id="33_0gx4o"]
-[ext_resource type="PackedScene" uid="uid://dwanyl6ddsiwj" path="res://Assets/kenney/kenney_prototype-kit/indicator-round-a.glb" id="34_vn0ws"]
-[ext_resource type="PackedScene" uid="uid://nmta41txcwa8" path="res://Assets/kenney/kenney_prototype-kit/indicator-round-b.glb" id="35_rf4am"]
-[ext_resource type="PackedScene" uid="uid://ia6d1m3vp35e" path="res://Assets/kenney/kenney_prototype-kit/indicator-round-c.glb" id="36_0k27l"]
-[ext_resource type="PackedScene" uid="uid://dp7vlapn66p2w" path="res://Assets/kenney/kenney_prototype-kit/indicator-round-d.glb" id="37_2audm"]
-[ext_resource type="PackedScene" uid="uid://ddndatv0o5024" path="res://Assets/kenney/kenney_prototype-kit/indicator-round-e.glb" id="38_1mn6t"]
-[ext_resource type="PackedScene" uid="uid://d0rk73k7fgsma" path="res://Assets/kenney/kenney_prototype-kit/indicator-round-f.glb" id="39_yv8f8"]
-[ext_resource type="PackedScene" uid="uid://ca4xibqxroe32" path="res://Assets/kenney/kenney_prototype-kit/indicator-special-area.glb" id="40_r5i3a"]
-[ext_resource type="PackedScene" uid="uid://bydho8aq786ks" path="res://Assets/kenney/kenney_prototype-kit/indicator-special-arrow.glb" id="41_4ua26"]
-[ext_resource type="PackedScene" uid="uid://cymejam80sclt" path="res://Assets/kenney/kenney_prototype-kit/indicator-special-cross.glb" id="42_6yak0"]
-[ext_resource type="PackedScene" uid="uid://blyfonnsxbftf" path="res://Assets/kenney/kenney_prototype-kit/indicator-special-lines.glb" id="43_kt185"]
-[ext_resource type="PackedScene" uid="uid://c847tsq6ikgl4" path="res://Assets/kenney/kenney_prototype-kit/indicator-square-a.glb" id="44_hewq4"]
-[ext_resource type="PackedScene" uid="uid://xnwvvje6xkhh" path="res://Assets/kenney/kenney_prototype-kit/indicator-square-b.glb" id="45_qysbj"]
-[ext_resource type="PackedScene" uid="uid://cm8iy1tqpwmx3" path="res://Assets/kenney/kenney_prototype-kit/indicator-square-c.glb" id="46_y3rse"]
-[ext_resource type="PackedScene" uid="uid://b18dplk23edo7" path="res://Assets/kenney/kenney_prototype-kit/indicator-square-d.glb" id="47_p3xj1"]
-[ext_resource type="PackedScene" uid="uid://v1vp4owvhvib" path="res://Assets/kenney/kenney_prototype-kit/indicator-square-e.glb" id="48_oey2j"]
-[ext_resource type="PackedScene" uid="uid://furlqpomc8tw" path="res://Assets/kenney/kenney_prototype-kit/indicator-square-f.glb" id="49_uklpf"]
-[ext_resource type="PackedScene" uid="uid://chdsddkar7uxs" path="res://Assets/kenney/kenney_prototype-kit/ladder.glb" id="51_ijapp"]
-[ext_resource type="PackedScene" uid="uid://cfs1pgq83hjsp" path="res://Assets/kenney/kenney_prototype-kit/ladder-color.glb" id="52_gpjyb"]
-[ext_resource type="PackedScene" uid="uid://bee6gnlv56553" path="res://Assets/kenney/kenney_prototype-kit/ladder-top.glb" id="53_5cb8v"]
-[ext_resource type="PackedScene" uid="uid://db7eu52bwumwb" path="res://Assets/kenney/kenney_prototype-kit/number-0.glb" id="56_w5dcq"]
-[ext_resource type="PackedScene" uid="uid://drnft5m0gaq4h" path="res://Assets/kenney/kenney_prototype-kit/number-1.glb" id="57_6ljwy"]
-[ext_resource type="PackedScene" uid="uid://biai4ttvlul3h" path="res://Assets/kenney/kenney_prototype-kit/number-2.glb" id="58_fr4ur"]
-[ext_resource type="PackedScene" uid="uid://bjniulym5wnif" path="res://Assets/kenney/kenney_prototype-kit/number-3.glb" id="59_4l5hu"]
-[ext_resource type="PackedScene" uid="uid://cw7iwp14va3vt" path="res://Assets/kenney/kenney_prototype-kit/number-4.glb" id="60_7mqmw"]
-[ext_resource type="PackedScene" uid="uid://dfc3tvhjahkga" path="res://Assets/kenney/kenney_prototype-kit/number-5.glb" id="61_jghoc"]
-[ext_resource type="PackedScene" uid="uid://cbqmbt3h6nm3c" path="res://Assets/kenney/kenney_prototype-kit/number-6.glb" id="62_xgget"]
-[ext_resource type="PackedScene" uid="uid://ddhwwdlgxckmb" path="res://Assets/kenney/kenney_prototype-kit/number-7.glb" id="63_2cjo8"]
-[ext_resource type="PackedScene" uid="uid://2c3rcj1qv1db" path="res://Assets/kenney/kenney_prototype-kit/number-8.glb" id="64_86h3d"]
-[ext_resource type="PackedScene" uid="uid://hworjscocobu" path="res://Assets/kenney/kenney_prototype-kit/number-9.glb" id="65_4hisp"]
-[ext_resource type="PackedScene" uid="uid://rpxtjahg15wr" path="res://Assets/kenney/kenney_prototype-kit/number-double-0.glb" id="66_jovq4"]
-[ext_resource type="PackedScene" uid="uid://mm74dm1qnkiu" path="res://Assets/kenney/kenney_prototype-kit/number-double-1.glb" id="67_ouok3"]
-[ext_resource type="PackedScene" uid="uid://ckeet7dpj56da" path="res://Assets/kenney/kenney_prototype-kit/number-double-2.glb" id="68_1678u"]
-[ext_resource type="PackedScene" uid="uid://6wqper8ipsat" path="res://Assets/kenney/kenney_prototype-kit/number-double-3.glb" id="69_5e1sh"]
-[ext_resource type="PackedScene" uid="uid://d1rf8ugoiwfvb" path="res://Assets/kenney/kenney_prototype-kit/number-double-4.glb" id="70_gixjf"]
-[ext_resource type="PackedScene" uid="uid://cxg3hmff7bm17" path="res://Assets/kenney/kenney_prototype-kit/number-double-5.glb" id="71_xec0v"]
-[ext_resource type="PackedScene" uid="uid://co0yp3w36cw4c" path="res://Assets/kenney/kenney_prototype-kit/number-double-6.glb" id="72_ds5ng"]
-[ext_resource type="PackedScene" uid="uid://bg0niqrjdv2m0" path="res://Assets/kenney/kenney_prototype-kit/number-double-7.glb" id="73_saoro"]
-[ext_resource type="PackedScene" uid="uid://mn5hoshww83r" path="res://Assets/kenney/kenney_prototype-kit/number-double-8.glb" id="74_vly7m"]
-[ext_resource type="PackedScene" uid="uid://dnmjlu7237fc6" path="res://Assets/kenney/kenney_prototype-kit/number-double-9.glb" id="75_rfu2m"]
-[ext_resource type="PackedScene" uid="uid://bydngwnqmdcru" path="res://Assets/kenney/kenney_prototype-kit/pipe.glb" id="76_0rob4"]
-[ext_resource type="PackedScene" uid="uid://cd4r0mafi7wpp" path="res://Assets/kenney/kenney_prototype-kit/pipe-corner.glb" id="77_gx1ek"]
-[ext_resource type="PackedScene" uid="uid://rrn8p4n7qlew" path="res://Assets/kenney/kenney_prototype-kit/pipe-half.glb" id="78_37o2j"]
-[ext_resource type="PackedScene" uid="uid://8ksw7r7tapv7" path="res://Assets/kenney/kenney_prototype-kit/pipe-half-section.glb" id="79_t0i0l"]
-[ext_resource type="PackedScene" uid="uid://p03vnuiypidm" path="res://Assets/kenney/kenney_prototype-kit/pipe-section.glb" id="80_wf66q"]
-[ext_resource type="PackedScene" uid="uid://bbvcddetpjxyo" path="res://Assets/kenney/kenney_prototype-kit/stairs.glb" id="81_bwqn4"]
-[ext_resource type="PackedScene" uid="uid://8pmpdokntqmp" path="res://Assets/kenney/kenney_prototype-kit/pipe-split.glb" id="81_dlu4g"]
-[ext_resource type="PackedScene" uid="uid://hrcragsp2m57" path="res://Assets/kenney/kenney_prototype-kit/stairs-diagonal.glb" id="82_babkr"]
-[ext_resource type="PackedScene" uid="uid://b52ay7n3chrcy" path="res://Assets/kenney/kenney_prototype-kit/shape-cube.glb" id="82_llknm"]
-[ext_resource type="PackedScene" uid="uid://64gunhauk4nk" path="res://Assets/kenney/kenney_prototype-kit/stairs-diagonal-narrow.glb" id="83_ewdt0"]
-[ext_resource type="PackedScene" uid="uid://v2yeaem0gcaq" path="res://Assets/kenney/kenney_prototype-kit/shape-cube-half.glb" id="83_y4f14"]
-[ext_resource type="PackedScene" uid="uid://ccajd3s5dhmfg" path="res://Assets/kenney/kenney_prototype-kit/shape-cube-rounded.glb" id="84_8r2h8"]
-[ext_resource type="PackedScene" uid="uid://drjkw25mxoshk" path="res://Assets/kenney/kenney_prototype-kit/stairs-diagonal-small.glb" id="84_wddbf"]
-[ext_resource type="PackedScene" uid="uid://8jia236vp5n0" path="res://Assets/kenney/kenney_prototype-kit/shape-cylinder.glb" id="85_f53tx"]
-[ext_resource type="PackedScene" uid="uid://bgrjwe3kijgp8" path="res://Assets/kenney/kenney_prototype-kit/stairs-diagonal-small-narrow.glb" id="85_sir3k"]
-[ext_resource type="PackedScene" uid="uid://djyh3l5fhq6ru" path="res://Assets/kenney/kenney_prototype-kit/shape-cylinder-detailed.glb" id="86_pxcn7"]
-[ext_resource type="PackedScene" uid="uid://dsm81osu1ujm1" path="res://Assets/kenney/kenney_prototype-kit/stairs-narrow.glb" id="86_tbkh4"]
-[ext_resource type="PackedScene" uid="uid://o6eh7egt7pt8" path="res://Assets/kenney/kenney_prototype-kit/stairs-small.glb" id="87_ckeov"]
-[ext_resource type="PackedScene" uid="uid://b1uc281nlsc0m" path="res://Assets/kenney/kenney_prototype-kit/shape-cylinder-half.glb" id="87_geesc"]
-[ext_resource type="PackedScene" uid="uid://cmcfved0en87q" path="res://Assets/kenney/kenney_prototype-kit/stairs-small-narrow.glb" id="88_65st8"]
-[ext_resource type="PackedScene" uid="uid://bfs7q8rdp4rfr" path="res://Assets/kenney/kenney_prototype-kit/shape-cylinder-half-detailed.glb" id="88_ej4yt"]
-[ext_resource type="PackedScene" uid="uid://c26pajn3ad6o7" path="res://Assets/kenney/kenney_prototype-kit/target-a-round.glb" id="89_iikhu"]
-[ext_resource type="PackedScene" uid="uid://chxcrgwfju3yq" path="res://Assets/kenney/kenney_prototype-kit/shape-hexagon.glb" id="89_lxlm7"]
-[ext_resource type="PackedScene" uid="uid://djxni6v51dc5d" path="res://Assets/kenney/kenney_prototype-kit/shape-hexagon-half.glb" id="90_4tpqa"]
-[ext_resource type="PackedScene" uid="uid://cnwurcv0i1urd" path="res://Assets/kenney/kenney_prototype-kit/target-a-square.glb" id="90_kw5di"]
-[ext_resource type="PackedScene" uid="uid://cap7hlui6aqma" path="res://Assets/kenney/kenney_prototype-kit/shape-hollow-cylinder.glb" id="91_7nraa"]
-[ext_resource type="PackedScene" uid="uid://cjgtxga4eec6x" path="res://Assets/kenney/kenney_prototype-kit/target-b-round.glb" id="91_p00oi"]
-[ext_resource type="PackedScene" uid="uid://gw2p4averk1a" path="res://Assets/kenney/kenney_prototype-kit/target-b-square.glb" id="92_2ylu6"]
-[ext_resource type="PackedScene" uid="uid://0gmxj8mh4lui" path="res://Assets/kenney/kenney_prototype-kit/shape-hollow-cylinder-detailed.glb" id="92_ctnk0"]
-[ext_resource type="PackedScene" uid="uid://stvcbjrpq7u1" path="res://Assets/kenney/kenney_prototype-kit/shape-hollow-cylinder-half.glb" id="93_cx5t5"]
-[ext_resource type="PackedScene" uid="uid://wjn22hm000mt" path="res://Assets/kenney/kenney_prototype-kit/wall.glb" id="93_f3eam"]
-[ext_resource type="PackedScene" uid="uid://cj6cjy2fpvv8a" path="res://Assets/kenney/kenney_prototype-kit/shape-hollow-cylinder-half-detailed.glb" id="94_tnmve"]
-[ext_resource type="PackedScene" uid="uid://lgousorn2vfy" path="res://Assets/kenney/kenney_prototype-kit/wall-corner.glb" id="94_xcq2x"]
-[ext_resource type="PackedScene" uid="uid://lwtm8sr4p1eh" path="res://Assets/kenney/kenney_prototype-kit/wall-corner-low.glb" id="95_l8oe3"]
-[ext_resource type="PackedScene" uid="uid://b8skl68mgeucr" path="res://Assets/kenney/kenney_prototype-kit/shape-hollow-hexagon.glb" id="95_m46o5"]
-[ext_resource type="PackedScene" uid="uid://bq7thw3jcxndr" path="res://Assets/kenney/kenney_prototype-kit/shape-hollow-hexagon-half.glb" id="96_cy223"]
-[ext_resource type="PackedScene" uid="uid://blfabo0i2s5py" path="res://Assets/kenney/kenney_prototype-kit/wall-corner-rounded.glb" id="96_unuew"]
-[ext_resource type="PackedScene" uid="uid://bb4b0vvwnpd86" path="res://Assets/kenney/kenney_prototype-kit/wall-corner-rounded-low.glb" id="97_lrbcf"]
-[ext_resource type="PackedScene" uid="uid://clvfvrxrg34yh" path="res://Assets/kenney/kenney_prototype-kit/shape-slope.glb" id="97_oaacp"]
-[ext_resource type="PackedScene" uid="uid://dkaiieiml3p6n" path="res://Assets/kenney/kenney_prototype-kit/wall-diagonal.glb" id="98_fwniq"]
-[ext_resource type="PackedScene" uid="uid://b6qagu5ifaxrj" path="res://Assets/kenney/kenney_prototype-kit/shape-triangular-prism.glb" id="98_w5wq6"]
-[ext_resource type="PackedScene" uid="uid://kt5tvt33l2py" path="res://Assets/kenney/kenney_prototype-kit/shape-triangular-prism-low.glb" id="99_ch1ro"]
-[ext_resource type="PackedScene" uid="uid://bvto7yuq3sc06" path="res://Assets/kenney/kenney_prototype-kit/wall-diagonal-low.glb" id="99_tbaow"]
-[ext_resource type="PackedScene" uid="uid://cfaiop6gxojq6" path="res://Assets/kenney/kenney_prototype-kit/wall-doorway.glb" id="100_eguyf"]
-[ext_resource type="PackedScene" uid="uid://dl3wnu8lpcxni" path="res://Assets/kenney/kenney_prototype-kit/wall-doorway-garage.glb" id="101_vu2h0"]
-[ext_resource type="PackedScene" uid="uid://c66gichwg6fy2" path="res://Assets/kenney/kenney_prototype-kit/wall-doorway-round.glb" id="102_rpm5u"]
-[ext_resource type="PackedScene" uid="uid://2e4yd3goexfo" path="res://Assets/kenney/kenney_prototype-kit/wall-doorway-sliding.glb" id="103_aimxm"]
-[ext_resource type="PackedScene" uid="uid://vat6skrts7p" path="res://Assets/kenney/kenney_prototype-kit/wall-doorway-wide.glb" id="104_8fmm3"]
-[ext_resource type="PackedScene" uid="uid://c65myhkbg8dw8" path="res://Assets/kenney/kenney_prototype-kit/wall-doorway-wide-sliding.glb" id="105_tg3qc"]
-[ext_resource type="PackedScene" uid="uid://bu5n6om7bsdro" path="res://Assets/kenney/kenney_prototype-kit/wall-low.glb" id="106_fianp"]
-[ext_resource type="PackedScene" uid="uid://bh80rdryu6863" path="res://Assets/kenney/kenney_prototype-kit/wall-round.glb" id="107_vwuej"]
-[ext_resource type="PackedScene" uid="uid://d3p3sw5tbaqtt" path="res://Assets/kenney/kenney_prototype-kit/wall-round-low.glb" id="108_id16t"]
-[ext_resource type="PackedScene" uid="uid://3q2nko1cw8pm" path="res://Assets/kenney/kenney_prototype-kit/wall-window-barred-large.glb" id="109_icnpa"]
-[ext_resource type="PackedScene" uid="uid://cj23audrolpwt" path="res://Assets/kenney/kenney_prototype-kit/wall-window-barred-medium.glb" id="110_4abri"]
-[ext_resource type="PackedScene" uid="uid://ddcuxfluhyxx6" path="res://Assets/kenney/kenney_prototype-kit/wall-window-barred-small.glb" id="111_xh02c"]
-[ext_resource type="PackedScene" uid="uid://b6hvyerjcpr67" path="res://Assets/kenney/kenney_prototype-kit/wall-window-cutout-large.glb" id="112_t7dm3"]
-[ext_resource type="PackedScene" uid="uid://bu1o4huymwliu" path="res://Assets/kenney/kenney_prototype-kit/wall-window-cutout-medium.glb" id="113_am8rb"]
-[ext_resource type="PackedScene" uid="uid://70lrcv643uy1" path="res://Assets/kenney/kenney_prototype-kit/wall-window-cutout-small.glb" id="114_mlyp3"]
-[ext_resource type="PackedScene" uid="uid://8ixmygjyaivu" path="res://Assets/kenney/kenney_prototype-kit/wall-window-large.glb" id="115_f0ah1"]
-[ext_resource type="PackedScene" uid="uid://dhp2oofa3c252" path="res://Assets/kenney/kenney_prototype-kit/wall-window-medium.glb" id="116_if8xh"]
-[ext_resource type="PackedScene" uid="uid://p6n337oxmded" path="res://Assets/kenney/kenney_prototype-kit/wall-window-small.glb" id="117_dv0fg"]
+[ext_resource type="PackedScene" uid="uid://cqidn4x8bddj8" path="res://Assets/kenney/kenney_prototype-kit/column.glb" id="1_kkts5"]
+[ext_resource type="PackedScene" uid="uid://cubk4f0gsc24y" path="res://Assets/kenney/kenney_prototype-kit/column-low.glb" id="2_v3slq"]
+[ext_resource type="PackedScene" uid="uid://beqo8b33wfhuw" path="res://Assets/kenney/kenney_prototype-kit/column-rounded.glb" id="3_xm83a"]
+[ext_resource type="PackedScene" uid="uid://bd6255khb4e3u" path="res://Assets/kenney/kenney_prototype-kit/column-rounded-low.glb" id="4_k6e7h"]
+[ext_resource type="PackedScene" uid="uid://bpxakt4hy66vo" path="res://Assets/kenney/kenney_prototype-kit/column-triangle.glb" id="5_nfx48"]
+[ext_resource type="PackedScene" uid="uid://bw7sbvgy146st" path="res://Assets/kenney/kenney_prototype-kit/column-triangle-low.glb" id="6_6wwbn"]
+[ext_resource type="PackedScene" uid="uid://cmgmdwg21lrl" path="res://Assets/kenney/kenney_prototype-kit/crate.glb" id="7_qikht"]
+[ext_resource type="PackedScene" uid="uid://bf37bukcgkfy" path="res://Assets/kenney/kenney_prototype-kit/crate-color.glb" id="8_cxguq"]
+[ext_resource type="PackedScene" uid="uid://dvtkt8s24in42" path="res://Assets/kenney/kenney_prototype-kit/floor-diagonal.glb" id="9_f3eam"]
+[ext_resource type="PackedScene" uid="uid://ggn6yydwrxf3" path="res://Assets/kenney/kenney_prototype-kit/floor-small-diagonal.glb" id="10_xcq2x"]
+[ext_resource type="PackedScene" uid="uid://do0vcwmgjjicl" path="res://Assets/kenney/kenney_prototype-kit/floor-small-square.glb" id="11_l8oe3"]
+[ext_resource type="PackedScene" uid="uid://cq0ai85w5tm67" path="res://Assets/kenney/kenney_prototype-kit/floor-square.glb" id="12_unuew"]
+[ext_resource type="PackedScene" uid="uid://whga40ywjmv5" path="res://Assets/kenney/kenney_prototype-kit/floor-thick.glb" id="13_lrbcf"]
+[ext_resource type="PackedScene" uid="uid://clnjwqdglbsy8" path="res://Assets/kenney/kenney_prototype-kit/floor-thick-corner-diagonal.glb" id="14_fwniq"]
+[ext_resource type="PackedScene" uid="uid://bukj4maspggml" path="res://Assets/kenney/kenney_prototype-kit/floor-thick-corner-round.glb" id="15_tbaow"]
+[ext_resource type="PackedScene" uid="uid://dgd1n7sq8okls" path="res://Assets/kenney/kenney_prototype-kit/floor-thick-corner-rounded.glb" id="16_eguyf"]
+[ext_resource type="PackedScene" uid="uid://cm2mk5bp7h3mk" path="res://Assets/kenney/kenney_prototype-kit/indicator-doorway.glb" id="17_vu2h0"]
+[ext_resource type="PackedScene" uid="uid://dwxo450t1l343" path="res://Assets/kenney/kenney_prototype-kit/indicator-special-area.glb" id="18_rpm5u"]
+[ext_resource type="PackedScene" uid="uid://bvus674i1kvpr" path="res://Assets/kenney/kenney_prototype-kit/indicator-special-arrow.glb" id="19_aimxm"]
+[ext_resource type="PackedScene" uid="uid://dlapqq4wta3x5" path="res://Assets/kenney/kenney_prototype-kit/indicator-special-cross.glb" id="20_8fmm3"]
+[ext_resource type="PackedScene" uid="uid://ca54a6gy7dsbm" path="res://Assets/kenney/kenney_prototype-kit/indicator-special-lines.glb" id="21_tg3qc"]
+[ext_resource type="PackedScene" uid="uid://bjcqed4n7cwm5" path="res://Assets/kenney/kenney_prototype-kit/indicator-square-a.glb" id="22_fianp"]
+[ext_resource type="PackedScene" uid="uid://cmt1gis2gt0d3" path="res://Assets/kenney/kenney_prototype-kit/indicator-square-b.glb" id="23_vwuej"]
+[ext_resource type="PackedScene" uid="uid://1nd1hbjjr6nv" path="res://Assets/kenney/kenney_prototype-kit/indicator-square-c.glb" id="24_id16t"]
+[ext_resource type="PackedScene" uid="uid://dyonmjds1mm0" path="res://Assets/kenney/kenney_prototype-kit/indicator-square-e.glb" id="25_icnpa"]
+[ext_resource type="PackedScene" uid="uid://cqg7ytsah2ggc" path="res://Assets/kenney/kenney_prototype-kit/ladder.glb" id="26_4abri"]
+[ext_resource type="PackedScene" uid="uid://rmmt1cdt1man" path="res://Assets/kenney/kenney_prototype-kit/ladder-color.glb" id="27_xh02c"]
+[ext_resource type="PackedScene" uid="uid://dc8d1ubtw4hvu" path="res://Assets/kenney/kenney_prototype-kit/ladder-top.glb" id="28_t7dm3"]
+[ext_resource type="PackedScene" uid="uid://dm8fdl7o5ue4e" path="res://Assets/kenney/kenney_prototype-kit/number-.glb" id="29_am8rb"]
+[ext_resource type="PackedScene" uid="uid://bhxtgx4dxjt6g" path="res://Assets/kenney/kenney_prototype-kit/number--col.001.glb" id="30_mlyp3"]
+[ext_resource type="PackedScene" uid="uid://cpr7ii2au6r73" path="res://Assets/kenney/kenney_prototype-kit/number--col.002.glb" id="31_f0ah1"]
+[ext_resource type="PackedScene" uid="uid://dgjgupe4fn53i" path="res://Assets/kenney/kenney_prototype-kit/number--col.003.glb" id="32_if8xh"]
+[ext_resource type="PackedScene" uid="uid://c8tsup0gb3vg0" path="res://Assets/kenney/kenney_prototype-kit/number--col.004.glb" id="33_dv0fg"]
+[ext_resource type="PackedScene" uid="uid://8i0nsc40kac1" path="res://Assets/kenney/kenney_prototype-kit/number--col.005.glb" id="34_n7pje"]
+[ext_resource type="PackedScene" uid="uid://c6nx65jm2s06e" path="res://Assets/kenney/kenney_prototype-kit/number--col.006.glb" id="35_ah2sy"]
+[ext_resource type="PackedScene" uid="uid://cnnsyra0pq1t0" path="res://Assets/kenney/kenney_prototype-kit/number--col.007.glb" id="36_u6wck"]
+[ext_resource type="PackedScene" uid="uid://m1upf2oyaf08" path="res://Assets/kenney/kenney_prototype-kit/number--col.008.glb" id="37_mv84j"]
+[ext_resource type="PackedScene" uid="uid://c0673qpokm0by" path="res://Assets/kenney/kenney_prototype-kit/number--col.009.glb" id="38_1lvxc"]
+[ext_resource type="PackedScene" uid="uid://xmoms6ecg3qj" path="res://Assets/kenney/kenney_prototype-kit/number-double-.glb" id="39_14qo1"]
+[ext_resource type="PackedScene" uid="uid://b1i6f7k8ftfde" path="res://Assets/kenney/kenney_prototype-kit/number-double--col.001.glb" id="40_chgwb"]
+[ext_resource type="PackedScene" uid="uid://bo7rgrqug5v72" path="res://Assets/kenney/kenney_prototype-kit/number-double--col.002.glb" id="41_gya5t"]
+[ext_resource type="PackedScene" uid="uid://drn04vn2ibdkx" path="res://Assets/kenney/kenney_prototype-kit/number-double--col.003.glb" id="42_axpsg"]
+[ext_resource type="PackedScene" uid="uid://dh0ao4avmaern" path="res://Assets/kenney/kenney_prototype-kit/number-double--col.004.glb" id="43_2exmw"]
+[ext_resource type="PackedScene" uid="uid://djfgxqvr4oc6c" path="res://Assets/kenney/kenney_prototype-kit/number-double--col.005.glb" id="44_7eoyv"]
+[ext_resource type="PackedScene" uid="uid://bs8fgogsmcc1a" path="res://Assets/kenney/kenney_prototype-kit/number-double--col.006.glb" id="45_tcsmx"]
+[ext_resource type="PackedScene" uid="uid://bny0cnta2mmo" path="res://Assets/kenney/kenney_prototype-kit/number-double--col.007.glb" id="46_qu2d2"]
+[ext_resource type="PackedScene" uid="uid://dir01gvrxsht2" path="res://Assets/kenney/kenney_prototype-kit/number-double--col.008.glb" id="47_gduft"]
+[ext_resource type="PackedScene" uid="uid://basm8j3xhulmh" path="res://Assets/kenney/kenney_prototype-kit/number-double--col.009.glb" id="48_kpd1u"]
+[ext_resource type="PackedScene" uid="uid://d3p4v6s6a6sqw" path="res://Assets/kenney/kenney_prototype-kit/pipe.glb" id="49_ymd05"]
+[ext_resource type="PackedScene" uid="uid://b4m7nsna2b8i3" path="res://Assets/kenney/kenney_prototype-kit/pipe-corner.glb" id="50_rhe82"]
+[ext_resource type="PackedScene" uid="uid://crvfuh5d8hr6g" path="res://Assets/kenney/kenney_prototype-kit/pipe-half.glb" id="51_urqha"]
+[ext_resource type="PackedScene" uid="uid://bliie52kquvoj" path="res://Assets/kenney/kenney_prototype-kit/pipe-half-section.glb" id="52_rw3vu"]
+[ext_resource type="PackedScene" uid="uid://bpb8cdcqdjd0k" path="res://Assets/kenney/kenney_prototype-kit/pipe-section.glb" id="53_k54cr"]
+[ext_resource type="PackedScene" uid="uid://dlpds5fuseuti" path="res://Assets/kenney/kenney_prototype-kit/pipe-split.glb" id="54_i6rw4"]
+[ext_resource type="PackedScene" uid="uid://syi61c7acd0e" path="res://Assets/kenney/kenney_prototype-kit/shape-cube.glb" id="55_0a0yu"]
+[ext_resource type="PackedScene" uid="uid://bbe0f72qhxq6o" path="res://Assets/kenney/kenney_prototype-kit/shape-cube-half.glb" id="56_8geb8"]
+[ext_resource type="PackedScene" uid="uid://dsmt4tp5cms2f" path="res://Assets/kenney/kenney_prototype-kit/shape-cube-rounded.glb" id="57_6r1yq"]
+[ext_resource type="PackedScene" uid="uid://diccd6xqfrpon" path="res://Assets/kenney/kenney_prototype-kit/shape-cylinder.glb" id="58_prkxd"]
+[ext_resource type="PackedScene" uid="uid://dfsntmtvwdejs" path="res://Assets/kenney/kenney_prototype-kit/shape-cylinder-detailed.glb" id="59_ay8go"]
+[ext_resource type="PackedScene" uid="uid://b6e2mulj6xd73" path="res://Assets/kenney/kenney_prototype-kit/shape-cylinder-half.glb" id="60_rt28y"]
+[ext_resource type="PackedScene" uid="uid://b1ruk1jq7ygtf" path="res://Assets/kenney/kenney_prototype-kit/shape-cylinder-half-detailed.glb" id="61_7meus"]
+[ext_resource type="PackedScene" uid="uid://bbl4b0es1siss" path="res://Assets/kenney/kenney_prototype-kit/shape-hexagon.glb" id="62_0gx4o"]
+[ext_resource type="PackedScene" uid="uid://u0wd6pns0jxa" path="res://Assets/kenney/kenney_prototype-kit/shape-hexagon-half.glb" id="63_vn0ws"]
+[ext_resource type="PackedScene" uid="uid://d16xrsy1osq7y" path="res://Assets/kenney/kenney_prototype-kit/shape-hollow-cylinder.glb" id="64_rf4am"]
+[ext_resource type="PackedScene" uid="uid://bieyik0lesyeu" path="res://Assets/kenney/kenney_prototype-kit/shape-hollow-cylinder-detailed.glb" id="65_0k27l"]
+[ext_resource type="PackedScene" uid="uid://bkhrvt13s1s50" path="res://Assets/kenney/kenney_prototype-kit/shape-hollow-cylinder-half.glb" id="66_2audm"]
+[ext_resource type="PackedScene" uid="uid://bmkttxqfueqe" path="res://Assets/kenney/kenney_prototype-kit/shape-hollow-cylinder-half-detailed.glb" id="67_1mn6t"]
+[ext_resource type="PackedScene" uid="uid://crd4vwqjs8ek7" path="res://Assets/kenney/kenney_prototype-kit/shape-hollow-hexagon.glb" id="68_yv8f8"]
+[ext_resource type="PackedScene" uid="uid://btx1es6oeh0gs" path="res://Assets/kenney/kenney_prototype-kit/shape-hollow-hexagon-half.glb" id="69_r5i3a"]
+[ext_resource type="PackedScene" uid="uid://cw4itfsq7mo87" path="res://Assets/kenney/kenney_prototype-kit/shape-slope.glb" id="70_4ua26"]
+[ext_resource type="PackedScene" uid="uid://cmqtf18h0vxe" path="res://Assets/kenney/kenney_prototype-kit/shape-triangular-prism.glb" id="71_6yak0"]
+[ext_resource type="PackedScene" uid="uid://cfbwl6goyhyo2" path="res://Assets/kenney/kenney_prototype-kit/shape-triangular-prism-low.glb" id="72_kt185"]
+[ext_resource type="PackedScene" uid="uid://dbsc4vb0va10n" path="res://Assets/kenney/kenney_prototype-kit/stairs.glb" id="73_hewq4"]
+[ext_resource type="PackedScene" uid="uid://cipo5vsyo78yj" path="res://Assets/kenney/kenney_prototype-kit/stairs-diagonal.glb" id="74_qysbj"]
+[ext_resource type="PackedScene" uid="uid://ctar7ofnfjwuw" path="res://Assets/kenney/kenney_prototype-kit/stairs-diagonal-narrow.glb" id="75_y3rse"]
+[ext_resource type="PackedScene" uid="uid://clawy8fnf4vae" path="res://Assets/kenney/kenney_prototype-kit/stairs-diagonal-small.glb" id="76_p3xj1"]
+[ext_resource type="PackedScene" uid="uid://ke3wovt2aprf" path="res://Assets/kenney/kenney_prototype-kit/stairs-diagonal-small-narrow.glb" id="77_oey2j"]
+[ext_resource type="PackedScene" uid="uid://dc6o85twwx0qe" path="res://Assets/kenney/kenney_prototype-kit/stairs-narrow.glb" id="78_uklpf"]
+[ext_resource type="PackedScene" uid="uid://hc65h8ml8iwf" path="res://Assets/kenney/kenney_prototype-kit/stairs-small.glb" id="79_17hm3"]
+[ext_resource type="PackedScene" uid="uid://mirs21rrtsr2" path="res://Assets/kenney/kenney_prototype-kit/stairs-small-narrow.glb" id="80_ijapp"]
+[ext_resource type="PackedScene" uid="uid://cqyvplemgal77" path="res://Assets/kenney/kenney_prototype-kit/target-a-round.glb" id="81_gpjyb"]
+[ext_resource type="PackedScene" uid="uid://bvta6fshtffvp" path="res://Assets/kenney/kenney_prototype-kit/target-a-square.glb" id="82_5cb8v"]
+[ext_resource type="PackedScene" uid="uid://cnhhfpn6l27m3" path="res://Assets/kenney/kenney_prototype-kit/target-b-round.glb" id="83_mgekh"]
+[ext_resource type="PackedScene" uid="uid://b3wsf2qg8rs78" path="res://Assets/kenney/kenney_prototype-kit/target-b-square.glb" id="84_60iv8"]
+[ext_resource type="PackedScene" uid="uid://cuhrawcyq4aoq" path="res://Assets/kenney/kenney_prototype-kit/wall.glb" id="85_w5dcq"]
+[ext_resource type="PackedScene" uid="uid://dhwvl84xq6yyf" path="res://Assets/kenney/kenney_prototype-kit/wall-corner.glb" id="86_6ljwy"]
+[ext_resource type="PackedScene" uid="uid://d1ca500llq0pi" path="res://Assets/kenney/kenney_prototype-kit/wall-corner-low.glb" id="87_fr4ur"]
+[ext_resource type="PackedScene" uid="uid://da8edso7lioi5" path="res://Assets/kenney/kenney_prototype-kit/wall-corner-rounded.glb" id="88_4l5hu"]
+[ext_resource type="PackedScene" uid="uid://cja3npxx7yox" path="res://Assets/kenney/kenney_prototype-kit/wall-corner-rounded-low.glb" id="89_7mqmw"]
+[ext_resource type="PackedScene" uid="uid://dna8gqwlmls30" path="res://Assets/kenney/kenney_prototype-kit/wall-diagonal.glb" id="90_jghoc"]
+[ext_resource type="PackedScene" uid="uid://ckxc8jo0y8j6y" path="res://Assets/kenney/kenney_prototype-kit/wall-diagonal-low.glb" id="91_xgget"]
+[ext_resource type="PackedScene" uid="uid://bmqrjdgejn17x" path="res://Assets/kenney/kenney_prototype-kit/wall-doorway.glb" id="92_2cjo8"]
+[ext_resource type="PackedScene" uid="uid://nfwd1ij6u1kg" path="res://Assets/kenney/kenney_prototype-kit/wall-doorway-garage.glb" id="93_86h3d"]
+[ext_resource type="PackedScene" uid="uid://sdj78af5ogir" path="res://Assets/kenney/kenney_prototype-kit/wall-doorway-round.glb" id="94_4hisp"]
+[ext_resource type="PackedScene" uid="uid://l6yyxf3d871a" path="res://Assets/kenney/kenney_prototype-kit/wall-doorway-sliding.glb" id="95_jovq4"]
+[ext_resource type="PackedScene" uid="uid://bi88gjcggdhit" path="res://Assets/kenney/kenney_prototype-kit/wall-doorway-wide.glb" id="96_ouok3"]
+[ext_resource type="PackedScene" uid="uid://bjmsejhjcewx8" path="res://Assets/kenney/kenney_prototype-kit/wall-doorway-wide-sliding.glb" id="97_1678u"]
+[ext_resource type="PackedScene" uid="uid://bbm2etm8mmxft" path="res://Assets/kenney/kenney_prototype-kit/wall-low.glb" id="98_5e1sh"]
+[ext_resource type="PackedScene" uid="uid://j2juplsdii6p" path="res://Assets/kenney/kenney_prototype-kit/wall-round.glb" id="99_gixjf"]
+[ext_resource type="PackedScene" uid="uid://mi24fo0fic0v" path="res://Assets/kenney/kenney_prototype-kit/wall-round-low.glb" id="100_xec0v"]
+[ext_resource type="PackedScene" uid="uid://uh56c4nuw4nu" path="res://Assets/kenney/kenney_prototype-kit/wall-window-barred-large.glb" id="101_ds5ng"]
+[ext_resource type="PackedScene" uid="uid://v5qtlha1omb6" path="res://Assets/kenney/kenney_prototype-kit/wall-window-barred-medium.glb" id="102_saoro"]
+[ext_resource type="PackedScene" uid="uid://f6ctu1y3t7qm" path="res://Assets/kenney/kenney_prototype-kit/wall-window-barred-small.glb" id="103_vly7m"]
+[ext_resource type="PackedScene" uid="uid://g41odgkxqjbm" path="res://Assets/kenney/kenney_prototype-kit/wall-window-cutout-large.glb" id="104_rfu2m"]
+[ext_resource type="PackedScene" uid="uid://bebrm7ato3bd6" path="res://Assets/kenney/kenney_prototype-kit/wall-window-cutout-medium.glb" id="105_0rob4"]
+[ext_resource type="PackedScene" uid="uid://ctdwemllv8ihc" path="res://Assets/kenney/kenney_prototype-kit/wall-window-cutout-small.glb" id="106_gx1ek"]
+[ext_resource type="PackedScene" uid="uid://0wqbcxuubo3s" path="res://Assets/kenney/kenney_prototype-kit/wall-window-large.glb" id="107_37o2j"]
+[ext_resource type="PackedScene" uid="uid://dyu65ijxvmrtl" path="res://Assets/kenney/kenney_prototype-kit/wall-window-medium.glb" id="108_t0i0l"]
+[ext_resource type="PackedScene" uid="uid://b4wwobqjsxb04" path="res://Assets/kenney/kenney_prototype-kit/wall-window-small.glb" id="109_wf66q"]
 
 [node name="Node3D" type="Node3D"]
 
-[node name="crate2" parent="." instance=ExtResource("12_gya5t")]
+[node name="column" parent="." instance=ExtResource("1_kkts5")]
 
-[node name="column2" parent="." instance=ExtResource("6_ah2sy")]
+[node name="column-low" parent="." instance=ExtResource("2_v3slq")]
 
-[node name="column-low2" parent="." instance=ExtResource("7_u6wck")]
+[node name="column-rounded" parent="." instance=ExtResource("3_xm83a")]
 
-[node name="column-rounded2" parent="." instance=ExtResource("8_mv84j")]
+[node name="column-rounded-low" parent="." instance=ExtResource("4_k6e7h")]
 
-[node name="column-rounded-low2" parent="." instance=ExtResource("9_1lvxc")]
+[node name="column-triangle" parent="." instance=ExtResource("5_nfx48")]
 
-[node name="column-triangle2" parent="." instance=ExtResource("10_14qo1")]
+[node name="column-triangle-low" parent="." instance=ExtResource("6_6wwbn")]
 
-[node name="column-triangle-low2" parent="." instance=ExtResource("11_chgwb")]
+[node name="crate" parent="." instance=ExtResource("7_qikht")]
 
-[node name="pipe2" parent="." instance=ExtResource("76_0rob4")]
+[node name="crate-color" parent="." instance=ExtResource("8_cxguq")]
 
-[node name="pipe-corner2" parent="." instance=ExtResource("77_gx1ek")]
+[node name="floor-diagonal" parent="." instance=ExtResource("9_f3eam")]
 
-[node name="pipe-half2" parent="." instance=ExtResource("78_37o2j")]
+[node name="floor-small-diagonal" parent="." instance=ExtResource("10_xcq2x")]
 
-[node name="pipe-half-section2" parent="." instance=ExtResource("79_t0i0l")]
+[node name="floor-small-square" parent="." instance=ExtResource("11_l8oe3")]
 
-[node name="pipe-section2" parent="." instance=ExtResource("80_wf66q")]
+[node name="floor-square" parent="." instance=ExtResource("12_unuew")]
 
-[node name="pipe-split2" parent="." instance=ExtResource("81_dlu4g")]
+[node name="floor-thick" parent="." instance=ExtResource("13_lrbcf")]
 
-[node name="crate-color2" parent="." instance=ExtResource("13_axpsg")]
+[node name="floor-thick-corner-diagonal" parent="." instance=ExtResource("14_fwniq")]
 
-[node name="floor-diagonal2" parent="." instance=ExtResource("25_i6rw4")]
+[node name="floor-thick-corner-round" parent="." instance=ExtResource("15_tbaow")]
 
-[node name="floor-small-diagonal2" parent="." instance=ExtResource("26_0a0yu")]
+[node name="floor-thick-corner-rounded" parent="." instance=ExtResource("16_eguyf")]
 
-[node name="floor-small-square2" parent="." instance=ExtResource("27_8geb8")]
+[node name="indicator-doorway" parent="." instance=ExtResource("17_vu2h0")]
 
-[node name="floor-square2" parent="." instance=ExtResource("28_6r1yq")]
+[node name="indicator-special-area" parent="." instance=ExtResource("18_rpm5u")]
 
-[node name="floor-thick-corner-diagonal2" parent="." instance=ExtResource("30_ay8go")]
+[node name="indicator-special-arrow" parent="." instance=ExtResource("19_aimxm")]
 
-[node name="floor-thick-corner-round2" parent="." instance=ExtResource("31_rt28y")]
+[node name="indicator-special-cross" parent="." instance=ExtResource("20_8fmm3")]
 
-[node name="floor-thick-corner-rounded2" parent="." instance=ExtResource("32_7meus")]
+[node name="indicator-special-lines" parent="." instance=ExtResource("21_tg3qc")]
 
-[node name="floor-thick2" parent="." instance=ExtResource("29_prkxd")]
+[node name="indicator-square-a" parent="." instance=ExtResource("22_fianp")]
 
-[node name="indicator-doorway2" parent="." instance=ExtResource("33_0gx4o")]
+[node name="indicator-square-b" parent="." instance=ExtResource("23_vwuej")]
 
-[node name="indicator-round-a2" parent="." instance=ExtResource("34_vn0ws")]
+[node name="indicator-square-c" parent="." instance=ExtResource("24_id16t")]
 
-[node name="indicator-round-b2" parent="." instance=ExtResource("35_rf4am")]
+[node name="indicator-square-e" parent="." instance=ExtResource("25_icnpa")]
 
-[node name="indicator-round-c2" parent="." instance=ExtResource("36_0k27l")]
+[node name="ladder" parent="." instance=ExtResource("26_4abri")]
 
-[node name="indicator-round-d2" parent="." instance=ExtResource("37_2audm")]
+[node name="ladder-color" parent="." instance=ExtResource("27_xh02c")]
 
-[node name="indicator-round-e2" parent="." instance=ExtResource("38_1mn6t")]
+[node name="ladder-top" parent="." instance=ExtResource("28_t7dm3")]
 
-[node name="indicator-round-f2" parent="." instance=ExtResource("39_yv8f8")]
+[node name="number-" parent="." instance=ExtResource("29_am8rb")]
 
-[node name="indicator-special-area2" parent="." instance=ExtResource("40_r5i3a")]
+[node name="number--col_0012" parent="." instance=ExtResource("30_mlyp3")]
 
-[node name="indicator-special-arrow2" parent="." instance=ExtResource("41_4ua26")]
+[node name="number--col_0022" parent="." instance=ExtResource("31_f0ah1")]
 
-[node name="indicator-special-cross2" parent="." instance=ExtResource("42_6yak0")]
+[node name="number--col_0032" parent="." instance=ExtResource("32_if8xh")]
 
-[node name="indicator-special-lines2" parent="." instance=ExtResource("43_kt185")]
+[node name="number--col_0042" parent="." instance=ExtResource("33_dv0fg")]
 
-[node name="indicator-square-a2" parent="." instance=ExtResource("44_hewq4")]
+[node name="number--col_0052" parent="." instance=ExtResource("34_n7pje")]
 
-[node name="indicator-square-b2" parent="." instance=ExtResource("45_qysbj")]
+[node name="number--col_0062" parent="." instance=ExtResource("35_ah2sy")]
 
-[node name="indicator-square-c2" parent="." instance=ExtResource("46_y3rse")]
+[node name="number--col_0072" parent="." instance=ExtResource("36_u6wck")]
 
-[node name="indicator-square-d2" parent="." instance=ExtResource("47_p3xj1")]
+[node name="number--col_0082" parent="." instance=ExtResource("37_mv84j")]
 
-[node name="indicator-square-e2" parent="." instance=ExtResource("48_oey2j")]
+[node name="number--col_0092" parent="." instance=ExtResource("38_1lvxc")]
 
-[node name="indicator-square-f2" parent="." instance=ExtResource("49_uklpf")]
+[node name="number-double-" parent="." instance=ExtResource("39_14qo1")]
 
-[node name="ladder2" parent="." instance=ExtResource("51_ijapp")]
+[node name="number-double--col_0012" parent="." instance=ExtResource("40_chgwb")]
 
-[node name="ladder-color2" parent="." instance=ExtResource("52_gpjyb")]
+[node name="number-double--col_0022" parent="." instance=ExtResource("41_gya5t")]
 
-[node name="ladder-top2" parent="." instance=ExtResource("53_5cb8v")]
+[node name="number-double--col_0032" parent="." instance=ExtResource("42_axpsg")]
 
-[node name="number-02" parent="." instance=ExtResource("56_w5dcq")]
+[node name="number-double--col_0042" parent="." instance=ExtResource("43_2exmw")]
 
-[node name="number-12" parent="." instance=ExtResource("57_6ljwy")]
+[node name="number-double--col_0052" parent="." instance=ExtResource("44_7eoyv")]
 
-[node name="number-22" parent="." instance=ExtResource("58_fr4ur")]
+[node name="number-double--col_0062" parent="." instance=ExtResource("45_tcsmx")]
 
-[node name="number-32" parent="." instance=ExtResource("59_4l5hu")]
+[node name="number-double--col_0072" parent="." instance=ExtResource("46_qu2d2")]
 
-[node name="number-42" parent="." instance=ExtResource("60_7mqmw")]
+[node name="number-double--col_0082" parent="." instance=ExtResource("47_gduft")]
 
-[node name="number-52" parent="." instance=ExtResource("61_jghoc")]
+[node name="number-double--col_0092" parent="." instance=ExtResource("48_kpd1u")]
 
-[node name="number-62" parent="." instance=ExtResource("62_xgget")]
+[node name="pipe" parent="." instance=ExtResource("49_ymd05")]
 
-[node name="number-72" parent="." instance=ExtResource("63_2cjo8")]
+[node name="pipe-corner" parent="." instance=ExtResource("50_rhe82")]
 
-[node name="number-82" parent="." instance=ExtResource("64_86h3d")]
+[node name="pipe-half" parent="." instance=ExtResource("51_urqha")]
 
-[node name="number-92" parent="." instance=ExtResource("65_4hisp")]
+[node name="pipe-half-section" parent="." instance=ExtResource("52_rw3vu")]
 
-[node name="number-double-02" parent="." instance=ExtResource("66_jovq4")]
+[node name="pipe-section" parent="." instance=ExtResource("53_k54cr")]
 
-[node name="number-double-12" parent="." instance=ExtResource("67_ouok3")]
+[node name="pipe-split" parent="." instance=ExtResource("54_i6rw4")]
 
-[node name="number-double-22" parent="." instance=ExtResource("68_1678u")]
+[node name="shape-cube" parent="." instance=ExtResource("55_0a0yu")]
 
-[node name="number-double-32" parent="." instance=ExtResource("69_5e1sh")]
+[node name="shape-cube-half" parent="." instance=ExtResource("56_8geb8")]
 
-[node name="number-double-42" parent="." instance=ExtResource("70_gixjf")]
+[node name="shape-cube-rounded" parent="." instance=ExtResource("57_6r1yq")]
 
-[node name="number-double-52" parent="." instance=ExtResource("71_xec0v")]
+[node name="shape-cylinder" parent="." instance=ExtResource("58_prkxd")]
 
-[node name="number-double-62" parent="." instance=ExtResource("72_ds5ng")]
+[node name="shape-cylinder-detailed" parent="." instance=ExtResource("59_ay8go")]
 
-[node name="number-double-72" parent="." instance=ExtResource("73_saoro")]
+[node name="shape-cylinder-half" parent="." instance=ExtResource("60_rt28y")]
 
-[node name="number-double-82" parent="." instance=ExtResource("74_vly7m")]
+[node name="shape-cylinder-half-detailed" parent="." instance=ExtResource("61_7meus")]
 
-[node name="number-double-92" parent="." instance=ExtResource("75_rfu2m")]
+[node name="shape-hexagon" parent="." instance=ExtResource("62_0gx4o")]
 
-[node name="shape-cube2" parent="." instance=ExtResource("82_llknm")]
+[node name="shape-hexagon-half" parent="." instance=ExtResource("63_vn0ws")]
 
-[node name="shape-cube-half2" parent="." instance=ExtResource("83_y4f14")]
+[node name="shape-hollow-cylinder" parent="." instance=ExtResource("64_rf4am")]
 
-[node name="shape-cube-rounded2" parent="." instance=ExtResource("84_8r2h8")]
+[node name="shape-hollow-cylinder-detailed" parent="." instance=ExtResource("65_0k27l")]
 
-[node name="shape-cylinder2" parent="." instance=ExtResource("85_f53tx")]
+[node name="shape-hollow-cylinder-half" parent="." instance=ExtResource("66_2audm")]
 
-[node name="shape-cylinder-detailed2" parent="." instance=ExtResource("86_pxcn7")]
+[node name="shape-hollow-cylinder-half-detailed" parent="." instance=ExtResource("67_1mn6t")]
 
-[node name="shape-cylinder-half2" parent="." instance=ExtResource("87_geesc")]
+[node name="shape-hollow-hexagon" parent="." instance=ExtResource("68_yv8f8")]
 
-[node name="shape-cylinder-half-detailed2" parent="." instance=ExtResource("88_ej4yt")]
+[node name="shape-hollow-hexagon-half" parent="." instance=ExtResource("69_r5i3a")]
 
-[node name="shape-hexagon2" parent="." instance=ExtResource("89_lxlm7")]
+[node name="shape-slope" parent="." instance=ExtResource("70_4ua26")]
 
-[node name="shape-hexagon-half2" parent="." instance=ExtResource("90_4tpqa")]
+[node name="shape-triangular-prism" parent="." instance=ExtResource("71_6yak0")]
 
-[node name="shape-hollow-cylinder2" parent="." instance=ExtResource("91_7nraa")]
+[node name="shape-triangular-prism-low" parent="." instance=ExtResource("72_kt185")]
 
-[node name="shape-hollow-cylinder-detailed2" parent="." instance=ExtResource("92_ctnk0")]
+[node name="stairs" parent="." instance=ExtResource("73_hewq4")]
 
-[node name="shape-hollow-cylinder-half2" parent="." instance=ExtResource("93_cx5t5")]
+[node name="stairs-diagonal" parent="." instance=ExtResource("74_qysbj")]
 
-[node name="shape-hollow-cylinder-half-detailed2" parent="." instance=ExtResource("94_tnmve")]
+[node name="stairs-diagonal-narrow" parent="." instance=ExtResource("75_y3rse")]
 
-[node name="shape-hollow-hexagon2" parent="." instance=ExtResource("95_m46o5")]
+[node name="stairs-diagonal-small" parent="." instance=ExtResource("76_p3xj1")]
 
-[node name="shape-hollow-hexagon-half2" parent="." instance=ExtResource("96_cy223")]
+[node name="stairs-diagonal-small-narrow" parent="." instance=ExtResource("77_oey2j")]
 
-[node name="shape-slope2" parent="." instance=ExtResource("97_oaacp")]
+[node name="stairs-narrow" parent="." instance=ExtResource("78_uklpf")]
 
-[node name="shape-triangular-prism2" parent="." instance=ExtResource("98_w5wq6")]
+[node name="stairs-small" parent="." instance=ExtResource("79_17hm3")]
 
-[node name="shape-triangular-prism-low2" parent="." instance=ExtResource("99_ch1ro")]
+[node name="stairs-small-narrow" parent="." instance=ExtResource("80_ijapp")]
 
-[node name="stairs2" parent="." instance=ExtResource("81_bwqn4")]
+[node name="target-a-round" parent="." instance=ExtResource("81_gpjyb")]
 
-[node name="stairs-diagonal2" parent="." instance=ExtResource("82_babkr")]
+[node name="target-a-square" parent="." instance=ExtResource("82_5cb8v")]
 
-[node name="stairs-diagonal-narrow2" parent="." instance=ExtResource("83_ewdt0")]
+[node name="target-b-round" parent="." instance=ExtResource("83_mgekh")]
 
-[node name="stairs-diagonal-small2" parent="." instance=ExtResource("84_wddbf")]
+[node name="target-b-square" parent="." instance=ExtResource("84_60iv8")]
 
-[node name="stairs-diagonal-small-narrow2" parent="." instance=ExtResource("85_sir3k")]
+[node name="wall" parent="." instance=ExtResource("85_w5dcq")]
 
-[node name="stairs-narrow2" parent="." instance=ExtResource("86_tbkh4")]
+[node name="wall-corner" parent="." instance=ExtResource("86_6ljwy")]
 
-[node name="stairs-small2" parent="." instance=ExtResource("87_ckeov")]
+[node name="wall-corner-low" parent="." instance=ExtResource("87_fr4ur")]
 
-[node name="stairs-small-narrow2" parent="." instance=ExtResource("88_65st8")]
+[node name="wall-corner-rounded" parent="." instance=ExtResource("88_4l5hu")]
 
-[node name="target-a-round2" parent="." instance=ExtResource("89_iikhu")]
+[node name="wall-corner-rounded-low" parent="." instance=ExtResource("89_7mqmw")]
 
-[node name="target-a-square2" parent="." instance=ExtResource("90_kw5di")]
+[node name="wall-diagonal" parent="." instance=ExtResource("90_jghoc")]
 
-[node name="target-b-round2" parent="." instance=ExtResource("91_p00oi")]
+[node name="wall-diagonal-low" parent="." instance=ExtResource("91_xgget")]
 
-[node name="target-b-square2" parent="." instance=ExtResource("92_2ylu6")]
+[node name="wall-doorway" parent="." instance=ExtResource("92_2cjo8")]
 
-[node name="wall2" parent="." instance=ExtResource("93_f3eam")]
+[node name="wall-doorway-garage" parent="." instance=ExtResource("93_86h3d")]
 
-[node name="wall-corner2" parent="." instance=ExtResource("94_xcq2x")]
+[node name="wall-doorway-round" parent="." instance=ExtResource("94_4hisp")]
 
-[node name="wall-corner-low2" parent="." instance=ExtResource("95_l8oe3")]
+[node name="wall-doorway-sliding" parent="." instance=ExtResource("95_jovq4")]
 
-[node name="wall-corner-rounded2" parent="." instance=ExtResource("96_unuew")]
+[node name="wall-doorway-wide" parent="." instance=ExtResource("96_ouok3")]
 
-[node name="wall-corner-rounded-low2" parent="." instance=ExtResource("97_lrbcf")]
+[node name="wall-doorway-wide-sliding" parent="." instance=ExtResource("97_1678u")]
 
-[node name="wall-diagonal2" parent="." instance=ExtResource("98_fwniq")]
+[node name="wall-low" parent="." instance=ExtResource("98_5e1sh")]
 
-[node name="wall-diagonal-low2" parent="." instance=ExtResource("99_tbaow")]
+[node name="wall-round" parent="." instance=ExtResource("99_gixjf")]
 
-[node name="wall-doorway2" parent="." instance=ExtResource("100_eguyf")]
+[node name="wall-round-low" parent="." instance=ExtResource("100_xec0v")]
 
-[node name="wall-doorway-garage2" parent="." instance=ExtResource("101_vu2h0")]
+[node name="wall-window-barred-large" parent="." instance=ExtResource("101_ds5ng")]
 
-[node name="wall-doorway-round2" parent="." instance=ExtResource("102_rpm5u")]
+[node name="wall-window-barred-medium" parent="." instance=ExtResource("102_saoro")]
 
-[node name="wall-doorway-sliding2" parent="." instance=ExtResource("103_aimxm")]
+[node name="wall-window-barred-small" parent="." instance=ExtResource("103_vly7m")]
 
-[node name="wall-doorway-wide2" parent="." instance=ExtResource("104_8fmm3")]
+[node name="wall-window-cutout-large" parent="." instance=ExtResource("104_rfu2m")]
 
-[node name="wall-doorway-wide-sliding2" parent="." instance=ExtResource("105_tg3qc")]
+[node name="wall-window-cutout-medium" parent="." instance=ExtResource("105_0rob4")]
 
-[node name="wall-low2" parent="." instance=ExtResource("106_fianp")]
+[node name="wall-window-cutout-small" parent="." instance=ExtResource("106_gx1ek")]
 
-[node name="wall-round2" parent="." instance=ExtResource("107_vwuej")]
+[node name="wall-window-large" parent="." instance=ExtResource("107_37o2j")]
 
-[node name="wall-round-low2" parent="." instance=ExtResource("108_id16t")]
+[node name="wall-window-medium" parent="." instance=ExtResource("108_t0i0l")]
 
-[node name="wall-window-barred-large2" parent="." instance=ExtResource("109_icnpa")]
-
-[node name="wall-window-barred-medium2" parent="." instance=ExtResource("110_4abri")]
-
-[node name="wall-window-barred-small2" parent="." instance=ExtResource("111_xh02c")]
-
-[node name="wall-window-cutout-large2" parent="." instance=ExtResource("112_t7dm3")]
-
-[node name="wall-window-cutout-medium2" parent="." instance=ExtResource("113_am8rb")]
-
-[node name="wall-window-cutout-small2" parent="." instance=ExtResource("114_mlyp3")]
-
-[node name="wall-window-large2" parent="." instance=ExtResource("115_f0ah1")]
-
-[node name="wall-window-medium2" parent="." instance=ExtResource("116_if8xh")]
-
-[node name="wall-window-small2" parent="." instance=ExtResource("117_dv0fg")]
+[node name="wall-window-small" parent="." instance=ExtResource("109_wf66q")]

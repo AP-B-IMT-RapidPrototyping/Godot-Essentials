@@ -2,11 +2,14 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bgllcbpyiku8x"
+uid="uid://dkidgj2o8eemm"
 path.s3tc="res://.godot/imported/pipe-half-section_colormap.png-b78176409e7fb285cafe49123a0d9940.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
+}
+generator_parameters={
+"md5": "76084aa0c65dc2c593e6532f1f61f968"
 }
 
 [deps]

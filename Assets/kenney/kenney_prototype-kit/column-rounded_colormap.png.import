@@ -2,11 +2,14 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://di6c30ll6fib5"
+uid="uid://dwt03nt2dvhgd"
 path.s3tc="res://.godot/imported/column-rounded_colormap.png-36909bef938d1d16821dbb47ea7e9941.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
+}
+generator_parameters={
+"md5": "76084aa0c65dc2c593e6532f1f61f968"
 }
 
 [deps]

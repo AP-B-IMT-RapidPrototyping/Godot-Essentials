@@ -2,11 +2,14 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://tm1drpboyvx6"
+uid="uid://bcamh4s47dn8u"
 path.s3tc="res://.godot/imported/wall-window-barred-medium_colormap.png-8a0893d611e2d4220d1d67dcf016a226.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
+}
+generator_parameters={
+"md5": "76084aa0c65dc2c593e6532f1f61f968"
 }
 
 [deps]

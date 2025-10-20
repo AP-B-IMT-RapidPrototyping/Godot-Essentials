@@ -2,11 +2,14 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cbvrhtowkclck"
+uid="uid://cqaajk6k4v87r"
 path.s3tc="res://.godot/imported/wall-corner-rounded_colormap.png-f1664e87d952ef07c94aa0ea2a6e9ff3.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
+}
+generator_parameters={
+"md5": "76084aa0c65dc2c593e6532f1f61f968"
 }
 
 [deps]

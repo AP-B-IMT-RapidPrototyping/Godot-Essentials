@@ -2,11 +2,14 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d101hwabtuf2d"
+uid="uid://c3tbfmehjspei"
 path.s3tc="res://.godot/imported/animal-bison_colormap.png-9d22ed739b5312a2158e8c41c73c935e.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
+}
+generator_parameters={
+"md5": "76084aa0c65dc2c593e6532f1f61f968"
 }
 
 [deps]

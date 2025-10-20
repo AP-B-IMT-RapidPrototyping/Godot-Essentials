@@ -2,11 +2,14 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cwqylmhokjum"
+uid="uid://bwv6q3a3icc4k"
 path.s3tc="res://.godot/imported/ladder-color_colormap.png-a1dde63aa1e220be5db0ff38d019bd9e.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
+}
+generator_parameters={
+"md5": "76084aa0c65dc2c593e6532f1f61f968"
 }
 
 [deps]

@@ -2,11 +2,14 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://chtwbl0sx18i8"
+uid="uid://cw33djtnecqnu"
 path.s3tc="res://.godot/imported/lever-single_colormap.png-f29e5b9ff13cbf08732ec2e4aee8b3c7.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
+}
+generator_parameters={
+"md5": "76084aa0c65dc2c593e6532f1f61f968"
 }
 
 [deps]

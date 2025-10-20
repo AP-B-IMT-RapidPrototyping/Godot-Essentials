@@ -2,11 +2,14 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ma45s1t6abfq"
+uid="uid://cvi7lipqwpslu"
 path.s3tc="res://.godot/imported/shape-hexagon_colormap.png-1fcf83524726853be1a1dc673a490c7f.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
+}
+generator_parameters={
+"md5": "76084aa0c65dc2c593e6532f1f61f968"
 }
 
 [deps]

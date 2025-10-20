@@ -2,11 +2,14 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cvh4skdvo2vsk"
+uid="uid://bqmrwx6foa7cx"
 path.s3tc="res://.godot/imported/animal-dog_colormap.png-44bdf46e96207c0ff4a823997c09d7cc.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
+}
+generator_parameters={
+"md5": "76084aa0c65dc2c593e6532f1f61f968"
 }
 
 [deps]

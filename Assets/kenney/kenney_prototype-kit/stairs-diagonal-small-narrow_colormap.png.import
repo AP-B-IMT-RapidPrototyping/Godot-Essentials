@@ -2,11 +2,14 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c88nxu65qo0tb"
+uid="uid://cwy08vi4jimkw"
 path.s3tc="res://.godot/imported/stairs-diagonal-small-narrow_colormap.png-88e36b75980556b827bdbf4d4331039f.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
+}
+generator_parameters={
+"md5": "76084aa0c65dc2c593e6532f1f61f968"
 }
 
 [deps]

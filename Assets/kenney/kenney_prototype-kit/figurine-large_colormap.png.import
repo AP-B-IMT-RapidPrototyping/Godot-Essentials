@@ -2,11 +2,14 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bqn1va5g48c0n"
+uid="uid://cllbn7mbcu8bg"
 path.s3tc="res://.godot/imported/figurine-large_colormap.png-6949b07aff5b61b779064be43cd850ff.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
+}
+generator_parameters={
+"md5": "76084aa0c65dc2c593e6532f1f61f968"
 }
 
 [deps]

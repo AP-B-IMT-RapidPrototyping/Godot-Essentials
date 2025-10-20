@@ -2,11 +2,14 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dc63e1qtisdkb"
+uid="uid://behs28ldkqfmc"
 path.s3tc="res://.godot/imported/target-a-square_colormap.png-c5c8965cd767a7174000b60135bc8087.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
+}
+generator_parameters={
+"md5": "76084aa0c65dc2c593e6532f1f61f968"
 }
 
 [deps]

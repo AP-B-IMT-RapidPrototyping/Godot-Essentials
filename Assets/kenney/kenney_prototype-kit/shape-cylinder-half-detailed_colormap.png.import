@@ -2,11 +2,14 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cmbux28b1cp5"
+uid="uid://eg640se5fb5h"
 path.s3tc="res://.godot/imported/shape-cylinder-half-detailed_colormap.png-a704ab2b2ba225ce72e4611243a0e494.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
+}
+generator_parameters={
+"md5": "76084aa0c65dc2c593e6532f1f61f968"
 }
 
 [deps]

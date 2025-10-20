@@ -2,11 +2,14 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b7ltdbppmx0dh"
+uid="uid://p4il503l5kpo"
 path.s3tc="res://.godot/imported/shape-hollow-hexagon-half_colormap.png-5c7398c5b36ee87e344732739e456095.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
+}
+generator_parameters={
+"md5": "76084aa0c65dc2c593e6532f1f61f968"
 }
 
 [deps]

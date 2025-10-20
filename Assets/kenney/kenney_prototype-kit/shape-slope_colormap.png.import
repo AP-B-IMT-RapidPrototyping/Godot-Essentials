@@ -2,11 +2,14 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c7ml8ntf1bl0l"
+uid="uid://cbap0jys0pogu"
 path.s3tc="res://.godot/imported/shape-slope_colormap.png-d4f169172d9b49f4ff8625d86c810e12.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
+}
+generator_parameters={
+"md5": "76084aa0c65dc2c593e6532f1f61f968"
 }
 
 [deps]

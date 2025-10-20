@@ -2,11 +2,14 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://buiquqj6d2rmt"
+uid="uid://b17no7q876t1v"
 path.s3tc="res://.godot/imported/column-triangle_colormap.png-f92a48d74ee6ab5dcbc65c4187555939.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
+}
+generator_parameters={
+"md5": "76084aa0c65dc2c593e6532f1f61f968"
 }
 
 [deps]

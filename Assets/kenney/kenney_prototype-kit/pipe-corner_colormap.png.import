@@ -2,11 +2,14 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ccyoooh5g6n7u"
+uid="uid://drhoekhpa2p2y"
 path.s3tc="res://.godot/imported/pipe-corner_colormap.png-40395afb08b5dc36abf77fbf2ccff377.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
+}
+generator_parameters={
+"md5": "76084aa0c65dc2c593e6532f1f61f968"
 }
 
 [deps]

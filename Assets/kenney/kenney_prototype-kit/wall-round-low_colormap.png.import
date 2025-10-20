@@ -2,11 +2,14 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c1yv6a3puwtex"
+uid="uid://brfrbox1j6xyr"
 path.s3tc="res://.godot/imported/wall-round-low_colormap.png-0c85df4e6d6f4780f06c78164c85c50a.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
+}
+generator_parameters={
+"md5": "76084aa0c65dc2c593e6532f1f61f968"
 }
 
 [deps]

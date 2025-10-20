@@ -2,11 +2,14 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ddbhd7v0xpqex"
+uid="uid://do4iqi54v0dqh"
 path.s3tc="res://.godot/imported/figurine-cube-detailed_colormap.png-eae8578706694a89a384acc648efa674.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
+}
+generator_parameters={
+"md5": "76084aa0c65dc2c593e6532f1f61f968"
 }
 
 [deps]

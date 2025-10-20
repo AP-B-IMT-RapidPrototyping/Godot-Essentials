@@ -2,11 +2,14 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://blgdwy8vdlbg2"
+uid="uid://b6isuesr7biy2"
 path.s3tc="res://.godot/imported/floor-thick-corner-diagonal_colormap.png-87aa65c8780b76a0b597ec6a89bb5b23.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
+}
+generator_parameters={
+"md5": "76084aa0c65dc2c593e6532f1f61f968"
 }
 
 [deps]

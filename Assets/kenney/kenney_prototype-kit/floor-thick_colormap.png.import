@@ -2,11 +2,14 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b58uf08tl2yvf"
+uid="uid://cbta58t4urkpj"
 path.s3tc="res://.godot/imported/floor-thick_colormap.png-05ac488d2b08958ab10065d66a82344d.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
+}
+generator_parameters={
+"md5": "76084aa0c65dc2c593e6532f1f61f968"
 }
 
 [deps]

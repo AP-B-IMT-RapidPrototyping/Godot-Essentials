@@ -2,11 +2,14 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://4lutj3p2wlfc"
+uid="uid://bm1yj1qnga3nd"
 path.s3tc="res://.godot/imported/indicator-round-b_colormap.png-b785b63fd6121a8ad9031fe63993387a.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
+}
+generator_parameters={
+"md5": "76084aa0c65dc2c593e6532f1f61f968"
 }
 
 [deps]

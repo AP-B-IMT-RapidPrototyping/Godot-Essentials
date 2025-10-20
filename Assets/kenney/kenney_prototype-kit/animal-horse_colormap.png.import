@@ -2,11 +2,14 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bw3c7hq73q3p4"
+uid="uid://csjk5vum8bxm7"
 path.s3tc="res://.godot/imported/animal-horse_colormap.png-9ae2b794c88978637c4f785a8a392760.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
+}
+generator_parameters={
+"md5": "76084aa0c65dc2c593e6532f1f61f968"
 }
 
 [deps]
