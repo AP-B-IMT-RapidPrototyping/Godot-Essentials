@@ -3,6 +3,7 @@
 [ext_resource type="Script" uid="uid://b5bxohhqyffe2" path="res://Scripts/Player.cs" id="1_t86h6"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_t86h6"]
+radius = 0.4
 height = 1.8000001
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4utpv"]
@@ -3445,6 +3446,7 @@ _data = {
 }
 
 [node name="Player" type="CharacterBody3D" node_paths=PackedStringArray("_cameraMount", "_animationPlayer", "_visuals")]
+floor_max_angle = 1.3089969
 script = ExtResource("1_t86h6")
 _cameraMount = NodePath("CamRig")
 _animationPlayer = NodePath("Visuals/mixamo_base/AnimationPlayer")
@@ -3931,6 +3933,7 @@ skin = SubResource("Skin_d0ixq")
 libraries = {
 &"": SubResource("AnimationLibrary_a13y0")
 }
+playback_default_blend_time = 0.2
 
 [node name="CamRig" type="Node3D" parent="."]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 1.4, 0)
