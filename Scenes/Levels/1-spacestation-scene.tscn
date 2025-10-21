@@ -552,67 +552,69 @@ transform = Transform3D(0.25881898, 0, -0.9659258, 0, 1, 0, 0.9659258, 0, 0.2588
 [node name="turret_single2" parent="planet-surface" instance=ExtResource("42_ir0mg")]
 transform = Transform3D(-0.25881904, 0, -0.9659258, 0, 1, 0, 0.9659258, 0, -0.25881904, -12.5, 0.5, -4.6)
 
-[node name="pipe_ringSupport2" type="Node3D" parent="planet-surface"]
+[node name="Ringen" type="Node3D" parent="planet-surface"]
+
+[node name="pipe_ringSupport2" type="Node3D" parent="planet-surface/Ringen"]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -5, 0.5, -5)
 
-[node name="pipe_ringSupport" type="MeshInstance3D" parent="planet-surface/pipe_ringSupport2"]
+[node name="pipe_ringSupport" type="MeshInstance3D" parent="planet-surface/Ringen/pipe_ringSupport2"]
 transform = Transform3D(0.9396926, 0, 0.34202012, 0, 1, 0, -0.34202012, 0, 0.9396926, 0, 0, 0)
 mesh = SubResource("ArrayMesh_o8pei")
 skeleton = NodePath("")
 surface_material_override/0 = SubResource("StandardMaterial3D_8yffi")
 
-[node name="pipe_ringSupport3" type="Node3D" parent="planet-surface"]
+[node name="pipe_ringSupport3" type="Node3D" parent="planet-surface/Ringen"]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -8.6, 1, -2.5)
 
-[node name="pipe_ringSupport" type="MeshInstance3D" parent="planet-surface/pipe_ringSupport3"]
+[node name="pipe_ringSupport" type="MeshInstance3D" parent="planet-surface/Ringen/pipe_ringSupport3"]
 mesh = SubResource("ArrayMesh_o8pei")
 skeleton = NodePath("")
 surface_material_override/0 = SubResource("StandardMaterial3D_ir0mg")
 
-[node name="pipe_ringSupport4" type="Node3D" parent="planet-surface"]
+[node name="pipe_ringSupport4" type="Node3D" parent="planet-surface/Ringen"]
 transform = Transform3D(0.49999997, 0, 0.8660254, 0, 1, 0, -0.8660254, 0, 0.49999997, -16.6, 0, -0.5)
 
-[node name="pipe_ringSupport" type="MeshInstance3D" parent="planet-surface/pipe_ringSupport4"]
+[node name="pipe_ringSupport" type="MeshInstance3D" parent="planet-surface/Ringen/pipe_ringSupport4"]
 mesh = SubResource("ArrayMesh_o8pei")
 skeleton = NodePath("")
 surface_material_override/0 = SubResource("StandardMaterial3D_ir0mg")
 
-[node name="pipe_ringSupport5" type="Node3D" parent="planet-surface"]
+[node name="pipe_ringSupport5" type="Node3D" parent="planet-surface/Ringen"]
 transform = Transform3D(1, 0, -2.9802322e-08, 0, 1, 0, 2.9802322e-08, 0, 1, -20.2, 0.5, -5.5)
 
-[node name="pipe_ringSupport" type="MeshInstance3D" parent="planet-surface/pipe_ringSupport5"]
+[node name="pipe_ringSupport" type="MeshInstance3D" parent="planet-surface/Ringen/pipe_ringSupport5"]
 mesh = SubResource("ArrayMesh_o8pei")
 skeleton = NodePath("")
 surface_material_override/0 = SubResource("StandardMaterial3D_ir0mg")
 
-[node name="pipe_ringSupport6" type="Node3D" parent="planet-surface"]
+[node name="pipe_ringSupport6" type="Node3D" parent="planet-surface/Ringen"]
 transform = Transform3D(0.49999994, 0, -0.86602545, 0, 1, 0, 0.86602545, 0, 0.49999994, -17.5, 1, -10.8)
 
-[node name="pipe_ringSupport" type="MeshInstance3D" parent="planet-surface/pipe_ringSupport6"]
+[node name="pipe_ringSupport" type="MeshInstance3D" parent="planet-surface/Ringen/pipe_ringSupport6"]
 mesh = SubResource("ArrayMesh_o8pei")
 skeleton = NodePath("")
 surface_material_override/0 = SubResource("StandardMaterial3D_ir0mg")
 
-[node name="pipe_ringSupport7" type="Node3D" parent="planet-surface"]
+[node name="pipe_ringSupport7" type="Node3D" parent="planet-surface/Ringen"]
 transform = Transform3D(-0.25881913, 0, -0.9659258, 0, 1, 0, 0.9659258, 0, -0.25881913, -12.5, 0, -14.8)
 
-[node name="pipe_ringSupport" type="MeshInstance3D" parent="planet-surface/pipe_ringSupport7"]
+[node name="pipe_ringSupport" type="MeshInstance3D" parent="planet-surface/Ringen/pipe_ringSupport7"]
 mesh = SubResource("ArrayMesh_o8pei")
 skeleton = NodePath("")
 surface_material_override/0 = SubResource("StandardMaterial3D_ir0mg")
 
-[node name="pipe_ringSupport8" type="Node3D" parent="planet-surface"]
+[node name="pipe_ringSupport8" type="Node3D" parent="planet-surface/Ringen"]
 transform = Transform3D(-0.86602545, 0, -0.4999999, 0, 1, 0, 0.4999999, 0, -0.86602545, -9.5, 0, -12.8)
 
-[node name="pipe_ringSupport" type="MeshInstance3D" parent="planet-surface/pipe_ringSupport8"]
+[node name="pipe_ringSupport" type="MeshInstance3D" parent="planet-surface/Ringen/pipe_ringSupport8"]
 mesh = SubResource("ArrayMesh_o8pei")
 skeleton = NodePath("")
 surface_material_override/0 = SubResource("StandardMaterial3D_ir0mg")
 
-[node name="pipe_ringSupport9" type="Node3D" parent="planet-surface"]
+[node name="pipe_ringSupport9" type="Node3D" parent="planet-surface/Ringen"]
 transform = Transform3D(-0.86602545, 0, -0.4999999, 0, 1, 0, 0.4999999, 0, -0.86602545, -4.5, 1, -9.3)
 
-[node name="pipe_ringSupport" type="MeshInstance3D" parent="planet-surface/pipe_ringSupport9"]
+[node name="pipe_ringSupport" type="MeshInstance3D" parent="planet-surface/Ringen/pipe_ringSupport9"]
 mesh = SubResource("ArrayMesh_o8pei")
 skeleton = NodePath("")
 surface_material_override/0 = SubResource("StandardMaterial3D_ir0mg")
