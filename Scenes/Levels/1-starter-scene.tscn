@@ -34,40 +34,6 @@ adjustment_color_correction = SubResource("GradientTexture1D_mdpnd")
 [sub_resource type="BoxShape3D" id="BoxShape3D_8lpiv"]
 size = Vector3(1, 0.90000004, 1)
 
-[sub_resource type="Animation" id="Animation_qapbc"]
-resource_name = "updown"
-loop_mode = 1
-tracks/0/type = "position_3d"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("AnimationPlayer/flag")
-tracks/0/interp = 2
-tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat32Array(0, 1, 5, 5.75, -18, 0.5, 1, 5, 6.25, -18, 1, 1, 5, 5.75, -18)
-tracks/1/type = "rotation_3d"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("AnimationPlayer/flag")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat32Array(0, 1, 0, 0, 0, 1, 0.5, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, -1)
-
-[sub_resource type="Animation" id="Animation_86fqq"]
-length = 0.001
-tracks/0/type = "position_3d"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("AnimationPlayer/flag")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat32Array(0, 1, 5, 6.25, -18)
-
-[sub_resource type="AnimationLibrary" id="AnimationLibrary_3jqsc"]
-_data = {
-&"RESET": SubResource("Animation_86fqq"),
-&"updown": SubResource("Animation_qapbc")
-}
-
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_arlml"]
 resource_name = "colormap-col.025"
 cull_mode = 2
@@ -109,15 +75,18 @@ blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_1xqgm")
 
 [sub_resource type="Curve" id="Curve_tf0xt"]
-_data = [Vector2(0, 0), 0.0, 1.0, 0, 1, Vector2(1, 1), 1.0, 0.0, 1, 0]
+_limits = [-2.0, 2.0, 0.0, 1.0]
+_data = [Vector2(0, 1.1824342), 0.0, -1.5223638, 0, 1, Vector2(1, -0.33992958), -1.5223638, 0.0, 1, 0]
 point_count = 2
 
 [sub_resource type="Curve" id="Curve_egx4k"]
-_data = [Vector2(0, 0.5), 0.0, 0.0, 0, 1, Vector2(1, 0.5), 0.0, 0.0, 1, 0]
+_limits = [-2.0, 2.0, 0.0, 1.0]
+_data = [Vector2(0, 2), 0.0, 0.0, 0, 1, Vector2(1, 2), 0.0, 0.0, 1, 0]
 point_count = 2
 
 [sub_resource type="Curve" id="Curve_8lpiv"]
-_data = [Vector2(0, 0.5), 0.0, 0.0, 0, 1, Vector2(1, 0.5), 0.0, 0.0, 1, 0]
+_limits = [-2.0, 2.0, 0.0, 1.0]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 1, Vector2(1, 0), 0.0, 0.0, 1, 0]
 point_count = 2
 
 [sub_resource type="CurveXYZTexture" id="CurveXYZTexture_qapbc"]
@@ -125,33 +94,79 @@ curve_x = SubResource("Curve_tf0xt")
 curve_y = SubResource("Curve_egx4k")
 curve_z = SubResource("Curve_8lpiv")
 
-[sub_resource type="Curve" id="Curve_86fqq"]
-_limits = [-2.0, 0.0, 0.0, 1.0]
-_data = [Vector2(0, -2), 0.0, 0.0, 0, 0, Vector2(1, 0), 5.6, 0.0, 0, 0]
-point_count = 2
-
-[sub_resource type="CurveTexture" id="CurveTexture_3jqsc"]
-curve = SubResource("Curve_86fqq")
-
 [sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_gc1uc"]
 particle_flag_align_y = true
-particle_flag_rotate_y = true
-spread = 0.0
-flatness = 1.0
-initial_velocity_min = 1.0
+emission_shape_offset = Vector3(0, 0.59, 0)
+emission_shape = 6
+emission_ring_axis = Vector3(0, 1, 0)
+emission_ring_height = 0.0
+emission_ring_radius = 0.25
+emission_ring_inner_radius = 0.25
+emission_ring_cone_angle = 90.0
+velocity_pivot = Vector3(0, -2, 0)
+spread = 180.0
+initial_velocity_min = 0.5
 initial_velocity_max = 1.0
-directional_velocity_min = -0.5000161
-directional_velocity_max = -0.5000161
-directional_velocity_curve = SubResource("CurveXYZTexture_qapbc")
+orbit_velocity_min = 0.050000098
+orbit_velocity_max = 0.050000098
+orbit_velocity_curve = SubResource("CurveXYZTexture_qapbc")
+radial_velocity_min = 0.49997765
+radial_velocity_max = 0.49997765
+gravity = Vector3(0, -1, 0)
+linear_accel_min = 9.999997
+linear_accel_max = 9.999997
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_86fqq"]
+albedo_color = Color(1, 0, 0, 1)
+emission_enabled = true
+emission = Color(0.81271315, 8.961946e-05, 4.995972e-05, 1)
+
+[sub_resource type="QuadMesh" id="QuadMesh_3jqsc"]
+material = SubResource("StandardMaterial3D_86fqq")
+size = Vector2(0.1, 0.1)
+
+[sub_resource type="Curve" id="Curve_qapbc"]
+_limits = [-2.0, 2.0, 0.0, 1.0]
+_data = [Vector2(0, 1.1824342), 0.0, -1.5223638, 0, 1, Vector2(1, -0.33992958), -1.5223638, 0.0, 1, 0]
+point_count = 2
+
+[sub_resource type="Curve" id="Curve_86fqq"]
+_limits = [-2.0, 2.0, 0.0, 1.0]
+_data = [Vector2(0, 2), 0.0, 0.0, 0, 1, Vector2(1, 2), 0.0, 0.0, 1, 0]
+point_count = 2
+
+[sub_resource type="Curve" id="Curve_3jqsc"]
+_limits = [-2.0, 2.0, 0.0, 1.0]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 1, Vector2(1, 0), 0.0, 0.0, 1, 0]
+point_count = 2
+
+[sub_resource type="CurveXYZTexture" id="CurveXYZTexture_gc1uc"]
+curve_x = SubResource("Curve_qapbc")
+curve_y = SubResource("Curve_86fqq")
+curve_z = SubResource("Curve_3jqsc")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_crgqv"]
+particle_flag_align_y = true
+emission_shape_offset = Vector3(0, 0.59, 0)
+emission_shape = 6
+emission_ring_axis = Vector3(0, 1, 0)
+emission_ring_height = 0.0
+emission_ring_radius = 0.25
+emission_ring_inner_radius = 0.25
+emission_ring_cone_angle = 90.0
+velocity_pivot = Vector3(0, -2, 0)
+direction = Vector3(1, 1, 0)
+spread = 180.0
+flatness = 1.0
+initial_velocity_min = 10.0
+initial_velocity_max = 10.0
 orbit_velocity_min = 0.1000001
 orbit_velocity_max = 0.1000001
-orbit_velocity_curve = SubResource("CurveTexture_3jqsc")
-gravity = Vector3(0, 0, 0)
-
-[sub_resource type="BoxMesh" id="BoxMesh_crgqv"]
-size = Vector3(0.1, 0.1, 0.1)
-
-[sub_resource type="BoxMesh" id="BoxMesh_hir3a"]
+orbit_velocity_curve = SubResource("CurveXYZTexture_gc1uc")
+radial_velocity_min = 0.49997765
+radial_velocity_max = 0.49997765
+linear_accel_min = 9.999997
+linear_accel_max = 9.999997
 
 [node name="ROOT" type="Node3D"]
 
@@ -186,31 +201,35 @@ data = {
 }
 metadata/_editor_floor_ = Vector3(0, 5, 0)
 
-[node name="flag2" type="Node3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 6, -18)
+[node name="flag2" type="Area3D" parent="." node_paths=PackedStringArray("_explosion")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 5, -20)
 script = ExtResource("3_tf0xt")
+_explosion = NodePath("../GPUParticles3D2")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="flag2"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4499998, 0)
 shape = SubResource("BoxShape3D_8lpiv")
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="flag2"]
-libraries = {
-&"": SubResource("AnimationLibrary_3jqsc")
-}
-autoplay = "updown"
-
-[node name="flag" type="MeshInstance3D" parent="flag2/AnimationPlayer"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 6.25, -18)
+[node name="flag" type="MeshInstance3D" parent="flag2"]
 mesh = SubResource("ArrayMesh_edy1k")
 skeleton = NodePath("")
 
 [node name="GPUParticles3D" type="GPUParticles3D" parent="flag2"]
-amount = 50
-lifetime = 5.0
+amount = 10
+lifetime = 0.49
+randomness = 1.0
+transform_align = 1
 process_material = SubResource("ParticleProcessMaterial_gc1uc")
-draw_pass_1 = SubResource("BoxMesh_crgqv")
+draw_pass_1 = SubResource("QuadMesh_3jqsc")
 
-[node name="CPUParticles3D" type="CPUParticles3D" parent="flag2"]
-visible = false
-mesh = SubResource("BoxMesh_hir3a")
+[node name="GPUParticles3D2" type="GPUParticles3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 3, -14)
+emitting = false
+amount = 200
+lifetime = 0.4
+one_shot = true
+speed_scale = 2.0
+randomness = 1.0
+transform_align = 1
+process_material = SubResource("ParticleProcessMaterial_crgqv")
+draw_pass_1 = SubResource("QuadMesh_3jqsc")
