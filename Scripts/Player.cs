@@ -54,9 +54,11 @@ public partial class Player : CharacterBody3D
 		{
 			var speedMult = Input.IsActionPressed("run") ? 2 : 1;
 
-			if (_animationPlayer.CurrentAnimation != "walking" && Input.IsActionPressed("run") == false)
+			if (IsOnFloor() == false)
+				_animationPlayer.Stop();
+			else if (_animationPlayer.CurrentAnimation != "walking" && Input.IsActionPressed("run") == false)
 				_animationPlayer.Play("walking");
-			if (_animationPlayer.CurrentAnimation != "running" && Input.IsActionPressed("run") == true)
+			else if (_animationPlayer.CurrentAnimation != "running" && Input.IsActionPressed("run") == true)
 				_animationPlayer.Play("running");
 
 			velocity.X = direction.X * _speed * speedMult;
