@@ -508,7 +508,6 @@ sky_mode = 2
 transform = Transform3D(-0.9762959, -0.18610612, -0.110501744, 0, -0.51054287, 0.85985225, -0.21643963, 0.83947027, 0.498441, 0, 2, 0)
 light_color = Color(1, 0.9490196, 0.827451, 1)
 shadow_enabled = true
-shadow_bias = 0.0
 shadow_normal_bias = 0.0
 shadow_opacity = 0.79
 shadow_blur = 1.84
