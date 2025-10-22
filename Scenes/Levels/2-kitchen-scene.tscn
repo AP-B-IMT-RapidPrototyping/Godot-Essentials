@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://dj1yunq10tuod"]
+
+[ext_resource type="MeshLibrary" uid="uid://cpcfpe8rvylp4" path="res://MeshLibraries/furniture.tres" id="1_ddsh1"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="GridMap" type="GridMap" parent="."]
+mesh_library = ExtResource("1_ddsh1")
+cell_size = Vector3(1, 0.25, 1)
+cell_center_y = false
+data = {
+"cells": PackedInt32Array(0, 0, 56, 65535, 0, 56, 65534, 0, 56, 65533, 0, 56, 65533, 1, 56, 65534, 1, 56, 65535, 1, 56, 0, 1, 56, 0, 2, 56, 65535, 2, 56, 65534, 2, 56, 65533, 2, 56, 65533, 3, 56, 65534, 3, 56, 65535, 3, 56, 0, 3, 56, 1, 3, 56)
+}
+metadata/_editor_floor_ = Vector3(0, 1, 0)
