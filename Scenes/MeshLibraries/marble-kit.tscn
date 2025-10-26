@@ -1,0 +1,520 @@
+[gd_scene load_steps=173 format=3 uid="uid://corx5iuw088ds"]
+
+[ext_resource type="PackedScene" uid="uid://tmivmxxvobmu" path="res://Assets/kenney/kenney_marble-kit/banner-col.glb" id="1_sfxjs"]
+[ext_resource type="PackedScene" uid="uid://cpfjhxdu6lcyv" path="res://Assets/kenney/kenney_marble-kit/banner-double-col.glb" id="2_b67mx"]
+[ext_resource type="PackedScene" uid="uid://bpndh7ht0knuo" path="res://Assets/kenney/kenney_marble-kit/banner-double-high-col.glb" id="3_v5y41"]
+[ext_resource type="PackedScene" uid="uid://c7hj3im8n1k3y" path="res://Assets/kenney/kenney_marble-kit/banner-hanging-col.glb" id="4_p2bd7"]
+[ext_resource type="PackedScene" uid="uid://bfv55mjcli53i" path="res://Assets/kenney/kenney_marble-kit/banner-hanging-double-col.glb" id="5_4y0ps"]
+[ext_resource type="PackedScene" uid="uid://dn2qriyeccq45" path="res://Assets/kenney/kenney_marble-kit/banner-hanging-double-high-col.glb" id="6_4bouj"]
+[ext_resource type="PackedScene" uid="uid://colgwctbb2wpo" path="res://Assets/kenney/kenney_marble-kit/banner-hanging-high-col.glb" id="7_cv6pt"]
+[ext_resource type="PackedScene" uid="uid://cx3mfe3pog3bn" path="res://Assets/kenney/kenney_marble-kit/banner-high-col.glb" id="8_uqpqi"]
+[ext_resource type="PackedScene" uid="uid://f2lkvbwivnnq" path="res://Assets/kenney/kenney_marble-kit/bend-col.glb" id="9_c3axo"]
+[ext_resource type="PackedScene" uid="uid://dkfvp4j3h7agv" path="res://Assets/kenney/kenney_marble-kit/bend-large-col.glb" id="10_du4v4"]
+[ext_resource type="PackedScene" uid="uid://ux8fylxo0oxq" path="res://Assets/kenney/kenney_marble-kit/bend-medium-col.glb" id="11_drqu1"]
+[ext_resource type="PackedScene" uid="uid://cmtpfebpf7baa" path="res://Assets/kenney/kenney_marble-kit/bend-solid-large-col.glb" id="12_m5xs4"]
+[ext_resource type="PackedScene" uid="uid://dqrvbecd8lrfy" path="res://Assets/kenney/kenney_marble-kit/bend-solid-medium-col.glb" id="13_5bbns"]
+[ext_resource type="PackedScene" uid="uid://c6hcgmb0dtxu1" path="res://Assets/kenney/kenney_marble-kit/bump-a-col.glb" id="14_kbbhw"]
+[ext_resource type="PackedScene" uid="uid://dhutj8x8ossm7" path="res://Assets/kenney/kenney_marble-kit/bump-b-col.glb" id="15_blymv"]
+[ext_resource type="PackedScene" uid="uid://dvdlj0tvcnbhm" path="res://Assets/kenney/kenney_marble-kit/bump-c-col.glb" id="16_nifwh"]
+[ext_resource type="PackedScene" uid="uid://1wk0iwlnmh23" path="res://Assets/kenney/kenney_marble-kit/bump-d-col.glb" id="17_blavu"]
+[ext_resource type="PackedScene" uid="uid://yymwr04iudgk" path="res://Assets/kenney/kenney_marble-kit/bump-solid-a-col.glb" id="18_trnxa"]
+[ext_resource type="PackedScene" uid="uid://c5bih8jclifla" path="res://Assets/kenney/kenney_marble-kit/bump-solid-b-col.glb" id="19_7y06e"]
+[ext_resource type="PackedScene" uid="uid://ba6o14lhm2gvt" path="res://Assets/kenney/kenney_marble-kit/bump-solid-c-col.glb" id="20_nyj75"]
+[ext_resource type="PackedScene" uid="uid://d2ofhcicmqc7s" path="res://Assets/kenney/kenney_marble-kit/bump-solid-d-col.glb" id="21_q0obm"]
+[ext_resource type="PackedScene" uid="uid://2w0w4rbwhwmh" path="res://Assets/kenney/kenney_marble-kit/corner-col.glb" id="22_ecyxt"]
+[ext_resource type="PackedScene" uid="uid://bp53rfgjge7c6" path="res://Assets/kenney/kenney_marble-kit/corner-solid-col.glb" id="23_opnbp"]
+[ext_resource type="PackedScene" uid="uid://c7paqu5343ud" path="res://Assets/kenney/kenney_marble-kit/cross-col.glb" id="24_5isyr"]
+[ext_resource type="PackedScene" uid="uid://gc2iemygfhux" path="res://Assets/kenney/kenney_marble-kit/curve-col.glb" id="25_4ffxk"]
+[ext_resource type="PackedScene" uid="uid://gj44y78l4bcn" path="res://Assets/kenney/kenney_marble-kit/curve-large-col.glb" id="26_yffc1"]
+[ext_resource type="PackedScene" uid="uid://bi24a7tysgqgs" path="res://Assets/kenney/kenney_marble-kit/curve-solid-col.glb" id="27_uiop8"]
+[ext_resource type="PackedScene" uid="uid://df0waj88os4ja" path="res://Assets/kenney/kenney_marble-kit/curve-solid-large-col.glb" id="28_25g3a"]
+[ext_resource type="PackedScene" uid="uid://d1l36v6k6smxc" path="res://Assets/kenney/kenney_marble-kit/curve-wide-col.glb" id="29_uyv8e"]
+[ext_resource type="PackedScene" uid="uid://f8r22us2tw4l" path="res://Assets/kenney/kenney_marble-kit/curve-wide-large-col.glb" id="30_fqyqp"]
+[ext_resource type="PackedScene" uid="uid://bn8p771pxjnwg" path="res://Assets/kenney/kenney_marble-kit/curve-wide-medium-col.glb" id="31_5vsh4"]
+[ext_resource type="PackedScene" uid="uid://b1s4tjfd41pwh" path="res://Assets/kenney/kenney_marble-kit/curve-wide-solid-large-col.glb" id="32_t5syf"]
+[ext_resource type="PackedScene" uid="uid://bglsihlxvxtwn" path="res://Assets/kenney/kenney_marble-kit/curve-wide-solid-medium-col.glb" id="33_g6hdh"]
+[ext_resource type="PackedScene" uid="uid://d3imedpcadcqo" path="res://Assets/kenney/kenney_marble-kit/end-hole-rounded-col.glb" id="34_mjfyd"]
+[ext_resource type="PackedScene" uid="uid://cnsoxgaxn7mf1" path="res://Assets/kenney/kenney_marble-kit/end-hole-square-col.glb" id="35_3e1ux"]
+[ext_resource type="PackedScene" uid="uid://c6ont43mco02f" path="res://Assets/kenney/kenney_marble-kit/end-rounded-col.glb" id="36_g7rv6"]
+[ext_resource type="PackedScene" uid="uid://dswsim81g122d" path="res://Assets/kenney/kenney_marble-kit/end-square-col.glb" id="37_u2d6n"]
+[ext_resource type="PackedScene" uid="uid://cf82okteohnop" path="res://Assets/kenney/kenney_marble-kit/fan-alt-col.glb" id="38_ego41"]
+[ext_resource type="PackedScene" uid="uid://n7317yso5rk1" path="res://Assets/kenney/kenney_marble-kit/fan-alt-col_001.glb" id="39_x34qh"]
+[ext_resource type="PackedScene" uid="uid://bkq7fakmb0wec" path="res://Assets/kenney/kenney_marble-kit/fan-alt-col_002.glb" id="40_aduy4"]
+[ext_resource type="PackedScene" uid="uid://bl5we1aeu7wvy" path="res://Assets/kenney/kenney_marble-kit/fan-alt-col_003.glb" id="41_odtn1"]
+[ext_resource type="PackedScene" uid="uid://v54iks122tbx" path="res://Assets/kenney/kenney_marble-kit/fan-alt-col_004.glb" id="42_sjkve"]
+[ext_resource type="PackedScene" uid="uid://c6n4oimt10n2k" path="res://Assets/kenney/kenney_marble-kit/fan-col.glb" id="43_m1pb3"]
+[ext_resource type="PackedScene" uid="uid://fpso7sb20do4" path="res://Assets/kenney/kenney_marble-kit/fan-four-col.glb" id="44_ugkw8"]
+[ext_resource type="PackedScene" uid="uid://4dp5dtlfchfp" path="res://Assets/kenney/kenney_marble-kit/fan-simple-four-col.glb" id="45_2l8sc"]
+[ext_resource type="PackedScene" uid="uid://mplafoq6fe3d" path="res://Assets/kenney/kenney_marble-kit/fan-simple-two-col.glb" id="46_8spbh"]
+[ext_resource type="PackedScene" uid="uid://cxb6bnqrrwhe1" path="res://Assets/kenney/kenney_marble-kit/fan-standing-four-col.glb" id="47_iybf8"]
+[ext_resource type="PackedScene" uid="uid://cmgeeywxy05l6" path="res://Assets/kenney/kenney_marble-kit/fan-standing-two-col.glb" id="48_8jk0l"]
+[ext_resource type="PackedScene" uid="uid://c4fkq0840rhlk" path="res://Assets/kenney/kenney_marble-kit/fan-two-col.glb" id="49_up5c5"]
+[ext_resource type="PackedScene" uid="uid://2o0fuv4mnq3e" path="res://Assets/kenney/kenney_marble-kit/funnel-col.glb" id="50_cegh2"]
+[ext_resource type="PackedScene" uid="uid://c8aqopdarlfc3" path="res://Assets/kenney/kenney_marble-kit/funnel-long-col.glb" id="51_6oywa"]
+[ext_resource type="PackedScene" uid="uid://djik2m03dincm" path="res://Assets/kenney/kenney_marble-kit/helix-half-left-col.glb" id="52_juwrm"]
+[ext_resource type="PackedScene" uid="uid://dy7g5m10y8jh3" path="res://Assets/kenney/kenney_marble-kit/helix-half-right-col.glb" id="53_7n6lo"]
+[ext_resource type="PackedScene" uid="uid://d20tw5wjfjl7n" path="res://Assets/kenney/kenney_marble-kit/helix-large-half-left-col.glb" id="54_iovkl"]
+[ext_resource type="PackedScene" uid="uid://dloo55atrx2t4" path="res://Assets/kenney/kenney_marble-kit/helix-large-half-right-col.glb" id="55_xd48o"]
+[ext_resource type="PackedScene" uid="uid://bh2c2mlxy01uy" path="res://Assets/kenney/kenney_marble-kit/helix-large-left-col.glb" id="56_s2pg0"]
+[ext_resource type="PackedScene" uid="uid://ced7v4iu1vjd5" path="res://Assets/kenney/kenney_marble-kit/helix-large-quarter-left-col.glb" id="57_1prxt"]
+[ext_resource type="PackedScene" uid="uid://cdbr3t65bjeg3" path="res://Assets/kenney/kenney_marble-kit/helix-large-quarter-right-col.glb" id="58_52yfv"]
+[ext_resource type="PackedScene" uid="uid://x15g50got1lm" path="res://Assets/kenney/kenney_marble-kit/helix-large-right-col.glb" id="59_75yfx"]
+[ext_resource type="PackedScene" uid="uid://bg3ereq7b2mw3" path="res://Assets/kenney/kenney_marble-kit/helix-left-col.glb" id="60_lq168"]
+[ext_resource type="PackedScene" uid="uid://cptpeump8wm3n" path="res://Assets/kenney/kenney_marble-kit/helix-quarter-left-col.glb" id="61_wyihn"]
+[ext_resource type="PackedScene" uid="uid://55qr1fpukhxx" path="res://Assets/kenney/kenney_marble-kit/helix-quarter-right-col.glb" id="62_108uo"]
+[ext_resource type="PackedScene" uid="uid://c12dtghurvnde" path="res://Assets/kenney/kenney_marble-kit/helix-right-col.glb" id="63_560ku"]
+[ext_resource type="PackedScene" uid="uid://b7q5e52bv0csh" path="res://Assets/kenney/kenney_marble-kit/ignore-alt-col.glb" id="64_ymhn6"]
+[ext_resource type="PackedScene" uid="uid://bcrm1kgdxepsl" path="res://Assets/kenney/kenney_marble-kit/ignore-alt-col_001.glb" id="65_entgu"]
+[ext_resource type="PackedScene" uid="uid://dg74ywvkqw3r5" path="res://Assets/kenney/kenney_marble-kit/ignore-alt-col_002.glb" id="66_vmeei"]
+[ext_resource type="PackedScene" uid="uid://dok0fwxrqxo40" path="res://Assets/kenney/kenney_marble-kit/ignore-col.glb" id="67_xxou6"]
+[ext_resource type="PackedScene" uid="uid://dbx4puky8gtkp" path="res://Assets/kenney/kenney_marble-kit/marble-center-butterfly-high-col.glb" id="68_aaitn"]
+[ext_resource type="PackedScene" uid="uid://cj8qf2ghmqj5s" path="res://Assets/kenney/kenney_marble-kit/marble-center-butterfly-low-col.glb" id="69_hui5u"]
+[ext_resource type="PackedScene" uid="uid://bxnka2n0oh3fq" path="res://Assets/kenney/kenney_marble-kit/marble-center-high-col.glb" id="70_3guw6"]
+[ext_resource type="PackedScene" uid="uid://cqdtryca3krp6" path="res://Assets/kenney/kenney_marble-kit/marble-center-low-col.glb" id="71_mv8e4"]
+[ext_resource type="PackedScene" uid="uid://4x7ncomtw2b8" path="res://Assets/kenney/kenney_marble-kit/marble-high-col.glb" id="72_3yn48"]
+[ext_resource type="PackedScene" uid="uid://llyuoanf7xr2" path="res://Assets/kenney/kenney_marble-kit/marble-low-col.glb" id="73_akigm"]
+[ext_resource type="PackedScene" uid="uid://ci0p4shppfj5n" path="res://Assets/kenney/kenney_marble-kit/ramp-end-a-col.glb" id="74_005yq"]
+[ext_resource type="PackedScene" uid="uid://060fnunyasgf" path="res://Assets/kenney/kenney_marble-kit/ramp-end-b-col.glb" id="75_firaa"]
+[ext_resource type="PackedScene" uid="uid://cgqovxuarrt5g" path="res://Assets/kenney/kenney_marble-kit/ramp-end-c-col.glb" id="76_rvd3d"]
+[ext_resource type="PackedScene" uid="uid://bkx0ooqbnj8rx" path="res://Assets/kenney/kenney_marble-kit/ramp-end-d-col.glb" id="77_o7kfe"]
+[ext_resource type="PackedScene" uid="uid://cl1cdabl4xhti" path="res://Assets/kenney/kenney_marble-kit/ramp-end-solid-a-col.glb" id="78_0wl53"]
+[ext_resource type="PackedScene" uid="uid://dr3c28vuceqbb" path="res://Assets/kenney/kenney_marble-kit/ramp-end-solid-b-col.glb" id="79_ek273"]
+[ext_resource type="PackedScene" uid="uid://dta68scy6qqcj" path="res://Assets/kenney/kenney_marble-kit/ramp-end-solid-c-col.glb" id="80_5x2lt"]
+[ext_resource type="PackedScene" uid="uid://d2tw2o2by8huc" path="res://Assets/kenney/kenney_marble-kit/ramp-end-solid-d-col.glb" id="81_puy6n"]
+[ext_resource type="PackedScene" uid="uid://sakfml3suv5j" path="res://Assets/kenney/kenney_marble-kit/ramp-long-a-col.glb" id="82_vtdlk"]
+[ext_resource type="PackedScene" uid="uid://dib67x2jn46n2" path="res://Assets/kenney/kenney_marble-kit/ramp-long-b-col.glb" id="83_3rav8"]
+[ext_resource type="PackedScene" uid="uid://d0l5wcunmffat" path="res://Assets/kenney/kenney_marble-kit/ramp-long-c-col.glb" id="84_h6qyv"]
+[ext_resource type="PackedScene" uid="uid://bt14opk7btv2r" path="res://Assets/kenney/kenney_marble-kit/ramp-long-d-col.glb" id="85_80iyk"]
+[ext_resource type="PackedScene" uid="uid://clmr1rpa80efm" path="res://Assets/kenney/kenney_marble-kit/ramp-long-solid-a-col.glb" id="86_juchw"]
+[ext_resource type="PackedScene" uid="uid://mg0diu4mmoe2" path="res://Assets/kenney/kenney_marble-kit/ramp-long-solid-b-col.glb" id="87_nwu1t"]
+[ext_resource type="PackedScene" uid="uid://caex4ohd5hxqt" path="res://Assets/kenney/kenney_marble-kit/ramp-long-solid-c-col.glb" id="88_e3811"]
+[ext_resource type="PackedScene" uid="uid://dmetyle6rfyk6" path="res://Assets/kenney/kenney_marble-kit/ramp-long-solid-d-col.glb" id="89_ol3j4"]
+[ext_resource type="PackedScene" uid="uid://5syav6uikfdo" path="res://Assets/kenney/kenney_marble-kit/ramp-start-a-col.glb" id="90_1oom3"]
+[ext_resource type="PackedScene" uid="uid://slhq2xxx6wa0" path="res://Assets/kenney/kenney_marble-kit/ramp-start-b-col.glb" id="91_f2lgy"]
+[ext_resource type="PackedScene" uid="uid://bjawcw7q7hn84" path="res://Assets/kenney/kenney_marble-kit/ramp-start-c-col.glb" id="92_nhs5l"]
+[ext_resource type="PackedScene" uid="uid://bw4elhf5gaydt" path="res://Assets/kenney/kenney_marble-kit/ramp-start-d-col.glb" id="93_dpxiu"]
+[ext_resource type="PackedScene" uid="uid://jc3a1c2umq4a" path="res://Assets/kenney/kenney_marble-kit/ramp-start-solid-a-col.glb" id="94_xqjtm"]
+[ext_resource type="PackedScene" uid="uid://brjljmcungnki" path="res://Assets/kenney/kenney_marble-kit/ramp-start-solid-b-col.glb" id="95_ochab"]
+[ext_resource type="PackedScene" uid="uid://bjt8nv6t18ph6" path="res://Assets/kenney/kenney_marble-kit/ramp-start-solid-c-col.glb" id="96_jo4mx"]
+[ext_resource type="PackedScene" uid="uid://bdxvghteebpxd" path="res://Assets/kenney/kenney_marble-kit/ramp-start-solid-d-col.glb" id="97_yib1b"]
+[ext_resource type="PackedScene" uid="uid://cuvsvxonf3x7f" path="res://Assets/kenney/kenney_marble-kit/s-curve-left-col.glb" id="98_o5pxs"]
+[ext_resource type="PackedScene" uid="uid://q5qvxv8n63gv" path="res://Assets/kenney/kenney_marble-kit/s-curve-left-large-col.glb" id="99_275ev"]
+[ext_resource type="PackedScene" uid="uid://b1kuxt7at8obe" path="res://Assets/kenney/kenney_marble-kit/s-curve-right-col.glb" id="100_47yn8"]
+[ext_resource type="PackedScene" uid="uid://d06fg13xv0c52" path="res://Assets/kenney/kenney_marble-kit/s-curve-right-large-col.glb" id="101_tfy18"]
+[ext_resource type="PackedScene" uid="uid://cml6obx26s3ds" path="res://Assets/kenney/kenney_marble-kit/s-curve-short-left-a-col.glb" id="102_xevbs"]
+[ext_resource type="PackedScene" uid="uid://bw7xeul30sg8b" path="res://Assets/kenney/kenney_marble-kit/s-curve-short-left-b-col.glb" id="103_503o7"]
+[ext_resource type="PackedScene" uid="uid://brkfreppst2f7" path="res://Assets/kenney/kenney_marble-kit/s-curve-short-left-c-col.glb" id="104_4c57b"]
+[ext_resource type="PackedScene" uid="uid://cuofr84yenchp" path="res://Assets/kenney/kenney_marble-kit/slant-a-col.glb" id="105_q5i3t"]
+[ext_resource type="PackedScene" uid="uid://xkee8mc33510" path="res://Assets/kenney/kenney_marble-kit/slant-b-col.glb" id="106_48ke8"]
+[ext_resource type="PackedScene" uid="uid://bctjwrvi5awol" path="res://Assets/kenney/kenney_marble-kit/slant-c-col.glb" id="107_3qpxr"]
+[ext_resource type="PackedScene" uid="uid://fix2634rfcb5" path="res://Assets/kenney/kenney_marble-kit/slant-d-col.glb" id="108_vbakg"]
+[ext_resource type="PackedScene" uid="uid://cl7adcfiy5vu6" path="res://Assets/kenney/kenney_marble-kit/slant-long-a-col.glb" id="109_o1ykx"]
+[ext_resource type="PackedScene" uid="uid://8cfvspivg41i" path="res://Assets/kenney/kenney_marble-kit/slant-long-b-col.glb" id="110_uqk54"]
+[ext_resource type="PackedScene" uid="uid://cl3nmks7mxct" path="res://Assets/kenney/kenney_marble-kit/slant-long-c-col.glb" id="111_rwacy"]
+[ext_resource type="PackedScene" uid="uid://um1m0swl2vqa" path="res://Assets/kenney/kenney_marble-kit/slant-long-d-col.glb" id="112_lsjs2"]
+[ext_resource type="PackedScene" uid="uid://cpx62agcjyqny" path="res://Assets/kenney/kenney_marble-kit/slant-solid-a-col.glb" id="113_aw01g"]
+[ext_resource type="PackedScene" uid="uid://b0ei5jysnk4tv" path="res://Assets/kenney/kenney_marble-kit/slant-solid-b-col.glb" id="114_fcc5h"]
+[ext_resource type="PackedScene" uid="uid://w4pshgwlgvnl" path="res://Assets/kenney/kenney_marble-kit/slant-solid-c-col.glb" id="115_ihnhs"]
+[ext_resource type="PackedScene" uid="uid://c48rkdo6ahms5" path="res://Assets/kenney/kenney_marble-kit/slant-solid-d-col.glb" id="116_hb0w7"]
+[ext_resource type="PackedScene" uid="uid://cvul3cdoswlph" path="res://Assets/kenney/kenney_marble-kit/slant-solid-long-a-col.glb" id="117_peaxf"]
+[ext_resource type="PackedScene" uid="uid://x2u6q02uduy3" path="res://Assets/kenney/kenney_marble-kit/slant-solid-long-b-col.glb" id="118_lwmr2"]
+[ext_resource type="PackedScene" uid="uid://b8ctvsansrvdw" path="res://Assets/kenney/kenney_marble-kit/slant-solid-long-c-col.glb" id="119_nxh2v"]
+[ext_resource type="PackedScene" uid="uid://ba3l10o0dxahy" path="res://Assets/kenney/kenney_marble-kit/slant-solid-long-d-col.glb" id="120_8ybra"]
+[ext_resource type="PackedScene" uid="uid://171nkqmpxpou" path="res://Assets/kenney/kenney_marble-kit/split-col.glb" id="121_kutqj"]
+[ext_resource type="PackedScene" uid="uid://chhw4bqnc40me" path="res://Assets/kenney/kenney_marble-kit/split-double-col.glb" id="122_4kgou"]
+[ext_resource type="PackedScene" uid="uid://do5ubye4cty6t" path="res://Assets/kenney/kenney_marble-kit/split-double-sides-col.glb" id="123_eseug"]
+[ext_resource type="PackedScene" uid="uid://dqkpb15rkopqu" path="res://Assets/kenney/kenney_marble-kit/split-double-sides-solid-col.glb" id="124_jp0wg"]
+[ext_resource type="PackedScene" uid="uid://b4w53ss6bp3fe" path="res://Assets/kenney/kenney_marble-kit/split-double-solid-col.glb" id="125_18ifk"]
+[ext_resource type="PackedScene" uid="uid://dmb3jc7mhe4aj" path="res://Assets/kenney/kenney_marble-kit/split-large-left-col.glb" id="126_kho11"]
+[ext_resource type="PackedScene" uid="uid://c33mojfw17xeh" path="res://Assets/kenney/kenney_marble-kit/split-large-right-col.glb" id="127_xwrai"]
+[ext_resource type="PackedScene" uid="uid://cmrgvfk2wip5o" path="res://Assets/kenney/kenney_marble-kit/split-large-solid-left-col.glb" id="128_4j2bt"]
+[ext_resource type="PackedScene" uid="uid://diyrjftoomnfu" path="res://Assets/kenney/kenney_marble-kit/split-large-solid-right-col.glb" id="129_uii8e"]
+[ext_resource type="PackedScene" uid="uid://dodivc8ewlis" path="res://Assets/kenney/kenney_marble-kit/split-left-col.glb" id="130_a1bxw"]
+[ext_resource type="PackedScene" uid="uid://b0b4pba0y4h7l" path="res://Assets/kenney/kenney_marble-kit/split-right-col.glb" id="131_yroe7"]
+[ext_resource type="PackedScene" uid="uid://clovc8sfmsxli" path="res://Assets/kenney/kenney_marble-kit/split-solid-left-col.glb" id="132_xn6re"]
+[ext_resource type="PackedScene" uid="uid://csiirryeeuqms" path="res://Assets/kenney/kenney_marble-kit/split-solid-right-col.glb" id="133_byef7"]
+[ext_resource type="PackedScene" uid="uid://sleyue6gbau" path="res://Assets/kenney/kenney_marble-kit/straight-col.glb" id="134_6qahm"]
+[ext_resource type="PackedScene" uid="uid://bab3ra3b745wb" path="res://Assets/kenney/kenney_marble-kit/straight-hole-col.glb" id="135_ruudy"]
+[ext_resource type="PackedScene" uid="uid://b7h3fdohrjnam" path="res://Assets/kenney/kenney_marble-kit/straight-wide-col.glb" id="136_chga6"]
+[ext_resource type="PackedScene" uid="uid://bu433y1k0alvs" path="res://Assets/kenney/kenney_marble-kit/straight-wide-hole-col.glb" id="137_xrjji"]
+[ext_resource type="PackedScene" uid="uid://b41jv2awitodn" path="res://Assets/kenney/kenney_marble-kit/support-color-four-bottom-col.glb" id="138_wast4"]
+[ext_resource type="PackedScene" uid="uid://clr8oja6wcasv" path="res://Assets/kenney/kenney_marble-kit/support-color-four-middle-col.glb" id="139_31d82"]
+[ext_resource type="PackedScene" uid="uid://eismmbnm7j3n" path="res://Assets/kenney/kenney_marble-kit/support-color-four-top-col.glb" id="140_jr0q3"]
+[ext_resource type="PackedScene" uid="uid://cxhiut5mm1g6n" path="res://Assets/kenney/kenney_marble-kit/support-color-four-top-double-col.glb" id="141_eiue4"]
+[ext_resource type="PackedScene" uid="uid://dh5dvb5qrowf" path="res://Assets/kenney/kenney_marble-kit/support-color-single-bottom-col.glb" id="142_cwso4"]
+[ext_resource type="PackedScene" uid="uid://dedmgqx3ecltp" path="res://Assets/kenney/kenney_marble-kit/support-color-single-middle-col.glb" id="143_0ldb2"]
+[ext_resource type="PackedScene" uid="uid://ce34vrqgaakp8" path="res://Assets/kenney/kenney_marble-kit/support-color-single-top-col.glb" id="144_mx68c"]
+[ext_resource type="PackedScene" uid="uid://835rcu3ed82j" path="res://Assets/kenney/kenney_marble-kit/support-color-single-top-double-col.glb" id="145_rgsb3"]
+[ext_resource type="PackedScene" uid="uid://uk2815cvxbo7" path="res://Assets/kenney/kenney_marble-kit/support-color-two-bottom-col.glb" id="146_fsidi"]
+[ext_resource type="PackedScene" uid="uid://ckg5jr48kxff3" path="res://Assets/kenney/kenney_marble-kit/support-color-two-middle-col.glb" id="147_pexr4"]
+[ext_resource type="PackedScene" uid="uid://csoyu4mrg55x3" path="res://Assets/kenney/kenney_marble-kit/support-color-two-top-col.glb" id="148_oy77b"]
+[ext_resource type="PackedScene" uid="uid://c27sve0a36e51" path="res://Assets/kenney/kenney_marble-kit/support-color-two-top-double-col.glb" id="149_hpy31"]
+[ext_resource type="PackedScene" uid="uid://3tikwke5pcy1" path="res://Assets/kenney/kenney_marble-kit/support-four-bottom-col.glb" id="150_njeoo"]
+[ext_resource type="PackedScene" uid="uid://4bchhxgcpc5v" path="res://Assets/kenney/kenney_marble-kit/support-four-middle-col.glb" id="151_h26bp"]
+[ext_resource type="PackedScene" uid="uid://cfwyk6vtjwmba" path="res://Assets/kenney/kenney_marble-kit/support-four-top-col.glb" id="152_vj3di"]
+[ext_resource type="PackedScene" uid="uid://6l2fy5els800" path="res://Assets/kenney/kenney_marble-kit/support-four-top-double-col.glb" id="153_jlhxx"]
+[ext_resource type="PackedScene" uid="uid://d2yqd8v3qhf6u" path="res://Assets/kenney/kenney_marble-kit/support-single-bottom-col.glb" id="154_ayti4"]
+[ext_resource type="PackedScene" uid="uid://chsc5oaes2cvy" path="res://Assets/kenney/kenney_marble-kit/support-single-middle-col.glb" id="155_v4j2t"]
+[ext_resource type="PackedScene" uid="uid://cyggp6d3x81gv" path="res://Assets/kenney/kenney_marble-kit/support-single-top-col.glb" id="156_ql2ek"]
+[ext_resource type="PackedScene" uid="uid://dvi7gbe8f6y1h" path="res://Assets/kenney/kenney_marble-kit/support-single-top-double-col.glb" id="157_m3kjr"]
+[ext_resource type="PackedScene" uid="uid://bpn7k436ax5en" path="res://Assets/kenney/kenney_marble-kit/support-two-bottom-col.glb" id="158_vh40u"]
+[ext_resource type="PackedScene" uid="uid://cbxyvmwqadpwr" path="res://Assets/kenney/kenney_marble-kit/support-two-middle-col.glb" id="159_ib6ju"]
+[ext_resource type="PackedScene" uid="uid://bmr4ujj0rpr6s" path="res://Assets/kenney/kenney_marble-kit/support-two-top-col.glb" id="160_3mknq"]
+[ext_resource type="PackedScene" uid="uid://c2xfoyxllj237" path="res://Assets/kenney/kenney_marble-kit/support-two-top-double-col.glb" id="161_5vic5"]
+[ext_resource type="PackedScene" uid="uid://dq46xhs0vbp0i" path="res://Assets/kenney/kenney_marble-kit/tree-col.glb" id="162_hboyk"]
+[ext_resource type="PackedScene" uid="uid://bsk60w7ihdkt0" path="res://Assets/kenney/kenney_marble-kit/tree-large-col.glb" id="163_chdcx"]
+[ext_resource type="PackedScene" uid="uid://dvvr08ompqphi" path="res://Assets/kenney/kenney_marble-kit/tree-tall-col.glb" id="164_27a4a"]
+[ext_resource type="PackedScene" uid="uid://le71k14rudlg" path="res://Assets/kenney/kenney_marble-kit/tree-tall-large-col.glb" id="165_0uerr"]
+[ext_resource type="PackedScene" uid="uid://5k1bok8ba1vr" path="res://Assets/kenney/kenney_marble-kit/tunnel-col.glb" id="166_xgl7i"]
+[ext_resource type="PackedScene" uid="uid://cxj3qtvgasg8t" path="res://Assets/kenney/kenney_marble-kit/wave-a-col.glb" id="167_6wf0k"]
+[ext_resource type="PackedScene" uid="uid://tpmry6ilkriq" path="res://Assets/kenney/kenney_marble-kit/wave-b-col.glb" id="168_62gvh"]
+[ext_resource type="PackedScene" uid="uid://dqslieybw06iy" path="res://Assets/kenney/kenney_marble-kit/wave-c-col.glb" id="169_h0t1q"]
+[ext_resource type="PackedScene" uid="uid://c4uqq3n4t44uf" path="res://Assets/kenney/kenney_marble-kit/wave-solid-a-col.glb" id="170_javcq"]
+[ext_resource type="PackedScene" uid="uid://7rltdahxtrw" path="res://Assets/kenney/kenney_marble-kit/wave-solid-b-col.glb" id="171_jp1gf"]
+[ext_resource type="PackedScene" uid="uid://cmftvi4p5dkmv" path="res://Assets/kenney/kenney_marble-kit/wave-solid-c-col.glb" id="172_2tfgu"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="banner-col2" parent="." instance=ExtResource("1_sfxjs")]
+
+[node name="banner-double-col2" parent="." instance=ExtResource("2_b67mx")]
+
+[node name="banner-double-high-col2" parent="." instance=ExtResource("3_v5y41")]
+
+[node name="banner-hanging-col2" parent="." instance=ExtResource("4_p2bd7")]
+
+[node name="banner-hanging-double-col2" parent="." instance=ExtResource("5_4y0ps")]
+
+[node name="banner-hanging-double-high-col2" parent="." instance=ExtResource("6_4bouj")]
+
+[node name="banner-hanging-high-col2" parent="." instance=ExtResource("7_cv6pt")]
+
+[node name="banner-high-col2" parent="." instance=ExtResource("8_uqpqi")]
+
+[node name="bend-col2" parent="." instance=ExtResource("9_c3axo")]
+
+[node name="bend-large-col2" parent="." instance=ExtResource("10_du4v4")]
+
+[node name="bend-medium-col2" parent="." instance=ExtResource("11_drqu1")]
+
+[node name="bend-solid-large-col2" parent="." instance=ExtResource("12_m5xs4")]
+
+[node name="bend-solid-medium-col2" parent="." instance=ExtResource("13_5bbns")]
+
+[node name="bump-a-col2" parent="." instance=ExtResource("14_kbbhw")]
+
+[node name="bump-b-col2" parent="." instance=ExtResource("15_blymv")]
+
+[node name="bump-c-col2" parent="." instance=ExtResource("16_nifwh")]
+
+[node name="bump-d-col2" parent="." instance=ExtResource("17_blavu")]
+
+[node name="bump-solid-a-col2" parent="." instance=ExtResource("18_trnxa")]
+
+[node name="bump-solid-b-col2" parent="." instance=ExtResource("19_7y06e")]
+
+[node name="bump-solid-c-col2" parent="." instance=ExtResource("20_nyj75")]
+
+[node name="bump-solid-d-col2" parent="." instance=ExtResource("21_q0obm")]
+
+[node name="corner-col2" parent="." instance=ExtResource("22_ecyxt")]
+
+[node name="corner-solid-col2" parent="." instance=ExtResource("23_opnbp")]
+
+[node name="cross-col2" parent="." instance=ExtResource("24_5isyr")]
+
+[node name="curve-col2" parent="." instance=ExtResource("25_4ffxk")]
+
+[node name="curve-large-col2" parent="." instance=ExtResource("26_yffc1")]
+
+[node name="curve-solid-col2" parent="." instance=ExtResource("27_uiop8")]
+
+[node name="curve-solid-large-col2" parent="." instance=ExtResource("28_25g3a")]
+
+[node name="curve-wide-col2" parent="." instance=ExtResource("29_uyv8e")]
+
+[node name="curve-wide-large-col2" parent="." instance=ExtResource("30_fqyqp")]
+
+[node name="curve-wide-medium-col2" parent="." instance=ExtResource("31_5vsh4")]
+
+[node name="curve-wide-solid-large-col2" parent="." instance=ExtResource("32_t5syf")]
+
+[node name="curve-wide-solid-medium-col2" parent="." instance=ExtResource("33_g6hdh")]
+
+[node name="end-hole-rounded-col2" parent="." instance=ExtResource("34_mjfyd")]
+
+[node name="end-hole-square-col2" parent="." instance=ExtResource("35_3e1ux")]
+
+[node name="end-rounded-col2" parent="." instance=ExtResource("36_g7rv6")]
+
+[node name="end-square-col2" parent="." instance=ExtResource("37_u2d6n")]
+
+[node name="fan-alt-col2" parent="." instance=ExtResource("38_ego41")]
+
+[node name="fan-alt-col_0012" parent="." instance=ExtResource("39_x34qh")]
+
+[node name="fan-alt-col_0022" parent="." instance=ExtResource("40_aduy4")]
+
+[node name="fan-alt-col_0032" parent="." instance=ExtResource("41_odtn1")]
+
+[node name="fan-alt-col_0042" parent="." instance=ExtResource("42_sjkve")]
+
+[node name="fan-col2" parent="." instance=ExtResource("43_m1pb3")]
+
+[node name="fan-four-col2" parent="." instance=ExtResource("44_ugkw8")]
+
+[node name="fan-simple-four-col2" parent="." instance=ExtResource("45_2l8sc")]
+
+[node name="fan-simple-two-col2" parent="." instance=ExtResource("46_8spbh")]
+
+[node name="fan-standing-four-col2" parent="." instance=ExtResource("47_iybf8")]
+
+[node name="fan-standing-two-col2" parent="." instance=ExtResource("48_8jk0l")]
+
+[node name="fan-two-col2" parent="." instance=ExtResource("49_up5c5")]
+
+[node name="funnel-col2" parent="." instance=ExtResource("50_cegh2")]
+
+[node name="funnel-long-col2" parent="." instance=ExtResource("51_6oywa")]
+
+[node name="helix-half-left-col2" parent="." instance=ExtResource("52_juwrm")]
+
+[node name="helix-half-right-col2" parent="." instance=ExtResource("53_7n6lo")]
+
+[node name="helix-large-half-left-col2" parent="." instance=ExtResource("54_iovkl")]
+
+[node name="helix-large-half-right-col2" parent="." instance=ExtResource("55_xd48o")]
+
+[node name="helix-large-left-col2" parent="." instance=ExtResource("56_s2pg0")]
+
+[node name="helix-large-quarter-left-col2" parent="." instance=ExtResource("57_1prxt")]
+
+[node name="helix-large-quarter-right-col2" parent="." instance=ExtResource("58_52yfv")]
+
+[node name="helix-large-right-col2" parent="." instance=ExtResource("59_75yfx")]
+
+[node name="helix-left-col2" parent="." instance=ExtResource("60_lq168")]
+
+[node name="helix-quarter-left-col2" parent="." instance=ExtResource("61_wyihn")]
+
+[node name="helix-quarter-right-col2" parent="." instance=ExtResource("62_108uo")]
+
+[node name="helix-right-col2" parent="." instance=ExtResource("63_560ku")]
+
+[node name="ignore-alt-col2" parent="." instance=ExtResource("64_ymhn6")]
+
+[node name="ignore-alt-col_0012" parent="." instance=ExtResource("65_entgu")]
+
+[node name="ignore-alt-col_0022" parent="." instance=ExtResource("66_vmeei")]
+
+[node name="ignore-col2" parent="." instance=ExtResource("67_xxou6")]
+
+[node name="marble-center-butterfly-high-col2" parent="." instance=ExtResource("68_aaitn")]
+
+[node name="marble-center-butterfly-low-col2" parent="." instance=ExtResource("69_hui5u")]
+
+[node name="marble-center-high-col2" parent="." instance=ExtResource("70_3guw6")]
+
+[node name="marble-center-low-col2" parent="." instance=ExtResource("71_mv8e4")]
+
+[node name="marble-high-col2" parent="." instance=ExtResource("72_3yn48")]
+
+[node name="marble-low-col2" parent="." instance=ExtResource("73_akigm")]
+
+[node name="ramp-end-a-col2" parent="." instance=ExtResource("74_005yq")]
+
+[node name="ramp-end-b-col2" parent="." instance=ExtResource("75_firaa")]
+
+[node name="ramp-end-c-col2" parent="." instance=ExtResource("76_rvd3d")]
+
+[node name="ramp-end-d-col2" parent="." instance=ExtResource("77_o7kfe")]
+
+[node name="ramp-end-solid-a-col2" parent="." instance=ExtResource("78_0wl53")]
+
+[node name="ramp-end-solid-b-col2" parent="." instance=ExtResource("79_ek273")]
+
+[node name="ramp-end-solid-c-col2" parent="." instance=ExtResource("80_5x2lt")]
+
+[node name="ramp-end-solid-d-col2" parent="." instance=ExtResource("81_puy6n")]
+
+[node name="ramp-long-a-col2" parent="." instance=ExtResource("82_vtdlk")]
+
+[node name="ramp-long-b-col2" parent="." instance=ExtResource("83_3rav8")]
+
+[node name="ramp-long-c-col2" parent="." instance=ExtResource("84_h6qyv")]
+
+[node name="ramp-long-d-col2" parent="." instance=ExtResource("85_80iyk")]
+
+[node name="ramp-long-solid-a-col2" parent="." instance=ExtResource("86_juchw")]
+
+[node name="ramp-long-solid-b-col2" parent="." instance=ExtResource("87_nwu1t")]
+
+[node name="ramp-long-solid-c-col2" parent="." instance=ExtResource("88_e3811")]
+
+[node name="ramp-long-solid-d-col2" parent="." instance=ExtResource("89_ol3j4")]
+
+[node name="ramp-start-a-col2" parent="." instance=ExtResource("90_1oom3")]
+
+[node name="ramp-start-b-col2" parent="." instance=ExtResource("91_f2lgy")]
+
+[node name="ramp-start-c-col2" parent="." instance=ExtResource("92_nhs5l")]
+
+[node name="ramp-start-d-col2" parent="." instance=ExtResource("93_dpxiu")]
+
+[node name="ramp-start-solid-a-col2" parent="." instance=ExtResource("94_xqjtm")]
+
+[node name="ramp-start-solid-b-col2" parent="." instance=ExtResource("95_ochab")]
+
+[node name="ramp-start-solid-c-col2" parent="." instance=ExtResource("96_jo4mx")]
+
+[node name="ramp-start-solid-d-col2" parent="." instance=ExtResource("97_yib1b")]
+
+[node name="s-curve-left-col2" parent="." instance=ExtResource("98_o5pxs")]
+
+[node name="s-curve-left-large-col2" parent="." instance=ExtResource("99_275ev")]
+
+[node name="s-curve-right-col2" parent="." instance=ExtResource("100_47yn8")]
+
+[node name="s-curve-right-large-col2" parent="." instance=ExtResource("101_tfy18")]
+
+[node name="s-curve-short-left-a-col2" parent="." instance=ExtResource("102_xevbs")]
+
+[node name="s-curve-short-left-b-col2" parent="." instance=ExtResource("103_503o7")]
+
+[node name="s-curve-short-left-c-col2" parent="." instance=ExtResource("104_4c57b")]
+
+[node name="slant-a-col2" parent="." instance=ExtResource("105_q5i3t")]
+
+[node name="slant-b-col2" parent="." instance=ExtResource("106_48ke8")]
+
+[node name="slant-c-col2" parent="." instance=ExtResource("107_3qpxr")]
+
+[node name="slant-d-col2" parent="." instance=ExtResource("108_vbakg")]
+
+[node name="slant-long-a-col2" parent="." instance=ExtResource("109_o1ykx")]
+
+[node name="slant-long-b-col2" parent="." instance=ExtResource("110_uqk54")]
+
+[node name="slant-long-c-col2" parent="." instance=ExtResource("111_rwacy")]
+
+[node name="slant-long-d-col2" parent="." instance=ExtResource("112_lsjs2")]
+
+[node name="slant-solid-a-col2" parent="." instance=ExtResource("113_aw01g")]
+
+[node name="slant-solid-b-col2" parent="." instance=ExtResource("114_fcc5h")]
+
+[node name="slant-solid-c-col2" parent="." instance=ExtResource("115_ihnhs")]
+
+[node name="slant-solid-d-col2" parent="." instance=ExtResource("116_hb0w7")]
+
+[node name="slant-solid-long-a-col2" parent="." instance=ExtResource("117_peaxf")]
+
+[node name="slant-solid-long-b-col2" parent="." instance=ExtResource("118_lwmr2")]
+
+[node name="slant-solid-long-c-col2" parent="." instance=ExtResource("119_nxh2v")]
+
+[node name="slant-solid-long-d-col2" parent="." instance=ExtResource("120_8ybra")]
+
+[node name="split-col2" parent="." instance=ExtResource("121_kutqj")]
+
+[node name="split-double-col2" parent="." instance=ExtResource("122_4kgou")]
+
+[node name="split-double-sides-col2" parent="." instance=ExtResource("123_eseug")]
+
+[node name="split-double-sides-solid-col2" parent="." instance=ExtResource("124_jp0wg")]
+
+[node name="split-double-solid-col2" parent="." instance=ExtResource("125_18ifk")]
+
+[node name="split-large-left-col2" parent="." instance=ExtResource("126_kho11")]
+
+[node name="split-large-right-col2" parent="." instance=ExtResource("127_xwrai")]
+
+[node name="split-large-solid-left-col2" parent="." instance=ExtResource("128_4j2bt")]
+
+[node name="split-large-solid-right-col2" parent="." instance=ExtResource("129_uii8e")]
+
+[node name="split-left-col2" parent="." instance=ExtResource("130_a1bxw")]
+
+[node name="split-right-col2" parent="." instance=ExtResource("131_yroe7")]
+
+[node name="split-solid-left-col2" parent="." instance=ExtResource("132_xn6re")]
+
+[node name="split-solid-right-col2" parent="." instance=ExtResource("133_byef7")]
+
+[node name="straight-col2" parent="." instance=ExtResource("134_6qahm")]
+
+[node name="straight-hole-col2" parent="." instance=ExtResource("135_ruudy")]
+
+[node name="straight-wide-col2" parent="." instance=ExtResource("136_chga6")]
+
+[node name="straight-wide-hole-col2" parent="." instance=ExtResource("137_xrjji")]
+
+[node name="support-color-four-bottom-col2" parent="." instance=ExtResource("138_wast4")]
+
+[node name="support-color-four-middle-col2" parent="." instance=ExtResource("139_31d82")]
+
+[node name="support-color-four-top-col2" parent="." instance=ExtResource("140_jr0q3")]
+
+[node name="support-color-four-top-double-col2" parent="." instance=ExtResource("141_eiue4")]
+
+[node name="support-color-single-bottom-col2" parent="." instance=ExtResource("142_cwso4")]
+
+[node name="support-color-single-middle-col2" parent="." instance=ExtResource("143_0ldb2")]
+
+[node name="support-color-single-top-col2" parent="." instance=ExtResource("144_mx68c")]
+
+[node name="support-color-single-top-double-col2" parent="." instance=ExtResource("145_rgsb3")]
+
+[node name="support-color-two-bottom-col2" parent="." instance=ExtResource("146_fsidi")]
+
+[node name="support-color-two-middle-col2" parent="." instance=ExtResource("147_pexr4")]
+
+[node name="support-color-two-top-col2" parent="." instance=ExtResource("148_oy77b")]
+
+[node name="support-color-two-top-double-col2" parent="." instance=ExtResource("149_hpy31")]
+
+[node name="support-four-bottom-col2" parent="." instance=ExtResource("150_njeoo")]
+
+[node name="support-four-middle-col2" parent="." instance=ExtResource("151_h26bp")]
+
+[node name="support-four-top-col2" parent="." instance=ExtResource("152_vj3di")]
+
+[node name="support-four-top-double-col2" parent="." instance=ExtResource("153_jlhxx")]
+
+[node name="support-single-bottom-col2" parent="." instance=ExtResource("154_ayti4")]
+
+[node name="support-single-middle-col2" parent="." instance=ExtResource("155_v4j2t")]
+
+[node name="support-single-top-col2" parent="." instance=ExtResource("156_ql2ek")]
+
+[node name="support-single-top-double-col2" parent="." instance=ExtResource("157_m3kjr")]
+
+[node name="support-two-bottom-col2" parent="." instance=ExtResource("158_vh40u")]
+
+[node name="support-two-middle-col2" parent="." instance=ExtResource("159_ib6ju")]
+
+[node name="support-two-top-col2" parent="." instance=ExtResource("160_3mknq")]
+
+[node name="support-two-top-double-col2" parent="." instance=ExtResource("161_5vic5")]
+
+[node name="tree-col2" parent="." instance=ExtResource("162_hboyk")]
+
+[node name="tree-large-col2" parent="." instance=ExtResource("163_chdcx")]
+
+[node name="tree-tall-col2" parent="." instance=ExtResource("164_27a4a")]
+
+[node name="tree-tall-large-col2" parent="." instance=ExtResource("165_0uerr")]
+
+[node name="tunnel-col2" parent="." instance=ExtResource("166_xgl7i")]
+
+[node name="wave-a-col2" parent="." instance=ExtResource("167_6wf0k")]
+
+[node name="wave-b-col2" parent="." instance=ExtResource("168_62gvh")]
+
+[node name="wave-c-col2" parent="." instance=ExtResource("169_h0t1q")]
+
+[node name="wave-solid-a-col2" parent="." instance=ExtResource("170_javcq")]
+
+[node name="wave-solid-b-col2" parent="." instance=ExtResource("171_jp1gf")]
+
+[node name="wave-solid-c-col2" parent="." instance=ExtResource("172_2tfgu")]
