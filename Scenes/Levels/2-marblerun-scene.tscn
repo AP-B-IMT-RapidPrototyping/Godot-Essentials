@@ -1,3 +1,85 @@
-[gd_scene format=3 uid="uid://cse84ks4mteax"]
+[gd_scene load_steps=10 format=3 uid="uid://cse84ks4mteax"]
+
+[ext_resource type="MeshLibrary" uid="uid://dhqy8pt535alq" path="res://MeshLibraries/marble-kit.tres" id="1_xajuw"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_vyyi6"]
+friction = 0.21
+bounce = 0.15
+absorbent = true
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_tw08k"]
+radius = 0.25461978
+
+[sub_resource type="SphereMesh" id="SphereMesh_aivym"]
+
+[sub_resource type="Gradient" id="Gradient_tw08k"]
+offsets = PackedFloat32Array(0.11764706, 1)
+colors = PackedColorArray(0.027709818, 0.07734109, 0.103768416, 1, 1, 0.9390932, 0.8198382, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_mdpnd"]
+gradient = SubResource("Gradient_tw08k")
+
+[sub_resource type="PhysicalSkyMaterial" id="PhysicalSkyMaterial_aivym"]
+rayleigh_coefficient = 0.2
+rayleigh_color = Color(0, 0.42745098, 1, 1)
+mie_color = Color(0.41053325, 0.8060216, 0.9803768, 1)
+
+[sub_resource type="Sky" id="Sky_mdpnd"]
+sky_material = SubResource("PhysicalSkyMaterial_aivym")
+
+[sub_resource type="Environment" id="Environment_ltlqt"]
+background_mode = 2
+sky = SubResource("Sky_mdpnd")
+tonemap_mode = 3
+ssao_enabled = true
+ssao_radius = 0.6
+ssao_intensity = 1.87
+adjustment_enabled = true
+adjustment_saturation = 1.2
+adjustment_color_correction = SubResource("GradientTexture1D_mdpnd")
 
 [node name="Node3D" type="Node3D"]
+
+[node name="GridMap" type="GridMap" parent="."]
+mesh_library = ExtResource("1_xajuw")
+cell_size = Vector3(1, 0.25, 1)
+cell_center_y = false
+data = {
+"cells": PackedInt32Array(65535, 0, 33, 2, 0, 13, 3, 2, 655406, 524291, 2, 655406, 1048581, 65535, 44, 1179654, 65533, 1441876, 1376262, 65532, 1441895, 1769478, 65531, 1441860, 1966086, 65530, 1441828)
+}
+metadata/_editor_floor_ = Vector3(0, 30, 0)
+
+[node name="RigidBody3D" type="RigidBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.5078974, 8.988932, -4.734111)
+mass = 5.048
+physics_material_override = SubResource("PhysicsMaterial_vyyi6")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D"]
+shape = SubResource("SphereShape3D_tw08k")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+mesh = SubResource("SphereMesh_aivym")
+
+[node name="Environment" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18, 27, -39)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="Environment"]
+environment = SubResource("Environment_ltlqt")
+
+[node name="sky" type="DirectionalLight3D" parent="Environment"]
+transform = Transform3D(-0.9659259, 0.19768499, 0.16705678, 0, -0.64545774, 0.763796, 0.2588191, 0.73777026, 0.6234643, 0, 2, 0)
+light_energy = 20.0
+sky_mode = 2
+
+[node name="Sun" type="DirectionalLight3D" parent="Environment"]
+transform = Transform3D(-0.976296, -0.18610615, -0.11050174, 0, -0.5105429, 0.8598523, -0.21643966, 0.8394704, 0.498441, 0, 2, 0)
+light_color = Color(1, 0.9490196, 0.827451, 1)
+shadow_enabled = true
+shadow_normal_bias = 0.0
+shadow_opacity = 0.79
+shadow_blur = 1.5
+sky_mode = 1
+
+[node name="Camera3D" type="Camera3D" parent="Environment"]
+transform = Transform3D(-0.1434928, 0.74689937, -0.64926976, 0, 0.6560591, 0.75470954, 0.9896514, 0.108295396, -0.094139755, 13.573444, -14.263592, 36.836033)
