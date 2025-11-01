@@ -1,7 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://wo4sr3k8trb4"]
-
-[ext_resource type="PackedScene" uid="uid://bogkt60omksvd" path="res://Assets/kenney/kenney_prototype-kit/floor-thick.glb" id="1_pcq2r"]
-
-[node name="Node3D" type="Node3D"]
-
-[node name="floor-thick2" parent="." instance=ExtResource("1_pcq2r")]
