@@ -21,4 +21,4 @@ public partial class Pickup : Area3D
     public override void _Process(double delta)
 	{
 	}
-}
+} 
