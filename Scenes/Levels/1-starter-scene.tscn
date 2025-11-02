@@ -3,7 +3,7 @@
 [ext_resource type="MeshLibrary" uid="uid://q0dyv5s781mb" path="res://MeshLibraries/prototype-kit.tres" id="2_2tab0"]
 [ext_resource type="PackedScene" uid="uid://osb4v1kw78tf" path="res://Scenes/Objects/Player.tscn" id="2_kxdrh"]
 [ext_resource type="Script" uid="uid://u8nwm68xvvh6" path="res://Scripts/Pickup.cs" id="3_tf0xt"]
-[ext_resource type="Texture2D" uid="uid://bsigydy52c605" path="res://Assets/kenney/kenney_prototype-kit/flag_colormap.png" id="4_egx4k"]
+[ext_resource type="Texture2D" uid="uid://bsigydy52c605" path="res://Assets/Models/kenney/kenney_prototype-kit/flag_colormap.png" id="4_egx4k"]
 
 [sub_resource type="Gradient" id="Gradient_is6g2"]
 offsets = PackedFloat32Array(0.11764706, 1)
