@@ -1,5 +1,5 @@
-# Godot-Essentials
+# Godot Essentials
 
-## Todo
+Dit startproject wordt gebruikt om basis gameplay in Godot aan te leren, met behulp van C# scripts en de Godot Game Engine.
 
-- [ ] Add a **Flag** in the starting scene that is out of reach, so the user has to reposition it.
+
