@@ -2,7 +2,9 @@
 
 [ext_resource type="MeshLibrary" uid="uid://q0dyv5s781mb" path="res://MeshLibraries/prototype-kit.tres" id="1_tvt8y"]
 
-[node name="prototype-floor" type="GridMap"]
+[node name="prototype-floor" type="Node3D"]
+
+[node name="gridmesh" type="GridMap" parent="."]
 mesh_library = ExtResource("1_tvt8y")
 cell_size = Vector3(1, 1, 1)
 cell_center_y = false
