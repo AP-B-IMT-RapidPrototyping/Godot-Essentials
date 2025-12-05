@@ -13,6 +13,7 @@ config_version=5
 config/name="GodotEssentials"
 config/features=PackedStringArray("4.5", "C#", "Forward Plus")
 config/icon="res://icon.svg"
+config/tags=PackedStringArray("intro", "starterkit")
 
 [dotnet]
 
