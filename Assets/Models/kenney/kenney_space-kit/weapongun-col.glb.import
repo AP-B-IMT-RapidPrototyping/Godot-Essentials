@@ -1,0 +1,63 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+<<<<<<< HEAD:Assets/Models/kenney/kenney_space-kit/weapongun-col.glb.import
+uid="uid://b73d0mrta0lq2"
+path="res://.godot/imported/weapongun-col.glb-6f7169dbc3bfcc14fd1e734515a6cfda.scn"
+
+[deps]
+
+source_file="res://Assets/Models/kenney/kenney_space-kit/weapongun-col.glb"
+dest_files=["res://.godot/imported/weapongun-col.glb-6f7169dbc3bfcc14fd1e734515a6cfda.scn"]
+=======
+uid="uid://chuyseh7gu04d"
+path="res://.godot/imported/weapongun-col.glb-858f3567995c7fcb3f8ec969df286605.scn"
+
+[deps]
+
+source_file="res://Assets/Models/kenney/kenney_space-kit-2/weapongun-col.glb"
+dest_files=["res://.godot/imported/weapongun-col.glb-858f3567995c7fcb3f8ec969df286605.scn"]
+>>>>>>> 40404591bbf0d42408d85480b018e12ed9c8e631:Assets/Models/kenney/kenney_space-kit-2/weapongun-col.glb.import
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+<<<<<<< HEAD:Assets/Models/kenney/kenney_space-kit/weapongun-col.glb.import
+nodes/root_script=null
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+nodes/use_name_suffixes=true
+=======
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+>>>>>>> 40404591bbf0d42408d85480b018e12ed9c8e631:Assets/Models/kenney/kenney_space-kit-2/weapongun-col.glb.import
+nodes/use_node_type_suffixes=true
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
+import_script/path=""
+<<<<<<< HEAD:Assets/Models/kenney/kenney_space-kit/weapongun-col.glb.import
+materials/extract=0
+materials/extract_format=0
+materials/extract_path=""
+_subresources={}
+gltf/naming_version=2
+=======
+_subresources={}
+gltf/naming_version=1
+>>>>>>> 40404591bbf0d42408d85480b018e12ed9c8e631:Assets/Models/kenney/kenney_space-kit-2/weapongun-col.glb.import
+gltf/embedded_image_handling=1

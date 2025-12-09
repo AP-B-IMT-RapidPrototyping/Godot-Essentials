@@ -1,0 +1,63 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+<<<<<<< HEAD:Assets/Models/kenney/kenney_space-kit/hangarroundB-col.glb.import
+uid="uid://d1g5lyqcsm5w2"
+path="res://.godot/imported/hangarroundB-col.glb-9a9483dc2badb69f8b727bc265131bcc.scn"
+
+[deps]
+
+source_file="res://Assets/Models/kenney/kenney_space-kit/hangarroundB-col.glb"
+dest_files=["res://.godot/imported/hangarroundB-col.glb-9a9483dc2badb69f8b727bc265131bcc.scn"]
+=======
+uid="uid://bipescigm8b7f"
+path="res://.godot/imported/hangarroundB-col.glb-c654fc15d5a87f5c382dbb460d54717d.scn"
+
+[deps]
+
+source_file="res://Assets/Models/kenney/kenney_space-kit-2/hangarroundB-col.glb"
+dest_files=["res://.godot/imported/hangarroundB-col.glb-c654fc15d5a87f5c382dbb460d54717d.scn"]
+>>>>>>> 40404591bbf0d42408d85480b018e12ed9c8e631:Assets/Models/kenney/kenney_space-kit-2/hangarroundB-col.glb.import
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+<<<<<<< HEAD:Assets/Models/kenney/kenney_space-kit/hangarroundB-col.glb.import
+nodes/root_script=null
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+nodes/use_name_suffixes=true
+=======
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+>>>>>>> 40404591bbf0d42408d85480b018e12ed9c8e631:Assets/Models/kenney/kenney_space-kit-2/hangarroundB-col.glb.import
+nodes/use_node_type_suffixes=true
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
+import_script/path=""
+<<<<<<< HEAD:Assets/Models/kenney/kenney_space-kit/hangarroundB-col.glb.import
+materials/extract=0
+materials/extract_format=0
+materials/extract_path=""
+_subresources={}
+gltf/naming_version=2
+=======
+_subresources={}
+gltf/naming_version=1
+>>>>>>> 40404591bbf0d42408d85480b018e12ed9c8e631:Assets/Models/kenney/kenney_space-kit-2/hangarroundB-col.glb.import
+gltf/embedded_image_handling=1
