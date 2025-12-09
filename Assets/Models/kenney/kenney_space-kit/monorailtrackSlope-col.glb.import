@@ -3,6 +3,7 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
+<<<<<<< HEAD:Assets/Models/kenney/kenney_space-kit/monorailtrackSlope-col.glb.import
 uid="uid://oiquiybgucph"
 path="res://.godot/imported/monorailtrackSlope-col.glb-2dbafad3371c9c126849808dd263660a.scn"
 
@@ -10,16 +11,31 @@ path="res://.godot/imported/monorailtrackSlope-col.glb-2dbafad3371c9c126849808dd
 
 source_file="res://Assets/Models/kenney/kenney_space-kit/monorailtrackSlope-col.glb"
 dest_files=["res://.godot/imported/monorailtrackSlope-col.glb-2dbafad3371c9c126849808dd263660a.scn"]
+=======
+uid="uid://cuxg0jxrpajtj"
+path="res://.godot/imported/monorailtrackSlope-col.glb-894e7be9c19df90fed0c664df55d3278.scn"
+
+[deps]
+
+source_file="res://Assets/Models/kenney/kenney_space-kit-2/monorailtrackSlope-col.glb"
+dest_files=["res://.godot/imported/monorailtrackSlope-col.glb-894e7be9c19df90fed0c664df55d3278.scn"]
+>>>>>>> 40404591bbf0d42408d85480b018e12ed9c8e631:Assets/Models/kenney/kenney_space-kit-2/monorailtrackSlope-col.glb.import
 
 [params]
 
 nodes/root_type=""
 nodes/root_name=""
+<<<<<<< HEAD:Assets/Models/kenney/kenney_space-kit/monorailtrackSlope-col.glb.import
 nodes/root_script=null
 nodes/apply_root_scale=true
 nodes/root_scale=1.0
 nodes/import_as_skeleton_bones=false
 nodes/use_name_suffixes=true
+=======
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+>>>>>>> 40404591bbf0d42408d85480b018e12ed9c8e631:Assets/Models/kenney/kenney_space-kit-2/monorailtrackSlope-col.glb.import
 nodes/use_node_type_suffixes=true
 meshes/ensure_tangents=true
 meshes/generate_lods=true
@@ -34,9 +50,14 @@ animation/trimming=false
 animation/remove_immutable_tracks=true
 animation/import_rest_as_RESET=false
 import_script/path=""
+<<<<<<< HEAD:Assets/Models/kenney/kenney_space-kit/monorailtrackSlope-col.glb.import
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
 _subresources={}
 gltf/naming_version=2
+=======
+_subresources={}
+gltf/naming_version=1
+>>>>>>> 40404591bbf0d42408d85480b018e12ed9c8e631:Assets/Models/kenney/kenney_space-kit-2/monorailtrackSlope-col.glb.import
 gltf/embedded_image_handling=1

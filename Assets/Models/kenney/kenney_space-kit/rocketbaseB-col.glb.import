@@ -3,6 +3,7 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
+<<<<<<< HEAD:Assets/Models/kenney/kenney_space-kit/rocketbaseB-col.glb.import
 uid="uid://bregpoqsk6vr1"
 path="res://.godot/imported/rocketbaseB-col.glb-a3ac56c9ede8334d8142bdea12190634.scn"
 
@@ -10,16 +11,31 @@ path="res://.godot/imported/rocketbaseB-col.glb-a3ac56c9ede8334d8142bdea12190634
 
 source_file="res://Assets/Models/kenney/kenney_space-kit/rocketbaseB-col.glb"
 dest_files=["res://.godot/imported/rocketbaseB-col.glb-a3ac56c9ede8334d8142bdea12190634.scn"]
+=======
+uid="uid://23eb23lcabb8"
+path="res://.godot/imported/rocketbaseB-col.glb-1404f9c29a76fee7d6b1841995d239da.scn"
+
+[deps]
+
+source_file="res://Assets/Models/kenney/kenney_space-kit-2/rocketbaseB-col.glb"
+dest_files=["res://.godot/imported/rocketbaseB-col.glb-1404f9c29a76fee7d6b1841995d239da.scn"]
+>>>>>>> 40404591bbf0d42408d85480b018e12ed9c8e631:Assets/Models/kenney/kenney_space-kit-2/rocketbaseB-col.glb.import
 
 [params]
 
 nodes/root_type=""
 nodes/root_name=""
+<<<<<<< HEAD:Assets/Models/kenney/kenney_space-kit/rocketbaseB-col.glb.import
 nodes/root_script=null
 nodes/apply_root_scale=true
 nodes/root_scale=1.0
 nodes/import_as_skeleton_bones=false
 nodes/use_name_suffixes=true
+=======
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+>>>>>>> 40404591bbf0d42408d85480b018e12ed9c8e631:Assets/Models/kenney/kenney_space-kit-2/rocketbaseB-col.glb.import
 nodes/use_node_type_suffixes=true
 meshes/ensure_tangents=true
 meshes/generate_lods=true
@@ -34,9 +50,14 @@ animation/trimming=false
 animation/remove_immutable_tracks=true
 animation/import_rest_as_RESET=false
 import_script/path=""
+<<<<<<< HEAD:Assets/Models/kenney/kenney_space-kit/rocketbaseB-col.glb.import
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
 _subresources={}
 gltf/naming_version=2
+=======
+_subresources={}
+gltf/naming_version=1
+>>>>>>> 40404591bbf0d42408d85480b018e12ed9c8e631:Assets/Models/kenney/kenney_space-kit-2/rocketbaseB-col.glb.import
 gltf/embedded_image_handling=1
